@@ -1,0 +1,52 @@
+# ─── Environment & Secrets ────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+uvicorn_stdout.log
+
+# ─── Database ─────────────────────────────────────────────────────────────────
+*.sqlite3
+*.db
+
+# ─── Docker ───────────────────────────────────────────────────────────────────
+# (docker-compose.yml and Dockerfile are intentionally tracked)
+
+# ─── Node / JS ────────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ─── OS & Editor ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ─── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+content/
+infra/

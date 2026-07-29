@@ -1,0 +1,23 @@
+# requirements.txt
+fastapi>=0.115              # the web framework
+uvicorn[standard]>=0.32     # runs it
+
+pydantic>=2.9                # validation — today's stage
+pydantic-settings>=2.6       # env-var config — today's stage
+
+sqlalchemy[asyncio]>=2.0.36  # ORM — Stage 2
+asyncpg>=0.30                 # async Postgres driver — Stage 2
+alembic>=1.14                 # migrations — Stage 9
+pgvector>=0.3.6                # vector column type — Stage 2/9
+
+google-genai>=1.0
+groq>=0.13          # guardrail model — Stage 5
+voyageai>=0.3.2      # embeddings — Stage 5
+
+redis>=5.2           # cache/rate-limit, wired later
+
+python-dotenv>=1.0
+
+pytest>=8.3          # Stage 8
+pytest-asyncio>=0.24
+httpx>=0.27

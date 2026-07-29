@@ -1,0 +1,408 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Codex Vitae — The Reading Desk</title>
+  <meta name="description" content="An archival study companion for philosophers, warriors, writers and thinkers. Browse the library and begin a study session." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="page-shell">
+
+<div class="bg-motif" aria-hidden="true">
+  <span class="material-symbols-outlined">library_books</span>
+</div>
+
+<header class="top-bar">
+  <a href="index.html" class="t-headline-sm" style="font-family:var(--font-display);color:var(--primary);text-decoration:none;">Codex Vitae</a>
+  <nav class="top-nav">
+    <a href="index.html" class="nav-link active">/read</a>
+    <a href="#" class="nav-link">/manual</a>
+    <a href="#" class="nav-link">/limits</a>
+  </nav>
+  <div class="top-icons">
+    <span class="material-symbols-outlined" title="Account">account_circle</span>
+    <span class="material-symbols-outlined" title="Settings">settings</span>
+  </div>
+</header>
+
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-logo">
+    <span class="wordmark">Codex Vitae</span>
+    <span class="tagline">Archival Study Tool</span>
+  </div>
+  <nav class="sidebar-nav" id="topicNav">
+    
+  </nav>
+  <hr class="sidebar-divider" />
+  <nav class="sidebar-nav">
+    <button class="sidebar-item" onclick="window.location='#'">
+      <span class="material-symbols-outlined">menu_book</span> Manual
+    </button>
+    <button class="sidebar-item" onclick="window.location='#'">
+      <span class="material-symbols-outlined">gavel</span> Limits
+    </button>
+  </nav>
+</aside>
+
+<main class="main-canvas">
+  
+  <section style="margin-bottom:48px;">
+    <p class="t-body-lg italic text-muted" style="margin-bottom:8px;">Welcome back to your study.</p>
+    <div style="width:48px;border-top:var(--rule-thin) solid var(--primary);"></div>
+  </section>
+
+  
+  <section style="margin-bottom:64px;" id="continueSection">
+    <div class="section-header rule-thin-top">
+      <h2 class="section-label" style="margin-bottom:0;letter-spacing:0.15em;">Continue Reading</h2>
+      <a href="#" class="t-label-xs italic text-muted" style="font-style:italic;" onclick="return false">View all sessions</a>
+    </div>
+    <div class="session-grid" id="continueGrid">
+      
+    </div>
+  </section>
+
+  <div class="section-divider"><span class="fleuron">❧</span></div>
+
+  
+  <section style="margin-bottom:64px;">
+    <div class="section-header rule-thick" style="margin-bottom:40px;">
+      <h1 class="t-display-lg-mobile" style="font-family:var(--font-display);">The Library</h1>
+      <div>
+        <span class="badge" title="Notes archive">
+          Notes Archive
+          <span class="badge-count" id="figureCount">0</span>
+        </span>
+      </div>
+    </div>
+
+    
+    <div class="filter-row" id="filterRow">
+      <button class="filter-chip active" data-cat="all">All</button>
+      
+    </div>
+
+    
+    <div class="search-wrap" style="max-width:480px;margin:0 auto 40px;">
+      <input
+        class="search-input" id="searchInput" type="text"
+        placeholder="Locate a name, concept, or tradition…"
+        aria-label="Search the library"
+      />
+      <span class="material-symbols-outlined search-icon">search</span>
+    </div>
+
+    
+    <div class="library-grid" id="libraryGrid">
+      
+    </div>
+    <p class="t-label-xs text-muted" id="noResults" style="display:none;text-align:center;padding:48px 0;">No figures match that search.</p>
+  </section>
+
+  
+  <section style="max-width:480px;margin:0 auto;text-align:center;padding:48px 0;border-top:var(--rule-thin) solid var(--outline-variant);">
+    <h3 class="t-label-xs uppercase" style="letter-spacing:0.2em;margin-bottom:20px;">Search the Codex</h3>
+    <div class="search-wrap">
+      <input
+        class="search-input" id="footerSearch" type="text"
+        placeholder="Locate a concept, author, or passage…"
+        aria-label="Search the codex"
+      />
+      <span class="material-symbols-outlined search-icon">search</span>
+    </div>
+  </section>
+</main>
+
+<footer class="cmd-footer">
+  <div class="cmd-palette" id="cmdPalette" style="display:none;">
+    <span class="material-symbols-outlined">terminal</span>
+    <input id="cmdInput" type="text" placeholder="Open a session… (/switch /read /manual /limits)" aria-label="Command palette" />
+    <div class="cmd-kbd">
+      <span class="kbd">⌘</span><span class="kbd">K</span>
+    </div>
+  </div>
+  <nav class="bottom-nav" aria-label="Mobile navigation">
+    <a href="index.html" class="bottom-nav-item active">
+      <span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1;">book_5</span>
+      <span class="t-label-xs">Library</span>
+    </a>
+    <button class="bottom-nav-item">
+      <span class="material-symbols-outlined">explore</span>
+      <span class="t-label-xs">Compass</span>
+    </button>
+    <button class="bottom-nav-item">
+      <span class="material-symbols-outlined">edit_note</span>
+      <span class="t-label-xs">Note</span>
+    </button>
+    <button class="bottom-nav-item">
+      <span class="material-symbols-outlined">menu_book</span>
+      <span class="t-label-xs">Manual</span>
+    </button>
+    <button class="bottom-nav-item">
+      <span class="material-symbols-outlined">settings</span>
+      <span class="t-label-xs">Settings</span>
+    </button>
+  </nav>
+</footer>
+
+<script type="module">
+import {
+  loadAllFeatures, FEATURE_SLUGS, FIGURE_SLUGS,
+  getImagePath, getRecentSlugs, recordVisit
+} from './data.js';
+
+// ── Topic icons map ────────────────────────────────────────────────────────
+const TOPIC_ICONS = {
+  pain:          { label: 'Pain',         icon: 'emergency_home' },
+  discipline:    { label: 'Discipline',   icon: 'fitness_center' },
+  purpose:       { label: 'Purpose',      icon: 'explore' },
+  fear_and_death:{ label: 'Fear & Death', icon: 'skull' },
+  status:        { label: 'Status',       icon: 'stars' },
+  relationships: { label: 'Relationships',icon: 'groups' },
+  self_control:  { label: 'Self Control', icon: 'psychology' },
+  ambition:      { label: 'Ambition',     icon: 'trending_up' },
+};
+
+// ── Category display map ───────────────────────────────────────────────────
+const CAT_LABELS = {
+  'ancient-philosophy': 'Ancient Philosophy',
+  'warrior':            'Warrior',
+  'modern-thinkers':    'Modern Thinkers',
+  'literature':         'Literature',
+  'existentialism':     'Existentialism',
+  'eastern-philosophy': 'Eastern Philosophy',
+  'spirituality':       'Spirituality',
+  'sport':              'Sport',
+  'economics':          'Economics & Strategy',
+};
+
+function catLabel(cat) {
+  return CAT_LABELS[cat] || cat.replace(/-/g,' ').replace(/\b\w/g,c=>c.toUpperCase());
+}
+
+// ── Sidebar topic nav ──────────────────────────────────────────────────────
+function buildSidebar() {
+  const nav = document.getElementById('topicNav');
+  Object.entries(TOPIC_ICONS).forEach(([key, { label, icon }]) => {
+    const btn = document.createElement('button');
+    btn.className = 'sidebar-item';
+    btn.dataset.topic = key;
+    btn.innerHTML = `<span class="material-symbols-outlined">${icon}</span>${label}`;
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('#topicNav .sidebar-item').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+    nav.appendChild(btn);
+  });
+}
+
+// ── Build plate HTML ───────────────────────────────────────────────────────
+function buildPlate(feature) {
+  const { slug, name, category, lifespan, one_line, features } = feature;
+  const imgPath = getImagePath(slug);
+  const hasDetail = FIGURE_SLUGS.includes(slug);
+  const href = hasDetail ? `figure.html?slug=${slug}` : '#';
+
+  const portraitHTML = imgPath
+    ? `<img src="${imgPath}" alt="Portrait of ${name}" loading="lazy" />`
+    : `<div class="plate-placeholder"><span class="material-symbols-outlined">person</span></div>`;
+
+  const featureBadges = (features || []).slice(0, 2).map(f =>
+    `<span class="feature-badge">${f.label}</span>`
+  ).join('');
+
+  const plate = document.createElement('a');
+  plate.className = 'plate fade-in';
+  plate.href = href;
+  if (!hasDetail) {
+    plate.title = `${name} — full study session coming soon`;
+    plate.addEventListener('click', e => {
+      e.preventDefault();
+      showComingSoon(name);
+    });
+  } else {
+    plate.addEventListener('click', () => recordVisit(slug));
+  }
+  plate.dataset.name = (name || '').toLowerCase();
+  plate.dataset.category = category || '';
+  plate.dataset.tagline = (one_line || '').toLowerCase();
+
+  plate.innerHTML = `
+    <div class="plate-portrait">${portraitHTML}</div>
+    <div style="width:100%;">
+      <p class="plate-category">${catLabel(category)}</p>
+      <h2 class="plate-name">${name}</h2>
+      ${lifespan ? `<p class="plate-lifespan">${lifespan}</p>` : ''}
+      ${one_line ? `<p class="plate-tagline">${one_line}</p>` : ''}
+      ${featureBadges ? `<div class="feature-badges">${featureBadges}</div>` : ''}
+    </div>
+  `;
+  return plate;
+}
+
+// ── Coming soon toast ──────────────────────────────────────────────────────
+let toastTimeout;
+function showComingSoon(name) {
+  let toast = document.getElementById('cvToast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'cvToast';
+    toast.style.cssText = `
+      position:fixed;bottom:120px;left:50%;transform:translateX(-50%);
+      background:var(--primary);color:var(--on-primary);
+      font-family:var(--font-mono);font-size:12px;letter-spacing:0.05em;
+      padding:10px 20px;z-index:100;
+      transition:opacity 0.3s;pointer-events:none;
+    `;
+    document.body.appendChild(toast);
+  }
+  toast.textContent = `${name} — full study session coming soon`;
+  toast.style.opacity = '1';
+  clearTimeout(toastTimeout);
+  toastTimeout = setTimeout(() => { toast.style.opacity = '0'; }, 2500);
+}
+
+// ── Continue reading section ───────────────────────────────────────────────
+async function buildContinueSection(allFeatures) {
+  const recentSlugs = getRecentSlugs();
+  const section = document.getElementById('continueSection');
+  const grid = document.getElementById('continueGrid');
+
+  const toShow = recentSlugs.length > 0
+    ? recentSlugs.slice(0, 2)
+    : ['marcus-aurelius', 'musashi']; // defaults for first-time visitors
+
+  const featureMap = Object.fromEntries(allFeatures.map(f => [f.slug, f]));
+
+  toShow.forEach((slug, idx) => {
+    const f = featureMap[slug];
+    if (!f) return;
+    const imgPath = getImagePath(slug);
+    const sinceLabel = idx === 0 ? 'Last seen: 2 hours ago' : 'Last seen: Yesterday';
+    const progress = idx === 0 ? 64 : 15;
+
+    const portraitHTML = imgPath
+      ? `<img class="session-spine-img" src="${imgPath}" alt="${f.name}" />`
+      : `<span class="material-symbols-outlined" style="color:var(--outline);">book_5</span>`;
+
+    const card = document.createElement('a');
+    card.className = 'session-card';
+    card.href = `figure.html?slug=${slug}`;
+    card.addEventListener('click', () => recordVisit(slug));
+    card.innerHTML = `
+      <div class="session-spine">${portraitHTML}</div>
+      <div style="flex:1;">
+        <p class="session-meta">${sinceLabel}</p>
+        <h3 class="t-headline-sm" style="margin:4px 0 2px;">${f.name}</h3>
+        <p class="session-author">${catLabel(f.category)}</p>
+        <div class="progress-bar-track">
+          <div class="progress-bar-fill" style="width:${progress}%"></div>
+        </div>
+      </div>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+// ── Filter chips ───────────────────────────────────────────────────────────
+let allFeatures = [];
+let activeCategory = 'all';
+
+function buildFilterChips() {
+  const cats = [...new Set(allFeatures.map(f => f.category).filter(Boolean))].sort();
+  const row = document.getElementById('filterRow');
+  cats.forEach(cat => {
+    const btn = document.createElement('button');
+    btn.className = 'filter-chip';
+    btn.dataset.cat = cat;
+    btn.textContent = catLabel(cat);
+    btn.addEventListener('click', () => {
+      activeCategory = cat;
+      document.querySelectorAll('.filter-chip').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      applyFilter();
+    });
+    row.appendChild(btn);
+  });
+
+  // "All" chip
+  document.querySelector('.filter-chip[data-cat="all"]').addEventListener('click', () => {
+    activeCategory = 'all';
+    document.querySelectorAll('.filter-chip').forEach(b => b.classList.remove('active'));
+    document.querySelector('.filter-chip[data-cat="all"]').classList.add('active');
+    applyFilter();
+  });
+}
+
+function applyFilter() {
+  const query = document.getElementById('searchInput').value.toLowerCase().trim();
+  const plates = document.querySelectorAll('.plate');
+  let visible = 0;
+  plates.forEach(plate => {
+    const matchCat = activeCategory === 'all' || plate.dataset.category === activeCategory;
+    const matchSearch = !query
+      || plate.dataset.name.includes(query)
+      || (plate.dataset.tagline || '').includes(query)
+      || (plate.dataset.category || '').includes(query);
+    const show = matchCat && matchSearch;
+    plate.style.display = show ? '' : 'none';
+    if (show) visible++;
+  });
+  document.getElementById('noResults').style.display = visible === 0 ? 'block' : 'none';
+}
+
+// ── Scroll fade observer ───────────────────────────────────────────────────
+const fadeObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      fadeObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.05 });
+
+// ── Main init ──────────────────────────────────────────────────────────────
+async function init() {
+  buildSidebar();
+
+  allFeatures = await loadAllFeatures();
+  allFeatures.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
+
+  document.getElementById('figureCount').textContent = allFeatures.length;
+
+  await buildContinueSection(allFeatures);
+  buildFilterChips();
+
+  const grid = document.getElementById('libraryGrid');
+  allFeatures.forEach(feature => {
+    const plate = buildPlate(feature);
+    grid.appendChild(plate);
+    fadeObserver.observe(plate);
+  });
+
+  // Search binding
+  const searchInput = document.getElementById('searchInput');
+  const footerSearch = document.getElementById('footerSearch');
+  searchInput.addEventListener('input', applyFilter);
+  footerSearch.addEventListener('input', (e) => {
+    searchInput.value = e.target.value;
+    applyFilter();
+    searchInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  });
+
+  // Command palette (⌘K)
+  document.addEventListener('keydown', e => {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+      e.preventDefault();
+      const palette = document.getElementById('cmdPalette');
+      palette.style.display = palette.style.display === 'none' ? 'flex' : 'none';
+      if (palette.style.display === 'flex') document.getElementById('cmdInput').focus();
+    }
+  });
+}
+
+init();
+</script>
+</body>
+</html>

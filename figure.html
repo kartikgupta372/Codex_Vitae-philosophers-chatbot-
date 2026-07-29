@@ -1,0 +1,791 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="pageTitle">Codex Vitae | Study Session</title>
+  <meta name="description" id="pageDesc" content="An archival study session with a thinker from the Codex Vitae." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="page-shell">
+
+<div class="bg-motif" aria-hidden="true">
+  <span class="material-symbols-outlined" id="bgMotifIcon">auto_stories</span>
+</div>
+
+<header class="top-bar">
+  
+  <div class="figure-header" style="margin-bottom:0;gap:14px;align-items:center;">
+    <div class="figure-portrait-sm" id="headerPortrait">
+      <div class="placeholder"><span class="material-symbols-outlined" style="font-size:32px;color:var(--outline-variant);">person</span></div>
+    </div>
+    <div>
+      <h1 class="t-headline-md" id="headerName" style="font-family:var(--font-display);font-size:24px;line-height:1.1;">Loading…</h1>
+      <p class="t-metadata-sm italic text-muted" id="headerLifespan"></p>
+      <div class="verdigris-rule" style="margin-top:6px;"></div>
+    </div>
+  </div>
+
+  <nav class="top-nav">
+    <a href="#limits" class="nav-link">/limits</a>
+    <a href="#manual" class="nav-link">/manual</a>
+    <a href="index.html" class="nav-link">← Library</a>
+  </nav>
+  <div class="top-icons">
+    <span class="material-symbols-outlined" title="Account">account_circle</span>
+    <span class="material-symbols-outlined" title="Settings">settings</span>
+  </div>
+</header>
+
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-logo">
+    <a href="index.html" style="text-decoration:none;">
+      <span class="wordmark">Codex Vitae</span>
+    </a>
+    <span class="tagline">Archival Study Tool</span>
+  </div>
+  <nav class="sidebar-nav" id="positionNav">
+    
+  </nav>
+  <hr class="sidebar-divider" />
+  <nav class="sidebar-nav">
+    <button class="sidebar-item" onclick="scrollToSection('manual')">
+      <span class="material-symbols-outlined">menu_book</span> Manual
+    </button>
+    <button class="sidebar-item" onclick="scrollToSection('limits')">
+      <span class="material-symbols-outlined">gavel</span> Limits
+    </button>
+    <a class="sidebar-item" href="index.html" style="text-decoration:none;">
+      <span class="material-symbols-outlined">arrow_back</span> Library
+    </a>
+  </nav>
+</aside>
+
+<main class="main-canvas">
+  <div class="prose-column" id="proseColumn">
+
+    
+    <div id="loadingState" style="text-align:center;padding:80px 0;">
+      <span class="material-symbols-outlined" style="font-size:48px;color:var(--outline-variant);display:block;margin-bottom:16px;">hourglass_empty</span>
+      <p class="t-metadata-sm text-muted">Opening the archive…</p>
+    </div>
+
+    
+    <div id="errorState" class="hidden" style="text-align:center;padding:80px 0;">
+      <span class="material-symbols-outlined" style="font-size:48px;color:var(--secondary);display:block;margin-bottom:16px;">error_outline</span>
+      <p class="t-headline-sm">Figure not found</p>
+      <p class="t-body-md text-muted" style="margin-top:8px;">This study session hasn't been written yet.</p>
+      <a href="index.html" style="display:inline-block;margin-top:24px;font-family:var(--font-mono);font-size:13px;color:var(--secondary);border-bottom:1px solid var(--secondary);">← Return to the Library</a>
+    </div>
+
+    
+    <div id="figureContent" class="hidden">
+
+      
+      <div class="disclaimer-chip">
+        <span class="material-symbols-outlined" style="font-size:14px;color:var(--on-surface-variant);">info</span>
+        <span>A study companion, not the actual person. All responses are constructed from documented writing and historical record.</span>
+      </div>
+
+      
+      <section id="sect-who" style="margin-bottom:64px;" class="fade-in">
+        <p class="section-label">Who They Really Were</p>
+        <p class="t-body-lg drop-cap" id="ctxParagraph"></p>
+
+        
+        <div style="margin-top:32px;" id="whoAccordion"></div>
+      </section>
+
+      <div class="section-divider"><span class="fleuron">❦</span></div>
+
+      
+      <section id="sect-features" style="margin-bottom:64px;" class="fade-in">
+        <p class="section-label">Three Things Worth Knowing</p>
+        <div style="display:flex;flex-direction:column;gap:16px;" id="featureCards"></div>
+      </section>
+
+      <div class="section-divider"><span class="fleuron">❦</span></div>
+
+      
+      <section id="sect-beliefs" style="margin-bottom:64px;" class="fade-in">
+        <p class="section-label">The Central Frame</p>
+        <blockquote style="
+          font-family:var(--font-body);font-style:italic;font-size:20px;
+          line-height:1.7;color:var(--on-surface);
+          border-left:2px solid var(--secondary);padding-left:24px;
+          margin-bottom:24px;
+        " id="centralFrame"></blockquote>
+        <div class="attribution-note" id="internetVersion"></div>
+      </section>
+
+      <div class="section-divider"><span class="fleuron">❦</span></div>
+
+      
+      <section id="sect-compass" style="margin-bottom:64px;">
+        <p class="section-label">The Moral Compass</p>
+        <div class="compass-wrap">
+          <div class="compass-container">
+            <svg class="compass-svg" viewBox="0 0 100 100" id="compassSvg"></svg>
+            
+            <div class="compass-panel" id="compassPanel">
+              <button class="compass-panel-close" id="compassClose" aria-label="Close panel">
+                <span class="material-symbols-outlined">close</span>
+              </button>
+              <p class="compass-panel-title" id="panelTitle"></p>
+              <div class="compass-panel-row">
+                <span class="compass-panel-key">Stance</span>
+                <p class="compass-panel-stance" id="panelStance"></p>
+              </div>
+              <div class="compass-panel-row">
+                <span class="compass-panel-key">Nuance</span>
+                <p class="compass-panel-nuance" id="panelNuance"></p>
+              </div>
+              <div class="compass-panel-row">
+                <span class="compass-panel-key">Not This</span>
+                <p class="strike-red" id="panelNotThis"></p>
+              </div>
+            </div>
+          </div>
+          <p class="t-label-xs text-muted" style="margin-top:16px;">Click a spoke to explore their position</p>
+        </div>
+      </section>
+
+      <div class="section-divider"><span class="fleuron">❦</span></div>
+
+      
+      <section id="sect-applied" style="margin-bottom:64px;" class="fade-in">
+        <p class="section-label">What Makes Them Powerful</p>
+        <div style="display:flex;flex-direction:column;gap:16px;" id="appliedCards"></div>
+      </section>
+
+      <div class="section-divider"><span class="fleuron">❦</span></div>
+
+      
+      <section id="limits" style="margin-bottom:64px;" class="fade-in">
+        <p class="section-label">Limits & Dangers</p>
+        <div style="display:flex;flex-direction:column;gap:12px;" id="failureCards"></div>
+        <div style="margin-top:24px;" id="carefulList"></div>
+      </section>
+
+      <div class="section-divider"><span class="fleuron">❦</span></div>
+
+      
+      <section id="manual" style="margin-bottom:64px;" class="fade-in">
+        <p class="section-label">Operating Manual</p>
+
+        
+        <h3 class="t-headline-sm" style="margin-bottom:16px;">Daily Habits</h3>
+        <div id="habitList" style="margin-bottom:32px;"></div>
+
+        
+        <h3 class="t-headline-sm" style="margin-bottom:16px;">Rules</h3>
+        <div id="ruleList" style="display:flex;flex-direction:column;gap:8px;margin-bottom:32px;"></div>
+
+        
+        <h3 class="t-headline-sm" style="margin-bottom:16px;">Decision Principles</h3>
+        <div id="principleList" style="display:flex;flex-direction:column;gap:8px;margin-bottom:32px;"></div>
+
+        
+        <h3 class="t-headline-sm" style="margin-bottom:16px;">Journaling Prompts</h3>
+        <div id="promptList" style="display:flex;flex-direction:column;gap:12px;"></div>
+      </section>
+
+      <div class="section-divider"><span class="fleuron">❦</span></div>
+
+      
+      <section id="sect-tensions" style="margin-bottom:64px;" class="fade-in">
+        <p class="section-label">In Tension With</p>
+        <div id="tensionCards" style="display:flex;flex-direction:column;gap:16px;"></div>
+      </section>
+
+      <div class="section-divider"><span class="fleuron">❦</span></div>
+
+      
+      <section id="sect-sources" style="margin-bottom:64px;" class="fade-in">
+        <p class="section-label">Where to Read</p>
+        <div id="sourceList"></div>
+        <div id="translationWarnings" style="margin-top:24px;"></div>
+      </section>
+
+      <div class="section-divider"><span class="fleuron">❦</span></div>
+
+      
+      <section id="sect-diagnostic" style="margin-bottom:80px;" class="fade-in">
+        <p class="section-label">Diagnostic Questions</p>
+        <p class="t-body-md text-muted italic" style="margin-bottom:20px;">Before you go further — ask yourself:</p>
+        <ul class="insight-list" id="diagnosticList"></ul>
+      </section>
+
+      
+      <section id="sect-confidence" style="margin-bottom:64px;" class="fade-in">
+        <p class="section-label">Confidence Notes</p>
+        <div id="confidenceContested" style="margin-bottom:16px;"></div>
+        <div id="attributionWarnings"></div>
+      </section>
+
+    </div>
+  </div>
+</main>
+
+<footer class="cmd-footer">
+  <div class="cmd-palette" id="cmdPalette">
+    <span class="material-symbols-outlined">terminal</span>
+    <input id="cmdInput" type="text" placeholder="Ask…  (/switch /read /manual /limits)" aria-label="Command palette" />
+    <div class="cmd-kbd">
+      <span class="kbd">⌘</span><span class="kbd">K</span>
+    </div>
+  </div>
+  <nav class="bottom-nav" aria-label="Mobile navigation">
+    <a href="index.html" class="bottom-nav-item">
+      <span class="material-symbols-outlined">swap_horiz</span>
+      <span class="t-label-xs">Switch</span>
+    </a>
+    <button class="bottom-nav-item active">
+      <span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1;">book_5</span>
+      <span class="t-label-xs">Read</span>
+    </button>
+    <button class="bottom-nav-item" onclick="scrollToSection('sect-compass')">
+      <span class="material-symbols-outlined">explore</span>
+      <span class="t-label-xs">Compass</span>
+    </button>
+    <button class="bottom-nav-item" onclick="scrollToSection('manual')">
+      <span class="material-symbols-outlined">edit_note</span>
+      <span class="t-label-xs">Manual</span>
+    </button>
+    <button class="bottom-nav-item" onclick="scrollToSection('limits')">
+      <span class="material-symbols-outlined">gavel</span>
+      <span class="t-label-xs">Limits</span>
+    </button>
+  </nav>
+</footer>
+
+<script type="module">
+import { loadFigure, loadFeature, getImagePath, recordVisit, FIGURE_SLUGS } from './data.js';
+
+// ── Utilities ──────────────────────────────────────────────────────────────
+function scrollToSection(id) {
+  const el = document.getElementById(id);
+  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+window.scrollToSection = scrollToSection;
+
+function esc(str) {
+  return String(str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+const POSITION_ICONS = {
+  pain:           { label:'Pain',          icon:'emergency_home' },
+  discipline:     { label:'Discipline',    icon:'fitness_center' },
+  purpose:        { label:'Purpose',       icon:'explore' },
+  fear_and_death: { label:'Fear & Death',  icon:'skull' },
+  status:         { label:'Status',        icon:'stars' },
+  relationships:  { label:'Relationships', icon:'groups' },
+  self_control:   { label:'Self Control',  icon:'psychology' },
+  ambition:       { label:'Ambition',      icon:'trending_up' },
+};
+
+function positionLabel(key) {
+  const p = POSITION_ICONS[key];
+  if (p) return p.label;
+  return key.replace(/_/g,' ').replace(/\b\w/g,c=>c.toUpperCase());
+}
+function positionIcon(key) {
+  return (POSITION_ICONS[key] || {}).icon || 'radio_button_unchecked';
+}
+
+// ── Accordion builder ──────────────────────────────────────────────────────
+function buildAccordion(container, items) {
+  // items: [{label, content: string | string[]}]
+  items.forEach(({ label, content }) => {
+    if (!content || (Array.isArray(content) && content.length === 0)) return;
+    const wrapper = document.createElement('div');
+    wrapper.className = 'accordion-item';
+
+    const trigger = document.createElement('button');
+    trigger.className = 'accordion-trigger';
+    trigger.innerHTML = `${esc(label)}<span class="material-symbols-outlined chevron">expand_more</span>`;
+
+    const body = document.createElement('div');
+    body.className = 'accordion-body';
+    const inner = document.createElement('div');
+    inner.className = 'accordion-inner';
+
+    if (Array.isArray(content)) {
+      const ul = document.createElement('ul');
+      ul.className = 'insight-list';
+      content.forEach(item => {
+        const li = document.createElement('li');
+        li.className = 'insight-item';
+        li.textContent = item;
+        ul.appendChild(li);
+      });
+      inner.appendChild(ul);
+    } else {
+      const p = document.createElement('p');
+      p.className = 't-body-md';
+      p.style.fontStyle = 'italic';
+      p.textContent = content;
+      inner.appendChild(p);
+    }
+    body.appendChild(inner);
+    wrapper.appendChild(trigger);
+    wrapper.appendChild(body);
+    container.appendChild(wrapper);
+
+    trigger.addEventListener('click', () => {
+      const isOpen = body.classList.contains('open');
+      // close siblings
+      container.querySelectorAll('.accordion-body.open').forEach(b => b.classList.remove('open'));
+      container.querySelectorAll('.accordion-trigger.open').forEach(t => t.classList.remove('open'));
+      if (!isOpen) {
+        body.classList.add('open');
+        trigger.classList.add('open');
+      }
+    });
+  });
+}
+
+// ── Compass builder ────────────────────────────────────────────────────────
+function buildCompass(positions) {
+  const svg = document.getElementById('compassSvg');
+  const keys = Object.keys(positions);
+  const n = keys.length;
+  const cx = 50, cy = 50, outerR = 46, innerR = 22;
+
+  // Background circles
+  svg.innerHTML = `
+    <circle cx="${cx}" cy="${cy}" r="${outerR}" fill="none" stroke="var(--outline-variant)" stroke-width="0.15"/>
+    <circle cx="${cx}" cy="${cy}" r="${innerR}" fill="none" stroke="var(--outline-variant)" stroke-width="0.15"/>
+  `;
+
+  keys.forEach((key, i) => {
+    const angle = (i / n) * 2 * Math.PI - Math.PI / 2;
+    const x1 = cx + innerR * Math.cos(angle);
+    const y1 = cy + innerR * Math.sin(angle);
+    const x2 = cx + outerR * Math.cos(angle);
+    const y2 = cy + outerR * Math.sin(angle);
+
+    // Spoke
+    const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+    line.setAttribute('x1', x1); line.setAttribute('y1', y1);
+    line.setAttribute('x2', x2); line.setAttribute('y2', y2);
+    line.setAttribute('class', 'compass-line');
+    svg.appendChild(line);
+
+    // Label (positioned just beyond outer ring)
+    const labelR = outerR + 6;
+    const lx = cx + labelR * Math.cos(angle);
+    const ly = cy + labelR * Math.sin(angle);
+
+    const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    text.setAttribute('x', lx); text.setAttribute('y', ly);
+    text.setAttribute('text-anchor', 'middle');
+    text.setAttribute('dominant-baseline', 'middle');
+    text.setAttribute('class', 'compass-label');
+    text.setAttribute('font-size', '3.8');
+    text.textContent = positionLabel(key).toUpperCase();
+    text.dataset.key = key;
+    text.addEventListener('click', () => openCompassPanel(key, positions[key]));
+    svg.appendChild(text);
+
+    // Dot on outer ring
+    const dot = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+    dot.setAttribute('cx', cx + outerR * Math.cos(angle));
+    dot.setAttribute('cy', cy + outerR * Math.sin(angle));
+    dot.setAttribute('r', '1.2');
+    dot.setAttribute('fill', 'var(--outline-variant)');
+    dot.style.cursor = 'pointer';
+    dot.addEventListener('click', () => openCompassPanel(key, positions[key]));
+    svg.appendChild(dot);
+  });
+
+  // Center dot
+  const center = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+  center.setAttribute('cx', cx); center.setAttribute('cy', cy);
+  center.setAttribute('r', '3');
+  center.setAttribute('class', 'compass-center');
+  svg.appendChild(center);
+}
+
+function openCompassPanel(key, pos) {
+  document.getElementById('panelTitle').textContent = positionLabel(key);
+  document.getElementById('panelStance').textContent  = pos.stance  || '—';
+  document.getElementById('panelNuance').textContent  = pos.nuance  || '';
+  document.getElementById('panelNotThis').textContent = pos.not_this || '';
+  document.getElementById('compassPanel').classList.add('visible');
+}
+
+document.getElementById('compassClose').addEventListener('click', () => {
+  document.getElementById('compassPanel').classList.remove('visible');
+});
+
+// ── Build sidebar nav from positions ──────────────────────────────────────
+function buildPositionNav(positions) {
+  const nav = document.getElementById('positionNav');
+  nav.innerHTML = '';
+  Object.keys(positions).forEach(key => {
+    const btn = document.createElement('button');
+    btn.className = 'sidebar-item';
+    btn.innerHTML = `<span class="material-symbols-outlined">${positionIcon(key)}</span>${positionLabel(key)}`;
+    btn.addEventListener('click', () => {
+      openCompassPanel(key, positions[key]);
+      scrollToSection('sect-compass');
+    });
+    nav.appendChild(btn);
+  });
+}
+
+// ── Command palette ────────────────────────────────────────────────────────
+document.addEventListener('keydown', e => {
+  if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+    e.preventDefault();
+    document.getElementById('cmdInput').focus();
+  }
+});
+
+// ── Scroll fade observer ───────────────────────────────────────────────────
+const fadeObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      fadeObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.05 });
+
+// ── Main init ──────────────────────────────────────────────────────────────
+async function init() {
+  const params = new URLSearchParams(location.search);
+  const slug = params.get('slug') || 'marcus-aurelius';
+
+  // Check if a full figure exists; if not load feature only
+  let figure = null;
+  let feature = null;
+
+  try {
+    figure = await loadFigure(slug);
+  } catch (_) { /* no detail file */ }
+
+  try {
+    feature = await loadFeature(slug);
+  } catch (_) { /* no feature file */ }
+
+  if (!figure && !feature) {
+    document.getElementById('loadingState').classList.add('hidden');
+    document.getElementById('errorState').classList.remove('hidden');
+    return;
+  }
+
+  const data = figure || {};
+  const name = data.name || feature?.name || slug;
+  const lifespan = data.lifespan || '';
+  const imgPath = getImagePath(slug);
+
+  recordVisit(slug);
+
+  // ── Update head ──
+  document.getElementById('pageTitle').textContent = `Codex Vitae | ${name}`;
+  document.getElementById('pageDesc').setAttribute('content',
+    data.one_line || `Study session: ${name}`);
+
+  // ── Update top bar header ──
+  document.getElementById('headerName').textContent = name;
+  document.getElementById('headerLifespan').textContent = lifespan;
+  document.getElementById('cmdInput').setAttribute('placeholder', `Ask ${name.split(' ')[0]}…  (/switch /read /manual /limits)`);
+
+  // Portrait — falls back to the placeholder if the file is missing or fails to decode,
+  // so a wrong path in IMAGE_MAP degrades to initials rather than a broken-image icon.
+  const headerPortrait = document.getElementById('headerPortrait');
+  if (imgPath) {
+    const img = new Image();
+    img.alt = `Portrait of ${name}`;
+    img.onload = () => { headerPortrait.innerHTML = ''; headerPortrait.appendChild(img); };
+    img.onerror = () => { /* leave the existing placeholder in place */ };
+    img.src = imgPath;
+  }
+
+  // ── Show content ──
+  document.getElementById('loadingState').classList.add('hidden');
+  document.getElementById('figureContent').classList.remove('hidden');
+
+  // ── Who they really were ──
+  if (data.who_they_really_were) {
+    const w = data.who_they_really_were;
+    const ctx = document.getElementById('ctxParagraph');
+    ctx.textContent = w.context || '';
+
+    const accord = document.getElementById('whoAccordion');
+    buildAccordion(accord, [
+      { label: 'Shaping Pressures', content: w.shaping_pressures },
+      { label: 'Strengths',          content: w.strengths },
+      { label: 'Flaws',              content: w.flaws },
+      { label: 'Contradictions',     content: w.contradictions },
+      { label: 'Blind Spots',        content: w.blind_spots },
+    ]);
+  } else if (feature) {
+    // Show feature cards as the lead content if no full figure
+    document.getElementById('ctxParagraph').textContent = feature.features?.[0]?.detail || '';
+  }
+
+  // ── Feature cards ──
+  const featureSrc = feature || data;
+  if (featureSrc.features?.length) {
+    const fc = document.getElementById('featureCards');
+    featureSrc.features.forEach(feat => {
+      const card = document.createElement('div');
+      card.className = 'example-card';
+      card.innerHTML = `
+        <p class="example-situation">${esc(feat.label)}</p>
+        <p class="example-response">${esc(feat.detail)}</p>
+      `;
+      fc.appendChild(card);
+    });
+  } else {
+    document.getElementById('sect-features').style.display = 'none';
+  }
+
+  // ── Core beliefs ──
+  if (data.core_beliefs) {
+    const cb = data.core_beliefs;
+    document.getElementById('centralFrame').textContent = cb.central_frame || '';
+    const iv = document.getElementById('internetVersion');
+    if (cb.internet_version) {
+      iv.innerHTML = `<span style="font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:0.1em;color:var(--on-surface-variant);display:block;margin-bottom:6px;">The Popular Version vs. Reality</span><p class="t-body-md italic">${esc(cb.internet_version)}</p>`;
+    }
+
+    if (cb.positions) {
+      buildCompass(cb.positions);
+      buildPositionNav(cb.positions);
+    }
+  } else {
+    document.getElementById('sect-beliefs').style.display = 'none';
+    document.getElementById('sect-compass').style.display = 'none';
+  }
+
+  // ── Applied examples ──
+  const applied = data.what_makes_them_powerful;
+  if (applied) {
+    const ac = document.getElementById('appliedCards');
+    if (applied.core_strengths?.length) {
+      const hdr = document.createElement('h3');
+      hdr.className = 't-headline-sm';
+      hdr.style.marginBottom = '16px';
+      hdr.textContent = 'Core Strengths';
+      ac.appendChild(hdr);
+      const ul = document.createElement('ul');
+      ul.className = 'insight-list';
+      ul.style.marginBottom = '24px';
+      applied.core_strengths.forEach(s => {
+        const li = document.createElement('li');
+        li.className = 'insight-item';
+        li.textContent = s;
+        ul.appendChild(li);
+      });
+      ac.appendChild(ul);
+    }
+    if (applied.applied_examples?.length) {
+      const hdr2 = document.createElement('h3');
+      hdr2.className = 't-headline-sm';
+      hdr2.style.marginBottom = '16px';
+      hdr2.textContent = 'In Practice';
+      ac.appendChild(hdr2);
+      applied.applied_examples.forEach(ex => {
+        const card = document.createElement('div');
+        card.className = 'example-card';
+        card.innerHTML = `
+          <p class="example-situation">${esc(ex.situation)}</p>
+          <p class="example-response">${esc(ex.how_it_lands)}</p>
+        `;
+        ac.appendChild(card);
+      });
+    }
+  } else {
+    document.getElementById('sect-applied').style.display = 'none';
+  }
+
+  // ── Limits & dangers ──
+  const limits = data.limits_and_dangers;
+  if (limits) {
+    if (limits.failure_modes?.length) {
+      const fc = document.getElementById('failureCards');
+      limits.failure_modes.forEach(fm => {
+        const card = document.createElement('div');
+        card.className = 'failure-card';
+        card.innerHTML = `
+          <p class="failure-distortion">${esc(fm.distortion)}</p>
+          <p class="failure-looks-like">${esc(fm.looks_like)}</p>
+        `;
+        fc.appendChild(card);
+      });
+    }
+    if (limits.who_should_be_careful?.length) {
+      const cl = document.getElementById('carefulList');
+      cl.innerHTML = `<p class="section-label" style="margin-bottom:12px;">Who Should Be Careful</p>`;
+      const ul = document.createElement('ul');
+      ul.className = 'insight-list';
+      limits.who_should_be_careful.forEach(w => {
+        const li = document.createElement('li');
+        li.className = 'insight-item';
+        li.textContent = w;
+        ul.appendChild(li);
+      });
+      cl.appendChild(ul);
+    }
+  } else {
+    document.getElementById('limits').style.display = 'none';
+  }
+
+  // ── Operating manual ──
+  const om = data.operating_manual;
+  if (om) {
+    // Habits
+    if (om.habits?.length) {
+      const hl = document.getElementById('habitList');
+      om.habits.forEach(h => {
+        const item = document.createElement('div');
+        item.className = 'habit-item';
+        item.innerHTML = `
+          <p class="habit-text">${esc(h.habit)}</p>
+          <span class="habit-cadence">${esc(h.cadence)}</span>
+        `;
+        hl.appendChild(item);
+      });
+    }
+    // Rules
+    if (om.rules?.length) {
+      const rl = document.getElementById('ruleList');
+      om.rules.forEach(r => {
+        const item = document.createElement('div');
+        item.className = 'rule-item t-body-md';
+        item.textContent = r;
+        rl.appendChild(item);
+      });
+    }
+    // Decision principles
+    if (om.decision_principles?.length) {
+      const pl = document.getElementById('principleList');
+      om.decision_principles.forEach(p => {
+        const item = document.createElement('div');
+        item.className = 'rule-item t-body-md';
+        item.textContent = p;
+        pl.appendChild(item);
+      });
+    }
+    // Journaling prompts
+    if (om.journaling_prompts?.length) {
+      const jl = document.getElementById('promptList');
+      om.journaling_prompts.forEach(prompt => {
+        const item = document.createElement('div');
+        item.className = 'prompt-item t-body-md';
+        item.textContent = prompt;
+        jl.appendChild(item);
+      });
+    }
+  } else {
+    document.getElementById('manual').style.display = 'none';
+  }
+
+  // ── Tensions with ──
+  if (data.tensions_with?.length) {
+    const tc = document.getElementById('tensionCards');
+    data.tensions_with.forEach(t => {
+      const card = document.createElement('a');
+      card.className = 'tension-card';
+      card.href = `figure.html?slug=${t.slug}`;
+      card.innerHTML = `
+        <p class="tension-vs">In tension with</p>
+        <p class="tension-name">${esc(t.slug.replace(/-/g,' ').replace(/\b\w/g,c=>c.toUpperCase()))}</p>
+        <p class="tension-text">${esc(t.disagreement)}</p>
+      `;
+      tc.appendChild(card);
+    });
+  } else {
+    document.getElementById('sect-tensions').style.display = 'none';
+  }
+
+  // ── Sources ──
+  const sources = data.sources;
+  if (sources) {
+    const sl = document.getElementById('sourceList');
+
+    function addSource(src, badge) {
+      const item = document.createElement('div');
+      item.className = 'source-item';
+      item.innerHTML = `
+        <p class="source-title">${esc(src.title || src.work)}</p>
+        ${src.author ? `<p class="source-author">${esc(src.author)}</p>` : ''}
+        ${src.recommended_edition ? `<p class="source-author">Recommended: ${esc(src.recommended_edition)}</p>` : ''}
+        <p class="source-why italic">${esc(src.why)}</p>
+        ${badge ? `<span class="difficulty-badge">${esc(src.difficulty || badge)}</span>` : ''}
+      `;
+      sl.appendChild(item);
+    }
+
+    if (sources.start_here) addSource(sources.start_here, 'Start Here');
+    (sources.primary || []).forEach(s => addSource(s, s.difficulty));
+    (sources.biographies || []).forEach(s => addSource(s, s.difficulty));
+    (sources.secondary || []).forEach(s => addSource(s, s.difficulty));
+
+    if (sources.translation_warnings?.length) {
+      const tw = document.getElementById('translationWarnings');
+      tw.innerHTML = `<p class="section-label" style="margin-bottom:10px;">Translation Notes</p>`;
+      sources.translation_warnings.forEach(w => {
+        const note = document.createElement('div');
+        note.className = 'attribution-note';
+        note.textContent = w;
+        tw.appendChild(note);
+      });
+    }
+  } else {
+    document.getElementById('sect-sources').style.display = 'none';
+  }
+
+  // ── Diagnostic questions ──
+  if (data.diagnostic_questions?.length) {
+    const dl = document.getElementById('diagnosticList');
+    data.diagnostic_questions.forEach(q => {
+      const li = document.createElement('li');
+      li.className = 'insight-item';
+      li.textContent = q;
+      dl.appendChild(li);
+    });
+  } else {
+    document.getElementById('sect-diagnostic').style.display = 'none';
+  }
+
+  // ── Confidence notes ──
+  const cn = data.confidence_notes;
+  if (cn) {
+    if (cn.contested?.length) {
+      const cc = document.getElementById('confidenceContested');
+      cc.innerHTML = `<p class="section-label" style="margin-bottom:12px;">What's Contested</p>`;
+      const ul = document.createElement('ul');
+      ul.className = 'insight-list';
+      cn.contested.forEach(c => {
+        const li = document.createElement('li'); li.className = 'insight-item';
+        li.textContent = c; ul.appendChild(li);
+      });
+      cc.appendChild(ul);
+    }
+    if (cn.attribution_warnings?.length) {
+      const aw = document.getElementById('attributionWarnings');
+      aw.innerHTML = `<p class="section-label" style="margin-bottom:12px;">Attribution Warnings</p>`;
+      cn.attribution_warnings.forEach(w => {
+        const note = document.createElement('div');
+        note.className = 'attribution-note'; note.style.marginBottom = '8px';
+        note.textContent = w;
+        aw.appendChild(note);
+      });
+    }
+  } else {
+    document.getElementById('sect-confidence').style.display = 'none';
+  }
+
+  // ── Fade observer ──
+  document.querySelectorAll('.fade-in').forEach(el => fadeObserver.observe(el));
+}
+
+init();
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "slug": "diogenes",
+  "name": "Diogenes",
+  "category": "ancient-philosophy",
+  "features": [
+    {
+      "label": "Lived in a jar deliberately",
+      "detail": "Poverty as a public argument, performed for decades in the middle of a wealthy city."
+    },
+    {
+      "label": "Almost entirely anecdote",
+      "detail": "What survives is stories told about him, not by him. Separating fact from legend is impossible."
+    },
+    {
+      "label": "Attack, not system",
+      "detail": "He built no philosophy. He aimed himself at everyone who had one."
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "slug": "epictetus",
+  "name": "Epictetus",
+  "category": "ancient-philosophy",
+  "lifespan": "c. 50 – c. 135 CE",
+  "one_line": "The hardest and least consoling Stoic — a former slave arguing that freedom is entirely internal, and meaning it literally rather than as encouragement.",
+
+  "who_they_really_were": {
+    "context": "Born enslaved in Hierapolis, in what is now Turkey, and owned by Epaphroditus, a freedman secretary in Nero's household. Permitted to study philosophy under Musonius Rufus while still enslaved. Freed at some point after Nero's death. Taught in Rome until Domitian expelled philosophers from Italy around 93 CE, then founded a school at Nicopolis in Greece and taught there until he died. Wrote nothing; everything that survives comes through notes taken by his student Arrian.",
+    "shaping_pressures": [
+      "Enslavement from birth — the doctrine that external circumstance cannot touch inner freedom was worked out by a man who had no external freedom at all",
+      "Lame in one leg; the ancient sources disagree about whether from disease or from his master's cruelty",
+      "Expelled from Rome under Domitian, which cost him his school and his city in middle age"
+    ],
+    "strengths": [
+      "The most rigorous of the Stoics about the actual boundary between what is and is not up to us — he never blurs it for the sake of comfort",
+      "Taught by confrontation, refusing to let students substitute agreement for practice",
+      "Entirely unsentimental about his own hardships; with more biographical authority than any other Stoic, he never once invokes it"
+    ],
+    "flaws": [
+      "His framework has almost nothing to offer someone whose circumstances genuinely should be changed rather than accepted — applied to injustice it counsels acquiescence, and he never addresses the problem",
+      "Harsh with students to the point of cruelty, mocking them in exchanges the Discourses record approvingly rather than critically"
+    ],
+    "contradictions": [
+      "Insists that nothing external matters while running a school, taking students, and caring visibly about whether they improve — which is an external outcome if anything is",
+      "Says the body is not ours, and then fills the Discourses with practical instruction on how to live in one"
+    ],
+    "blind_spots": [
+      "Never examines whether his own enslavement was a wrong to be resisted rather than an indifferent to be transcended. The silence is enormous, and no honest modern reading should smooth it over"
+    ]
+  },
+
+  "core_beliefs": {
+    "central_frame": "Some things are up to us — judgment, desire, aversion, our own responses — and everything else is not. Nearly all suffering comes from wanting things in the second category. Freedom is achieved by wanting only what is actually yours.",
+    "internet_version": "This is the origin of the modern 'control what you can control' slogan, and the slogan is a serious dilution. His claim is not that you should focus on your sphere of influence in order to be effective. It is that your body, your reputation, your property and the people you love are all not yours, and that treating them as yours is the error.",
+    "positions": {
+      "pain": {
+        "stance": "Pain sits in the body, which is not up to us. The suffering sits in the judgment that this should not be happening.",
+        "nuance": "He does not deny the sensation. He denies that it obligates any particular response from you.",
+        "not_this": "Not toughness, and not denial — he is making a precise claim about where the harm actually lives."
+      },
+      "discipline": {
+        "stance": "Constant practice at separating impressions from the judgments you add to them, applied to every impression as it arrives.",
+        "nuance": "He describes this as athletic training and expects you to fail at it for a long time before it takes.",
+        "not_this": "Not routine, and not self-denial."
+      },
+      "purpose": {
+        "stance": "To play well the role you have been assigned, without having chosen the role.",
+        "nuance": "The actor metaphor is his own: you do not choose the part, only the quality of the performance. Whether that is liberating or fatalistic depends heavily on your actual situation.",
+        "not_this": "Not self-actualisation, and not finding your calling."
+      },
+      "fear_and_death": {
+        "stance": "Death is not up to us and is not an evil. The fear is a judgment, and judgments can be taken apart.",
+        "nuance": "His example is a broken jug: you say 'I have given it back', not 'I have lost it'. The reframing is the whole technique.",
+        "not_this": "Not indifference to living well in the meantime."
+      },
+      "status": {
+        "stance": "Reputation consists entirely of other people's opinions, which are not up to you. Wanting it is wanting something you cannot have.",
+        "nuance": "He is more absolute here than either Marcus or Seneca, and offers no accommodation whatever.",
+        "not_this": "Not modesty, which would still be a concern with how one appears."
+      },
+      "relationships": {
+        "stance": "Love people while knowing they are not yours and will be taken — the harshest position in Stoicism.",
+        "nuance": "His instruction to kiss your child while reminding yourself the child is mortal reads as either profound or monstrous, and he makes no attempt to soften it.",
+        "not_this": "Not detachment from people — though it is very easily and very commonly read that way, and that misreading is the most damaging one in all of Stoicism."
+      },
+      "self_control": {
+        "stance": "You cannot control which impression arrives, only the assent you give it. That gap is the entire field of human freedom.",
+        "nuance": "This is his most technically precise contribution and the one that holds up best under scrutiny.",
+        "not_this": "Not suppression of what arrives."
+      },
+      "ambition": {
+        "stance": "Wanting outcomes is wanting what is not up to you, which is the definition of slavery in his vocabulary.",
+        "nuance": "He permits acting toward outcomes. What he forbids is the wanting. The distinction is subtle and carries the whole system.",
+        "not_this": "Not passivity, and not the abandonment of effort."
+      }
+    }
+  },
+
+  "sources": {
+    "start_here": {
+      "work": "The Enchiridion (Handbook)",
+      "why": "A short digest of the Discourses compiled by his student Arrian. Fifty-three brief chapters — readable in an hour and rereadable for years."
+    },
+    "primary": [
+      {
+        "title": "Discourses and Selected Writings",
+        "recommended_edition": "Robin Hard translation (Oxford World's Classics)",
+        "why": "Gives you the Handbook alongside the fuller lectures it was distilled from, which is the right order — the Handbook alone reads as aphorism, and it was never meant to.",
+        "difficulty": "entry"
+      },
+      {
+        "title": "Discourses",
+        "why": "Where the doctrine has room to breathe and where the teaching voice actually comes through. The Handbook is the compressed version and loses the confrontation.",
+        "difficulty": "intermediate"
+      }
+    ],
+    "secondary": [
+      {
+        "title": "How to Be Free",
+        "author": "A. A. Long",
+        "why": "A leading scholar's translation and commentary on the Enchiridion, and the best bridge between the ancient text and what it is actually demanding of you.",
+        "difficulty": "intermediate"
+      },
+      {
+        "title": "Epictetus: A Stoic and Socratic Guide to Life",
+        "author": "A. A. Long",
+        "why": "The serious scholarly treatment if you want to go past the practical reading.",
+        "difficulty": "advanced"
+      }
+    ],
+    "translation_warnings": [
+      "The Elizabeth Carter translation (1758) is public domain, everywhere online, and renders a blunt lecturer in formal eighteenth-century English that makes him sound remote and stately. He was neither.",
+      "Sharon Lebell's 'The Art of Living' is widely sold and widely quoted, but it is an acknowledged loose interpretation rather than a translation — it adds material and softens the hardest passages. A large share of 'Epictetus quotes' online originate there rather than in the Greek."
+    ]
+  },
+
+  "what_makes_them_powerful": {
+    "core_strengths": [
+      "The clearest statement anywhere in ancient philosophy of exactly where agency begins and ends",
+      "Teaches through drill and repetition rather than argument, which is why it actually transfers into practice",
+      "Immune to the charge of comfortable philosophising — his biography rules it out without him ever needing to mention it"
+    ],
+    "applied_examples": [
+      {
+        "situation": "You are waiting on a decision that will affect your life and cannot stop turning it over.",
+        "how_it_lands": "The decision is not up to you; the waiting-well is. He would point out that the anxiety is a judgment you keep re-assenting to, and that withdrawing assent is available on every single repetition."
+      },
+      {
+        "situation": "Someone has spoken badly of you and it has reached you secondhand.",
+        "how_it_lands": "His response is nearly comic in its bluntness — if they knew you better they would have found worse things to say. The opinion is theirs, which puts it entirely outside anything you own."
+      },
+      {
+        "situation": "You lose something you worked toward for a long time.",
+        "how_it_lands": "His formula is 'I have given it back', not 'I have lost it' — turning possession into custodianship. Whether that is genuinely freeing or a linguistic trick is worth deciding for yourself rather than accepting."
+      }
+    ]
+  },
+
+  "limits_and_dangers": {
+    "failure_modes": [
+      {
+        "distortion": "Acceptance becomes acquiescence to genuine injustice.",
+        "looks_like": "Using 'it's not up to me' about a situation that is both unjust and changeable — workplace mistreatment, an unfair system — where the right response is resistance rather than equanimity. His own silence about his enslavement is the unexamined form of exactly this."
+      },
+      {
+        "distortion": "Detachment from outcomes becomes detachment from people.",
+        "looks_like": "Applying 'they are not yours' to relationships as licence for emotional distance, when he explicitly commands loving them anyway. The hardest thing in Epictetus is that both halves are required simultaneously."
+      },
+      {
+        "distortion": "The dichotomy of control becomes a productivity slogan.",
+        "looks_like": "'Focus on what you can control', deployed for calm and effectiveness — a much weaker and far more comfortable claim than the one he is making about ownership and freedom."
+      }
+    ],
+    "who_should_be_careful": [
+      "Anyone in a genuinely bad situation they could leave — this framework is exceptionally good at making staying feel philosophically respectable",
+      "Anyone already emotionally avoidant; the relationships position is the single most misusable idea in Stoicism and he does nothing to guard against it",
+      "Anyone who wants the calm without the drill — the doctrine without the daily practice produces a rationalisation engine, not freedom"
+    ]
+  },
+
+  "diagnostic_questions": [
+    "What emotional need in you is drawn to this figure right now?",
+    "Is there something you have filed under 'not up to me' that you have simply never tried to change?",
+    "When you say you are being detached, are you also doing the other half — loving the thing anyway?",
+    "What impression today did you assent to without ever examining it?"
+  ],
+
+  "operating_manual": {
+    "behaviors": [
+      "When an impression arrives, name it as an impression before responding — 'this is an appearance, not the thing itself'",
+      "Sort a live worry explicitly into what is and is not up to you, in writing, and then act only on the first column",
+      "Rehearse the loss of something you value while you still have it — briefly, and without drama"
+    ],
+    "rules": [
+      "Never say 'I have lost it' about something taken; say 'I have given it back', and notice which one you actually believe",
+      "Never use the dichotomy of control to justify inaction on something you could change",
+      "Never claim the doctrine without the drill — having read it is not having done it"
+    ],
+    "habits": [
+      { "habit": "Examine one impression deliberately before assenting to it", "cadence": "daily" },
+      { "habit": "A written sort of current concerns into up-to-me and not-up-to-me", "cadence": "weekly" }
+    ],
+    "journaling_prompts": [
+      "What did you want this week that was never yours to have, and what did the wanting cost you?"
+    ],
+    "decision_principles": [
+      "Act toward the outcome; do not want the outcome",
+      "Before being disturbed by something, locate whether it is a fact or a judgment about a fact"
+    ]
+  },
+
+  "voice": {
+    "register": "A blunt lecturer addressing students who are not trying hard enough. Direct address, rhetorical questions, open mockery. No comfort is offered anywhere in the text.",
+    "cadence": "Short challenges and questions, often staged as dialogue with an imagined slacking student. Frequently answers his own rhetorical question with contempt before the student can.",
+    "vocabulary": ["up to us", "not up to us", "impressions", "assent", "the ruling faculty", "freedom", "slavery"],
+    "metaphor_domains": ["the theatre and the assigned role", "athletic training", "slavery and manumission", "the traveller and the inn"],
+    "never_does": [
+      "Never consoles — the register is closer to a drill instructor than a counsellor, and any softening is a translator's addition",
+      "Never invokes his own hardships for authority, despite having more of them than any other figure in the tradition",
+      "Never lets a student's agreement stand as evidence of understanding; agreement is precisely what he attacks"
+    ],
+    "example_reframe": {
+      "user_says": "My friend cancelled on me again and I'm furious.",
+      "figure_frame": "Their behaviour was never in your possession. The anger is not caused by the cancellation — it is caused by a judgment you added, that they owed you this and that its absence is intolerable. He would make you find the exact moment you assented to that judgment, because that moment is the only part of this that was ever up to you."
+    }
+  },
+
+  "tensions_with": [
+    {
+      "slug": "seneca",
+      "disagreement": "Both hold that externals are indifferent, but Seneca was among the richest men in Rome and argued that a philosopher may legitimately hold wealth, while Epictetus began as property and holds the position with no accommodation at all. Epictetus would ask the obvious question — if it is truly indifferent, why did you keep it? — and would treat the answer as the whole measure of the man."
+    },
+    {
+      "slug": "marcus-aurelius",
+      "disagreement": "Marcus read Epictetus closely and softened him considerably. Where Epictetus draws an absolute line and refuses to negotiate, Marcus repeatedly accommodates duty, affection and the mess of actually governing. Epictetus would likely regard Marcus's Stoicism as a compromise made comfortable by power."
+    }
+  ],
+
+  "confidence_notes": {
+    "contested": [
+      "Nothing survives in his own hand — everything comes through Arrian's notes, and how much is verbatim versus reconstructed is genuinely uncertain",
+      "Whether his lameness resulted from his master's cruelty or from disease is disputed in the ancient sources",
+      "Both his birth and death dates are approximate"
+    ],
+    "attribution_warnings": [
+      "'It's not what happens to you, but how you react to it that matters' is a modern paraphrase circulated everywhere as a direct quote",
+      "Many widely shared 'Epictetus quotes' originate in Sharon Lebell's acknowledged loose interpretation rather than in the Greek text",
+      "The dichotomy of control is frequently quoted in a form much closer to the Serenity Prayer than to anything he actually wrote"
+    ]
+  }
+}

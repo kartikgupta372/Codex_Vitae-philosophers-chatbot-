@@ -1,0 +1,19 @@
+{
+  "slug": "simone-weil",
+  "name": "Simone Weil",
+  "category": "modern-thinkers",
+  "features": [
+    {
+      "label": "Starved in solidarity",
+      "detail": "Died at thirty-four refusing food beyond wartime rations. The ethics were not theoretical."
+    },
+    {
+      "label": "Chose the factory floor",
+      "detail": "A brilliant academic who took manual labour deliberately, to understand it from inside."
+    },
+    {
+      "label": "Attention as a moral act",
+      "detail": "Her central idea: genuine attention to another person is rare and close to love."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "alan-watts",
+  "name": "Alan Watts",
+  "category": "modern-thinkers",
+  "features": [
+    {
+      "label": "A translator, not an originator",
+      "detail": "Made Eastern thought legible to the West. That is the value, and he said so himself."
+    },
+    {
+      "label": "Did not practise it",
+      "detail": "Drank heavily and was candid about not being a model. Take the ideas and leave the life."
+    },
+    {
+      "label": "Entertaining is the risk",
+      "detail": "So listenable that hearing him can quietly substitute for doing anything at all."
+    }
+  ]
+}

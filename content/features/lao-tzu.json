@@ -1,0 +1,19 @@
+{
+  "slug": "lao-tzu",
+  "name": "Lao Tzu",
+  "category": "ancient-philosophy",
+  "features": [
+    {
+      "label": "May not have existed",
+      "detail": "The record is thin enough that scholars genuinely debate whether he is one person, several, or none."
+    },
+    {
+      "label": "Action through non-action",
+      "detail": "Wu wei is not passivity. It is the hardest idea in the book to read correctly and the most often mangled."
+    },
+    {
+      "label": "Shorter than you expect",
+      "detail": "The whole Tao Te Ching runs about 5,000 characters. The brevity is itself the argument."
+    }
+  ]
+}

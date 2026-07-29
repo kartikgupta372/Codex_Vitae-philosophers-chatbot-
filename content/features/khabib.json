@@ -1,0 +1,19 @@
+{
+  "slug": "khabib",
+  "name": "Khabib Nurmagomedov",
+  "category": "warrior",
+  "features": [
+    {
+      "label": "Walked away at 29-0",
+      "detail": "Retired undefeated at the peak, for a promise made to his mother. The exit is the interesting decision."
+    },
+    {
+      "label": "Built by his father",
+      "detail": "Trained to a plan set in early childhood. Study the system that produced him, not just the athlete."
+    },
+    {
+      "label": "Faith over money",
+      "detail": "Turned down enormous sums on religious grounds. The tradeoff was real, not symbolic."
+    }
+  ]
+}

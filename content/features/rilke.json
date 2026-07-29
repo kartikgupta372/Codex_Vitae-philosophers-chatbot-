@@ -1,0 +1,19 @@
+{
+  "slug": "rilke",
+  "name": "Rilke",
+  "category": "literature",
+  "features": [
+    {
+      "label": "The letters outrank the poems",
+      "detail": "Letters to a Young Poet is more read than the poetry. Starting there is fine, and worth being honest about."
+    },
+    {
+      "label": "Waited ten years",
+      "detail": "For the Duino Elegies to finish arriving. The long silence is part of the work, not a gap in it."
+    },
+    {
+      "label": "Beauty as terror",
+      "detail": "His line about beauty being the beginning of terror is not decorative. It is the entire position."
+    }
+  ]
+}

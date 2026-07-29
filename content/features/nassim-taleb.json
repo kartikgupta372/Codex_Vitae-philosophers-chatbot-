@@ -1,0 +1,19 @@
+{
+  "slug": "nassim-taleb",
+  "name": "Nassim Taleb",
+  "category": "modern-thinkers",
+  "features": [
+    {
+      "label": "Fragility is the subject",
+      "detail": "Not prediction. Building things that survive being wrong, which is a different problem entirely."
+    },
+    {
+      "label": "Deliberately abrasive",
+      "detail": "The insults are part of the argument. Decide for yourself whether that is rigour or noise."
+    },
+    {
+      "label": "Traded before theorising",
+      "detail": "Made the money first. Whether that validates the ideas is worth thinking about rather than assuming."
+    }
+  ]
+}

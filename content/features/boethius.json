@@ -1,0 +1,19 @@
+{
+  "slug": "boethius",
+  "name": "Boethius",
+  "category": "ancient-philosophy",
+  "features": [
+    {
+      "label": "Written awaiting execution",
+      "detail": "Composed in prison on a false charge. The consolation is being argued to himself, under sentence of death."
+    },
+    {
+      "label": "The bridge to the Middle Ages",
+      "detail": "Carried ancient philosophy into Christian Europe almost single-handedly."
+    },
+    {
+      "label": "Fortune's wheel",
+      "detail": "The image that dominated a thousand years of European imagination came out of a condemned man's cell."
+    }
+  ]
+}

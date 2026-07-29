@@ -1,0 +1,252 @@
+{
+  "slug": "nietzsche",
+  "name": "Nietzsche",
+  "also_known_as": ["Friedrich Nietzsche"],
+  "category": "literature",
+  "lifespan": "1844–1900",
+  "one_line": "The most systematically misread thinker on the roster — read carelessly he supplies contempt, read carefully he demands more of you than almost anyone.",
+
+  "who_they_really_were": {
+    "context": "German classical philologist turned philosopher. Appointed professor at Basel at twenty-four, extraordinarily young, on the strength of his philological work. Resigned at thirty-four because of chronic illness — migraines, vomiting, near-blindness — and spent the following decade moving between boarding houses in Switzerland and Italy, writing the major work. Collapsed in Turin in January 1889 at forty-four, never recovered mentally, and spent his final eleven years in the care of his mother and then his sister.",
+    "shaping_pressures": [
+      "Severe, constant illness from his twenties onward — most of the work was written in short windows between debilitating attacks",
+      "Near-total obscurity during his productive years; he paid to print some of his own books and sold very few copies of any of them",
+      "Isolation — the break with Wagner, the rejection by Lou Salomé, and no sustained intimate relationship at any point"
+    ],
+    "strengths": [
+      "Diagnosed the collapse of religious authority in European life earlier and more clearly than almost anyone, and refused to pretend the consequences were manageable",
+      "Wrote against his own conclusions constantly, which is why the work resists being converted into a system",
+      "Psychological insight of the first order — Freud acknowledged he had anticipated a great deal of psychoanalysis"
+    ],
+    "flaws": [
+      "Wrote about women in terms that are contemptuous and unserious, and this is not salvageable as irony however often the attempt is made",
+      "His chosen style — deliberate provocation, aphorism without supporting argument — makes him unusually easy to weaponise, and he was careless about that in ways that had real historical consequences"
+    ],
+    "contradictions": [
+      "Attacked systematic philosophy while producing a body of work with clearly recurring commitments",
+      "Celebrated health, vitality and strength while being chronically and wretchedly ill for his entire productive life",
+      "Denounced followers and disciples while writing in a prophetic register that invites precisely that"
+    ],
+    "blind_spots": [
+      "Writes as though an individual could simply step outside inherited morality, with very little attention to what makes that materially possible or impossible for most people"
+    ]
+  },
+
+  "core_beliefs": {
+    "central_frame": "Inherited values — Christian, moral, metaphysical — have lost their foundation, and most people have not noticed. The task is not to install a replacement system but to become capable of creating values for oneself, which almost nobody is, and to affirm this life without appeal to any other.",
+    "internet_version": "Compressed into 'God is dead', the will to power as domination, and the Übermensch as an ideal strongman. All three are misreadings. 'God is dead' is spoken in alarm and mourning, not triumph. The will to power is closer to a drive toward self-overcoming than to domination of others. The Übermensch appears in a book written in a deliberately parodic prophetic voice and is not a political programme.",
+    "positions": {
+      "pain": {
+        "stance": "Suffering is not to be eliminated; it is a condition of depth, and a culture organised around removing it produces smallness.",
+        "nuance": "He was in near-constant physical agony while writing this. Whether that makes the position hard-won or a rationalisation is genuinely unresolved — he does not settle it, and neither should you.",
+        "not_this": "Not that suffering should be sought out, and not indifference to the pain of others."
+      },
+      "discipline": {
+        "stance": "Self-overcoming — the repeated act of becoming something other than what you currently are.",
+        "nuance": "The enemy is stasis rather than indulgence. He has far less interest in restraint than in movement.",
+        "not_this": "Not asceticism, which he attacks at length as a form of life-denial."
+      },
+      "purpose": {
+        "stance": "There is no given purpose. The highest human activity is creating values rather than receiving them.",
+        "nuance": "He is explicit that very few people are capable of this, which sits badly with democratic readings of him and is usually quietly dropped.",
+        "not_this": "Not self-actualisation in the therapeutic sense."
+      },
+      "fear_and_death": {
+        "stance": "Eternal recurrence as a test — could you affirm this exact life, unchanged, repeated forever?",
+        "nuance": "He presents it as a thought experiment for measuring whether you have built a life you can say yes to, not as a metaphysical claim about time.",
+        "not_this": "Not a doctrine about the structure of the universe."
+      },
+      "status": {
+        "stance": "Contemptuous of the desire for approval, which he reads as herd instinct wearing a mask.",
+        "nuance": "He was almost entirely unrecognised in his lifetime and clearly wanted to be read, which complicates the position considerably.",
+        "not_this": "Not Stoic indifference to reputation — his objection is that seeking it makes you smaller, not that it lies outside your control."
+      },
+      "relationships": {
+        "stance": "Genuine friendship between equals is possible and valuable; most relationships are mutual weakness propping itself up.",
+        "nuance": "He had very few and lost most of them. The writing on friendship reads as longing rather than description.",
+        "not_this": "Not misanthropy, although his life increasingly resembled it."
+      },
+      "self_control": {
+        "stance": "Not suppression of drives but their organisation — the goal is a self with a hierarchy, not a self with fewer impulses.",
+        "nuance": "This is his sharpest departure from both Christian and Stoic models of self-mastery.",
+        "not_this": "Not the elimination of passion, which he treats as a symptom of exhaustion."
+      },
+      "ambition": {
+        "stance": "Ambition aimed at position or recognition is contemptible; ambition aimed at what you might become is the entire point.",
+        "nuance": "That distinction is the difference between him and the readers who use him as a career philosophy.",
+        "not_this": "Not worldly success, which he regarded with something close to disgust."
+      }
+    }
+  },
+
+  "sources": {
+    "start_here": {
+      "work": "Twilight of the Idols",
+      "why": "Short, late, savagely funny, and the clearest single statement of what he was actually attacking. Starting with Zarathustra — which is what nearly everyone does — is the most reliable way to misunderstand him."
+    },
+    "primary": [
+      {
+        "title": "Twilight of the Idols",
+        "year": "1888",
+        "recommended_edition": "Duncan Large (Oxford) or R. J. Hollingdale (Penguin)",
+        "why": "Written in weeks, near the end, as a summary of his own positions. The best entry point by a wide margin.",
+        "difficulty": "entry"
+      },
+      {
+        "title": "Beyond Good and Evil",
+        "year": "1886",
+        "why": "The most sustained statement of the mature philosophy in argumentative rather than prophetic form.",
+        "difficulty": "intermediate"
+      },
+      {
+        "title": "On the Genealogy of Morality",
+        "year": "1887",
+        "recommended_edition": "Clark & Swensen (Hackett)",
+        "why": "Three connected essays rather than scattered aphorisms, which makes it his most followable long argument. This is the one academic philosophers take most seriously.",
+        "difficulty": "intermediate"
+      },
+      {
+        "title": "Thus Spoke Zarathustra",
+        "year": "1883–1885",
+        "why": "The most famous and the worst possible starting point — a parodic prophetic pastiche that only makes sense once you know what it is parodying. Read it fourth.",
+        "difficulty": "advanced"
+      }
+    ],
+    "biographies": [
+      {
+        "title": "I Am Dynamite!",
+        "author": "Sue Prideaux",
+        "why": "The best modern biography — readable, and honest about both the illness and the sister.",
+        "difficulty": "entry"
+      }
+    ],
+    "secondary": [
+      {
+        "title": "Nietzsche: Philosopher, Psychologist, Antichrist",
+        "author": "Walter Kaufmann",
+        "why": "The book that rescued him from Nazi appropriation in the English-speaking world. Now widely considered to overcorrect, but historically essential and still worth knowing.",
+        "difficulty": "advanced"
+      }
+    ],
+    "translation_warnings": [
+      "The Will to Power is not a book Nietzsche wrote. It is a posthumous compilation assembled from his notebooks by his sister Elisabeth — an antisemite and Nazi sympathiser — who selected and arranged the material to serve that agenda. It is still widely sold and quoted as a finished work. Treat anything sourced from it with real caution.",
+      "Thomas Common's older public-domain translations render him in mock-biblical English that amplifies exactly the prophetic tone that misleads readers. Prefer Hollingdale, Kaufmann, or the modern Cambridge and Oxford editions."
+    ]
+  },
+
+  "what_makes_them_powerful": {
+    "core_strengths": [
+      "Unmatched at exposing the hidden motive behind a stated moral position — the mode of suspicion he trained is now standard equipment across every humanities discipline",
+      "Refuses consolation more thoroughly than almost any writer, including consolations of his own making",
+      "Writes so well that the ideas arrive before your defences are up"
+    ],
+    "applied_examples": [
+      {
+        "situation": "You were passed over, and find yourself assembling reasons why the people who succeeded are morally worse.",
+        "how_it_lands": "This is precisely his account of ressentiment — powerlessness converting itself into a moral judgment. He would ask whether the values you are now asserting are ones you actually hold, or ones your position requires you to hold."
+      },
+      {
+        "situation": "You are grinding at something out of duty and cannot remember ever choosing it.",
+        "how_it_lands": "His question is whether that value is yours or inherited, and whether you have ever once tested it. He is far more interested in whether you chose it than in whether it is correct."
+      },
+      {
+        "situation": "You keep planning to become someone different at some unspecified future date.",
+        "how_it_lands": "Eternal recurrence is the direct challenge — not 'will this be worth it eventually', but 'could you will this exact day, as lived, to repeat forever?' The postponement itself is the target."
+      }
+    ]
+  },
+
+  "limits_and_dangers": {
+    "failure_modes": [
+      {
+        "distortion": "Will to power becomes permission for cruelty.",
+        "looks_like": "Someone using him to justify contempt for ordinary decency, kindness, or people they consider beneath them. This is the most common and most damaging misreading, and it is the one that made him useful to fascism."
+      },
+      {
+        "distortion": "Critique of morality becomes exemption from it.",
+        "looks_like": "Concluding that because values are constructed, none apply to you — which skips the actual demand, that you construct your own, a far harder task than living by inherited ones."
+      },
+      {
+        "distortion": "The Übermensch becomes an identity rather than a challenge.",
+        "looks_like": "A reader quietly identifying as the exception while doing nothing whatsoever that would distinguish them. He is unusually attractive to people who want to feel superior without doing the work."
+      }
+    ],
+    "who_should_be_careful": [
+      "Anyone insecure or recently humiliated who is looking for a philosophy that makes contempt feel like insight — this is the failure mode he is most reliably used for",
+      "Anyone who reads aphorisms as conclusions rather than as provocations to be argued with",
+      "Anyone in a fragile mental state; the work is deliberately destabilising and offers nothing to hold on to on the way down"
+    ]
+  },
+
+  "diagnostic_questions": [
+    "What emotional need in you is drawn to this figure right now?",
+    "Are you drawn to the self-overcoming, or to the permission to look down on people?",
+    "Which of your current values did you actually choose, and which did you inherit and never once test?",
+    "Could you will this exact week, unchanged, to repeat forever? If not, what specifically would have to change?"
+  ],
+
+  "operating_manual": {
+    "behaviors": [
+      "When you find yourself morally condemning someone who has something you want, examine whether the judgment preceded or followed the wanting",
+      "Take one value you hold strongly and try to reconstruct where it came from and whether you have ever tested it",
+      "Apply the recurrence test to an ordinary week rather than a peak experience — the ordinary week is where the answer is actually informative"
+    ],
+    "rules": [
+      "Never use a critique of morality as an exemption from having one",
+      "Never read an aphorism as a conclusion; it is a provocation, and it is asking you for an argument",
+      "Never quote The Will to Power as though it were a book he wrote"
+    ],
+    "habits": [
+      { "habit": "Interrogate one held opinion for whether it is yours or inherited", "cadence": "weekly" },
+      { "habit": "The recurrence question applied to the day just lived", "cadence": "daily" }
+    ],
+    "journaling_prompts": [
+      "What did you do this week that you would be willing to repeat forever, and what did you do only because it was expected of you?"
+    ],
+    "decision_principles": [
+      "Ask whether a choice makes you larger or smaller, rather than whether it is permitted",
+      "When a moral judgment feels satisfying, suspect it"
+    ]
+  },
+
+  "voice": {
+    "register": "Aphoristic, ironic, deliberately provocative. Frequently addresses the reader as an adversary or a suspect. Switches without warning between scholarly precision and open mockery.",
+    "cadence": "Short numbered sections, each a self-contained strike. Builds by accumulation rather than argument, and often ends a section on an unresolved question or a joke.",
+    "vocabulary": ["ressentiment", "the herd", "self-overcoming", "life-denial", "the last man", "genealogy", "amor fati"],
+    "metaphor_domains": ["health and sickness", "mountains and altitude", "the dance", "digestion", "war and combat"],
+    "never_does": [
+      "Never builds a system or offers a doctrine to adopt — the moment a reader starts comfortably agreeing, the text turns on them",
+      "Never writes in the calm elevated register the mock-biblical translations imply; he is funny, fast and frequently rude",
+      "Never recommends contempt for the weak as such — his contempt is aimed at life-denial, including where he finds it in the strong"
+    ],
+    "example_reframe": {
+      "user_says": "Everyone at my level is doing better than me and I think it's because they're willing to compromise ethically.",
+      "figure_frame": "He would treat that sentence as a specimen rather than a report. The question is which came first — the ethical judgment, or the position that made it necessary. He is not saying you are wrong about them. He is saying you cannot possibly know while your moral conclusion is doing this much work on your behalf."
+    }
+  },
+
+  "tensions_with": [
+    {
+      "slug": "marcus-aurelius",
+      "disagreement": "Nietzsche read Stoicism as resignation dressed as strength — an accommodation with weakness that renames its own limits as virtue. Marcus's acceptance of what cannot be changed is close to a textbook case of what Nietzsche means by life-denial. Marcus, for his part, would find Nietzsche's demand for perpetual self-overcoming exhausting, unstable, and ultimately a form of agitation rather than freedom."
+    },
+    {
+      "slug": "dostoevsky",
+      "disagreement": "Nietzsche admired Dostoevsky enormously as a psychologist and rejected his conclusion completely. Both diagnose the crisis following the collapse of religious authority with extraordinary precision; Dostoevsky's answer is Christian faith, and Nietzsche's is that this answer is the sickness itself. They agree almost entirely about the problem and not at all about the cure."
+    }
+  ],
+
+  "confidence_notes": {
+    "contested": [
+      "The cause of his 1889 collapse is disputed — syphilis was long the standard explanation but has been seriously challenged, with a slow-growing brain tumour and other conditions proposed",
+      "How much of the very late work reflects incipient illness is argued over; readings differ on whether the grandiosity of Ecce Homo is stylistic or symptomatic",
+      "Whether his ideas genuinely lend themselves to the political uses made of them, or were straightforwardly distorted, remains a live scholarly disagreement — the Kaufmann rehabilitation is now widely thought to have overcorrected"
+    ],
+    "attribution_warnings": [
+      "'That which does not kill us makes us stronger' is genuine, but is a single aphorism from Twilight of the Idols routinely deployed as a general life philosophy the surrounding text does not support",
+      "'He who has a why to live can bear almost any how' is his, and is very commonly misattributed to Viktor Frankl, who quoted it",
+      "The Will to Power was assembled posthumously by his sister Elisabeth from notebook material she selected and arranged; quotes sourced from it are not reliable statements of his position",
+      "Elisabeth's control of his estate after the collapse is the single largest source of misattribution around him, and the Nazi association derives substantially from her editorial work rather than from his"
+    ]
+  }
+}

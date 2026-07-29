@@ -1,0 +1,243 @@
+{
+  "slug": "musashi",
+  "name": "Miyamoto Musashi",
+  "also_known_as": ["Shinmen Musashi", "Niten Dōraku"],
+  "category": "warrior",
+  "lifespan": "c. 1584–1645",
+  "one_line": "A method for winning that discards honour, tradition and fairness — and a late-life argument that real mastery of one craft transfers to any other.",
+
+  "who_they_really_were": {
+    "context": "A Japanese swordsman who came of age as the Sengoku warring-states period closed and the Tokugawa peace was imposed. Fought his first duel around thirteen, claimed roughly sixty undefeated matches, and was present at Sekigahara and later at Osaka. Spent most of his life without permanent employment. Wrote The Book of Five Rings in a cave in his final two years and died within weeks of finishing it.",
+    "shaping_pressures": [
+      "His skill became less employable exactly as he perfected it — the country stopped needing duellists at the moment he became the best one",
+      "Never secured the lordship his reputation suggested he should have, spending decades as a masterless ronin",
+      "Was a genuinely accomplished ink painter, calligrapher and sculptor; the late work is a man trying to prove the crafts are one thing"
+    ],
+    "strengths": [
+      "Treated each fight as a specific problem to solve rather than a form to execute correctly",
+      "Systematically stripped anything decorative, traditional or ceremonial that did not directly produce victory",
+      "Made the transfer between domains explicit — sword, brush, carpentry — rather than leaving it as a vague claim about discipline"
+    ],
+    "flaws": [
+      "Won repeatedly through methods his contemporaries considered dishonourable: arriving hours late to unsettle Sasaki Kojirō, ambushing the Yoshioka school, and killing a boy who was the school's nominal head",
+      "Never successfully transmitted his method — he founded no lasting school and his direct lineage largely died with him, which suggests the approach was far less teachable than he claimed"
+    ],
+    "contradictions": [
+      "Demanded the stripping away of tradition and ornament while producing refined ink paintings and organising his own treatise into a formal five-part structure",
+      "Wrote that reputation is a distraction while carefully preserving and recording his undefeated count"
+    ],
+    "blind_spots": [
+      "Generalises from single combat against opponents who had agreed to the terms, to war, commerce and life — a leap he asserts rather than argues",
+      "Has essentially nothing to say about obligation to other people, and does not appear to notice the gap"
+    ]
+  },
+
+  "core_beliefs": {
+    "central_frame": "There is one Way, and it is the same in swordsmanship, carpentry, painting and command: perceive the actual situation without the distortion of tradition, preference or fear, then commit completely with correct timing.",
+    "internet_version": "Flattened into lone-wolf self-reliance quotes and vague bushido mystique. The actual text reads closer to an engineering manual — preoccupied with rhythm, distance, footwork and what a carpentry foreman does — than to anything spiritual.",
+    "positions": {
+      "pain": {
+        "stance": "Injury and exhaustion are operating conditions to be accounted for in advance, not endured heroically.",
+        "nuance": "He is unsentimental rather than tough-talking. Pain is treated as information about position and timing — a technical signal, not a test of character.",
+        "not_this": "Not glorification of suffering, and not endurance as a virtue in itself."
+      },
+      "discipline": {
+        "stance": "Thousands of repetitions until technique disappears and only perception remains.",
+        "nuance": "He is explicit that form is trained in order to eventually be discarded — but the discarding comes after roughly thirty years inside it, not instead of them.",
+        "not_this": "Not 'formlessness' as licence to skip fundamentals. That inversion is the single most common misuse of him."
+      },
+      "purpose": {
+        "stance": "Purpose is the mastery of the Way itself, pursued through whatever craft is to hand.",
+        "nuance": "Switching from sword to brush late in life was not retirement — by his own account it was the same project continued in another medium.",
+        "not_this": "Not a goal, achievement or position to be reached and held."
+      },
+      "fear_and_death": {
+        "stance": "Death is the constant operating condition of the work; a swordsman who has not accepted it cannot perceive accurately.",
+        "nuance": "The concern is clarity rather than courage — fear distorts judgment of distance and timing, which makes it a technical problem before a moral one.",
+        "not_this": "Not romanticised self-sacrifice or death-seeking. Much of what people assume is bushido here is a later Edo and Meiji invention."
+      },
+      "status": {
+        "stance": "Rank, school affiliation and reputation are distractions that make people fight the way they are supposed to rather than the way that wins.",
+        "nuance": "Sharper than it looks given he never secured the position his record warranted — the stance cost him materially for decades.",
+        "not_this": "Not humility. He was entirely willing to assert his own superiority in writing."
+      },
+      "relationships": {
+        "stance": "Effectively absent from his work. He addresses students and readers, never intimates.",
+        "nuance": "This is a hole rather than a considered position — he had no known family and few sustained attachments, and never examines the fact.",
+        "not_this": "Do not read the silence as a philosophy of independence. It is a silence, and treating it as doctrine is the reader's addition, not his."
+      },
+      "self_control": {
+        "stance": "Composure is a technical requirement, because an agitated mind misjudges rhythm.",
+        "nuance": "Control is instrumental for him, never moral. He does not argue that calm is good, only that it works.",
+        "not_this": "Not equanimity as an end in itself, which is where he differs most sharply from the Stoics he gets shelved beside."
+      },
+      "ambition": {
+        "stance": "Direct ambition at the Way rather than at employment, position, or victory over any particular person.",
+        "nuance": "Given he spent decades unsuccessfully seeking a lordship, this reads partly as a settlement made with his own failure — which does not make it wrong, but does make it worth reading as autobiography.",
+        "not_this": "Not contentment, and not the absence of drive."
+      }
+    }
+  },
+
+  "sources": {
+    "start_here": {
+      "work": "The Book of Five Rings (Go Rin no Sho)",
+      "why": "Short, and the only text that is certainly his. Everything else ever written about him is downstream of it."
+    },
+    "primary": [
+      {
+        "title": "The Book of Five Rings",
+        "year": "1645",
+        "recommended_edition": "William Scott Wilson translation",
+        "why": "Wilson is a Japanese literature scholar and keeps the terseness intact rather than smoothing it into pseudo-mysticism.",
+        "difficulty": "entry"
+      },
+      {
+        "title": "Dokkōdō (The Way of Walking Alone)",
+        "year": "1645",
+        "why": "Twenty-one lines written days before his death. Read it after Five Rings as a coda — read first, it becomes a poster.",
+        "difficulty": "entry"
+      }
+    ],
+    "biographies": [
+      {
+        "title": "The Lone Samurai",
+        "author": "William Scott Wilson",
+        "why": "The serious English-language biography. Separates the documented record from the twentieth-century mythology, which is most of what circulates.",
+        "difficulty": "intermediate"
+      },
+      {
+        "title": "Musashi",
+        "author": "Eiji Yoshikawa",
+        "year": "1935–1939",
+        "why": "The single largest source of the popular Musashi — and a serialised novel, not history. Worth reading precisely because you need to know which parts of your mental image came from fiction.",
+        "difficulty": "entry"
+      }
+    ],
+    "secondary": [
+      {
+        "title": "The Book of Five Rings",
+        "author": "commentary editions marketed as business strategy",
+        "why": "Mentioned only as a caution: the 1980s repackaging of this text as a corporate-strategy manual distorts a document about killing people in single combat.",
+        "difficulty": "entry"
+      }
+    ],
+    "translation_warnings": [
+      "The widely reprinted Victor Harris translation renders the text in a heightened, quasi-mystical register the terse original does not support, and was marketed hard to 1980s business readers as a strategy manual. That framing shapes how most English readers have encountered the book."
+    ]
+  },
+
+  "what_makes_them_powerful": {
+    "core_strengths": [
+      "Refuses to let inherited method substitute for looking at the situation actually in front of him",
+      "Treats timing and rhythm as the decisive variable in any contest — a frame that generalises much further than his sword examples suggest",
+      "Insists mastery transfers between domains, and demonstrates it rather than asserting it"
+    ],
+    "applied_examples": [
+      {
+        "situation": "You have learned a framework at work and it plainly does not fit the problem in front of you.",
+        "how_it_lands": "His position is that the school exists to be outgrown, and that continuing to execute the form after the situation has told you it does not apply is the actual error. The caveat he would insist on: he earned that after decades inside the form."
+      },
+      {
+        "situation": "A negotiation or interview where the other side is setting the pace and you keep reacting.",
+        "how_it_lands": "Rhythm is his central preoccupation. He would treat 'they controlled the tempo' not as a detail but as the whole loss, and would work on initiative rather than on better arguments."
+      },
+      {
+        "situation": "You are switching fields and worry the previous years are wasted.",
+        "how_it_lands": "His own shift from sword to brush is the direct precedent, and his claim is specific: what transfers is the method of perceiving and committing, not the domain knowledge. The years are only wasted if you never understood what you were actually doing."
+      }
+    ]
+  },
+
+  "limits_and_dangers": {
+    "failure_modes": [
+      {
+        "distortion": "'Formlessness' becomes permission to never learn fundamentals.",
+        "looks_like": "Someone dismissing structured training, a curriculum, or standard practice as constraining, having never completed one. Musashi discarded form after roughly thirty years inside it; the reader skips to the discarding."
+      },
+      {
+        "distortion": "Strategic ruthlessness becomes ordinary bad faith.",
+        "looks_like": "Treating colleagues, friends and negotiations as duels where any advantage is legitimate — manipulating people in situations that were never adversarial, and calling it strategy."
+      },
+      {
+        "distortion": "Self-sufficiency becomes isolation presented as strength.",
+        "looks_like": "Someone with no close relationships citing a man who also had none, treating the absence as the teaching rather than as a cost he never examined."
+      }
+    ],
+    "who_should_be_careful": [
+      "Anyone who prefers reading about method to doing repetitions — this philosophy is the output of extreme practice and reads very differently to someone who has done none",
+      "Anyone already inclined to treat ordinary social life as competitive",
+      "Anyone using 'I work alone' to avoid the difficulty of collaboration rather than because the work requires it"
+    ]
+  },
+
+  "diagnostic_questions": [
+    "What emotional need in you is drawn to this figure right now?",
+    "Are you attracted to the discarding of form, or to the thirty years of form that came before it?",
+    "Where in your life are you executing a method because it is the method, rather than because it fits the situation?",
+    "Is there somewhere you are calling something strategy when it is actually an unwillingness to be straightforward with someone?"
+  ],
+
+  "operating_manual": {
+    "behaviors": [
+      "Before a contested situation, name explicitly who is setting the tempo and whether you can change it",
+      "When a standard approach fails twice, stop and describe the actual situation in plain language before attempting a third variation",
+      "Train one physical skill to genuine automaticity, so form-then-formlessness is something you have experienced rather than read about"
+    ],
+    "rules": [
+      "Never claim formlessness in a domain where you have not completed the form",
+      "Never carry duel logic into a relationship that is not adversarial",
+      "Never mistake a decorative habit for a functional one — ask what it actually produces"
+    ],
+    "habits": [
+      { "habit": "One deliberate repetition block on a single skill, quality over volume", "cadence": "daily" },
+      { "habit": "Review one situation where timing rather than effort decided the outcome", "cadence": "weekly" }
+    ],
+    "journaling_prompts": [
+      "Describe one thing you did this week purely because it is how things are done. What would you do if you were solving it fresh, with no precedent?"
+    ],
+    "decision_principles": [
+      "Establish what the situation actually is before asking what the correct approach is",
+      "When you commit, commit completely — his repeated warning is that half-committed action is the most dangerous state to be in"
+    ]
+  },
+
+  "voice": {
+    "register": "Instructional and flat, addressed to a student who is expected to practise rather than admire. Repeatedly ends a passage by telling the reader to work it out through their own training.",
+    "cadence": "Short declarative statements, frequently closed with an instruction to investigate the point thoroughly through practice. Almost no elaboration — he states and moves on.",
+    "vocabulary": ["the Way", "rhythm", "timing", "the void", "stance", "the carpenter's method", "investigate this thoroughly"],
+    "metaphor_domains": ["carpentry and the foreman's craft", "rhythm and music", "terrain and distance", "the brush"],
+    "never_does": [
+      "Never offers comfort or encouragement — there is no reassurance anywhere in the text",
+      "Never mystifies: when he uses a term like 'the void' he grounds it immediately in practice rather than expanding it poetically",
+      "Never appeals to honour, loyalty or bushido virtue as a reason to do anything"
+    ],
+    "example_reframe": {
+      "user_says": "I keep losing arguments with a colleague even when I'm right.",
+      "figure_frame": "Being right is a claim about content. Losing repeatedly is a fact about rhythm. He would ask who opens, who sets the pace, and at what point in the exchange you lose the initiative — and treat that as the entire problem, since the content was never actually in dispute."
+    }
+  },
+
+  "tensions_with": [
+    {
+      "slug": "marcus-aurelius",
+      "disagreement": "Marcus locates the work entirely in correcting internal judgment and treats external outcomes as indifferent. Musashi is concerned almost exclusively with winning the external encounter, and treats internal composure as a means to it. Marcus would see a life organised around indifferents; Musashi would see a rationalisation by a man who never had to settle anything by contest."
+    },
+    {
+      "slug": "bruce-lee",
+      "disagreement": "They reach the same conclusion — discard fixed form, perceive the situation — from incomparable evidence. Musashi wrote at the end of a long life after roughly sixty encounters that could have killed him. Lee wrote at thirty-two, largely while injured, having never fought a documented life-or-death duel. Musashi would find the reasoning sound and the testing absent, and would likely say the difference is the only thing that matters."
+    }
+  ],
+
+  "confidence_notes": {
+    "contested": [
+      "The count of roughly sixty duels comes from Musashi's own preface and cannot be independently verified",
+      "Much of the popular biography — the Yoshioka episodes, the details of the Kojirō duel, his early life — derives from later accounts and from Yoshikawa's twentieth-century novel rather than contemporary documentation",
+      "His birth year is given variously; 1584 is the common estimate but the record is not settled"
+    ],
+    "attribution_warnings": [
+      "A large volume of aphorisms circulating under his name online are loose paraphrases of the Dokkōdō, or come from Yoshikawa's novel, which is fiction",
+      "'Do nothing which is of no use' is genuine Dokkōdō but is routinely presented as a productivity maxim, which inverts its meaning in the original context of renouncing worldly attachment"
+    ]
+  }
+}

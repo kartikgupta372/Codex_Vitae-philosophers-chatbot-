@@ -1,0 +1,19 @@
+{
+  "slug": "camus",
+  "name": "Camus",
+  "category": "literature",
+  "features": [
+    {
+      "label": "Rejected the label",
+      "detail": "Denied being an existentialist and meant it. Filing him next to Sartre erases the actual disagreement."
+    },
+    {
+      "label": "Absurdity is not despair",
+      "detail": "The argument ends in defiance, not resignation. Most summaries get this exactly backwards."
+    },
+    {
+      "label": "Tested before written",
+      "detail": "Ran an underground resistance paper under occupation. The philosophy had already been used before it was published."
+    }
+  ]
+}

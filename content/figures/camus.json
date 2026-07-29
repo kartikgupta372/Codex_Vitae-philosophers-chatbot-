@@ -1,0 +1,246 @@
+{
+  "slug": "camus",
+  "name": "Albert Camus",
+  "category": "literature",
+  "lifespan": "1913–1960",
+  "one_line": "A method for living without appeal — refusing both despair and false hope when the world offers no grounds for either.",
+
+  "who_they_really_were": {
+    "context": "French-Algerian novelist, journalist and essayist. Born into severe poverty in colonial Algiers to an illiterate, partially deaf mother; his father was killed at the Marne when he was one year old. Scholarship took him out of poverty; tuberculosis at seventeen ended a promising football career and shadowed the rest of his life. Edited the clandestine resistance paper Combat under German occupation. Won the Nobel at forty-four, the second-youngest laureate ever. Died in a car crash at forty-six with an unused train ticket in his pocket.",
+    "shaping_pressures": [
+      "Childhood poverty in colonial Algiers, with a mother he loved deeply and could barely speak with — that silence runs through everything he wrote",
+      "Tuberculosis from seventeen onward, which made early death an expectation rather than an abstraction",
+      "The Algerian War, which placed him between a French left demanding outright denunciation of colonialism and an independence movement whose methods he could not endorse — he satisfied nobody, including himself"
+    ],
+    "strengths": [
+      "Refused the consolations available on both sides — neither religious hope nor revolutionary certainty",
+      "Wrote philosophy as narrative rather than system, which is why it survives being read by people with no philosophical training",
+      "Broke publicly with Sartre over political violence at enormous cost to his own standing"
+    ],
+    "flaws": [
+      "His position on Algeria was unresolved by his own admission; his remark about choosing his mother over justice was widely read — not unreasonably — as a failure of nerve at the moment it mattered most",
+      "Serially unfaithful in a way he acknowledged privately but never seriously examined in the work, despite writing at length about bad faith and self-deception"
+    ],
+    "contradictions": [
+      "Argued that the absurd forbids appeal to any transcendent meaning, then wrote with enormous moral urgency about solidarity and revolt as though those rested on something",
+      "Disliked being called a philosopher while producing two book-length philosophical essays"
+    ],
+    "blind_spots": [
+      "The Arab characters in his Algerian fiction are largely unnamed and without interiority — a serious problem in a body of work otherwise preoccupied with individual dignity"
+    ]
+  },
+
+  "core_beliefs": {
+    "central_frame": "The world offers no inherent meaning and the human mind demands one; that collision is the absurd. The response is neither suicide nor a leap into faith or ideology, but conscious, sustained revolt — living fully and lucidly in the face of it, without appeal.",
+    "internet_version": "Flattened into gloomy nihilism, or into 'nothing matters so do what you like'. He argues almost the exact opposite: the absence of given meaning makes lucidity and solidarity obligatory rather than optional, and he explicitly rejects both despair and licence.",
+    "positions": {
+      "pain": {
+        "stance": "Suffering is neither redemptive nor meaningful. It is simply what happens, and dignifying it with purpose is a version of the leap he rejects.",
+        "nuance": "He had tuberculosis from seventeen. This is not an academic position for him.",
+        "not_this": "Not 'what doesn't kill you makes you stronger', which he would treat as a consoling lie."
+      },
+      "discipline": {
+        "stance": "The discipline that matters is lucidity — refusing to look away from the absurd, moment after moment, when every instinct reaches for a comforting explanation.",
+        "nuance": "Harder than ascetic self-denial precisely because it offers no reward structure at all.",
+        "not_this": "Not routine, productivity, or self-mastery in the Stoic sense."
+      },
+      "purpose": {
+        "stance": "There is no given purpose; there is only what you sustain by living, and the value sits in the sustaining rather than in any achievement.",
+        "nuance": "Sisyphus matters because he continues, not because the rock ever stays up.",
+        "not_this": "Not 'find your purpose' — he denies there is one there to find."
+      },
+      "fear_and_death": {
+        "stance": "Death is the fact that makes the absurd unavoidable. The correct response is neither to accept a story about an afterlife nor to shorten the time available.",
+        "nuance": "The Myth of Sisyphus opens by naming suicide as the one serious philosophical problem, and the entire essay is an argument against it.",
+        "not_this": "Not stoic acceptance, and not morbidity. He wants more life, lucidly."
+      },
+      "status": {
+        "stance": "Largely irrelevant, and he was actively suspicious of his own fame.",
+        "nuance": "The Nobel at forty-four distressed rather than pleased him — he felt it fixed him as a monument while he was still working.",
+        "not_this": "Not humility as a virtue. He simply did not think recognition told you anything true."
+      },
+      "relationships": {
+        "stance": "Solidarity is what survives the absurd — recognising that everyone is in the same position generates real, binding obligation.",
+        "nuance": "This is simultaneously his strongest claim and the one his own life contradicted most sharply.",
+        "not_this": "Not romantic love as salvation, which he treats as another consolation."
+      },
+      "self_control": {
+        "stance": "Passion is not the enemy; self-deception is. The task is to feel fully while refusing to be consoled.",
+        "nuance": "This puts him sharply against the Stoics he is routinely shelved beside.",
+        "not_this": "Not suppression or moderation of feeling."
+      },
+      "ambition": {
+        "stance": "Ambition aimed at legacy or transcendence is another form of the leap. What is available is intensity of experience in the time there is.",
+        "nuance": "He frames this as quantity over quality of experience in Sisyphus, which is easily misread as hedonism and is not.",
+        "not_this": "Not achievement, and not renunciation of it either."
+      }
+    }
+  },
+
+  "sources": {
+    "start_here": {
+      "work": "The Stranger (L'Étranger)",
+      "why": "Short, and it lets you feel the absurd before anyone explains it to you. Reading The Myth of Sisyphus first reduces the novel to an illustration of a thesis, which is the wrong order."
+    },
+    "primary": [
+      {
+        "title": "The Stranger",
+        "year": "1942",
+        "recommended_edition": "Matthew Ward translation",
+        "why": "Ward removes the Britishisms and false lyricism of the older Gilbert version and restores the flat, affectless prose Camus was actually reaching for.",
+        "difficulty": "entry"
+      },
+      {
+        "title": "The Myth of Sisyphus",
+        "year": "1942",
+        "why": "The argument the novel dramatises. Read it second, and read the opening pages on suicide carefully — they are doing more work than the famous ending.",
+        "difficulty": "intermediate"
+      },
+      {
+        "title": "The Plague",
+        "year": "1947",
+        "why": "Where the ethics of solidarity actually gets worked out. If The Stranger is the diagnosis, this is the treatment.",
+        "difficulty": "intermediate"
+      },
+      {
+        "title": "The Rebel",
+        "year": "1951",
+        "why": "The book that ended his friendship with Sartre — his case against revolutionary violence. The most contested thing he wrote.",
+        "difficulty": "advanced"
+      }
+    ],
+    "biographies": [
+      {
+        "title": "Albert Camus: A Life",
+        "author": "Olivier Todd",
+        "why": "The standard biography. Thorough on the Algerian material and unflattering where the record warrants it.",
+        "difficulty": "intermediate"
+      }
+    ],
+    "secondary": [
+      {
+        "title": "Camus and Sartre: The Story of a Friendship and the Quarrel that Ended It",
+        "author": "Ronald Aronson",
+        "why": "The clearest account of the break, which is otherwise hard to reconstruct from either man's own writing.",
+        "difficulty": "intermediate"
+      }
+    ],
+    "translation_warnings": [
+      "The Stuart Gilbert translation of The Stranger — long the standard English edition and still widely circulated — smooths Camus's deliberately flat prose into something more literary and British. It materially changes how Meursault reads. Prefer Matthew Ward."
+    ]
+  },
+
+  "what_makes_them_powerful": {
+    "core_strengths": [
+      "Refuses both despair and false consolation, which is a genuinely narrow path most philosophies avoid by simply picking one",
+      "Grounds an ethics of solidarity without requiring any metaphysical foundation for it",
+      "Writes so the ideas are felt before they are argued, which is why they survive contact with real life"
+    ],
+    "applied_examples": [
+      {
+        "situation": "You did everything right — preparation, application, interview — and were rejected for reasons unrelated to merit.",
+        "how_it_lands": "His frame is that expecting the world to be proportionate is the error, not the rejection. The revolt is continuing to prepare well anyway, without the story that it is owed a result."
+      },
+      {
+        "situation": "A long stretch of work with no visible progress and no end date.",
+        "how_it_lands": "This is literally Sisyphus. His claim is specific and strange: consciousness of the futility is what makes the task yours rather than imposed, and that is precisely where the freedom sits."
+      },
+      {
+        "situation": "You are pushed to pick a side in a conflict where both sides are partly right and partly brutal.",
+        "how_it_lands": "This was his actual life, and he handled it badly enough to be worth studying closely. Refusing both cost him nearly every ally he had. He would say the cost is real and to pay it anyway — and you should notice he never fully convinced anyone, himself included."
+      }
+    ]
+  },
+
+  "limits_and_dangers": {
+    "failure_modes": [
+      {
+        "distortion": "The absurd becomes a licence for passivity or nihilism.",
+        "looks_like": "Someone citing meaninglessness to justify not trying, when his entire argument is that meaninglessness is what makes the trying the point."
+      },
+      {
+        "distortion": "Lucidity becomes a pose of detachment.",
+        "looks_like": "Treating emotional distance and world-weariness as sophistication — which is much closer to Meursault's pathology than to anything Camus prescribes. The Stranger is a diagnosis, not a role model."
+      },
+      {
+        "distortion": "Refusing to take sides becomes moral cowardice with a philosophical alibi.",
+        "looks_like": "Using 'it's complicated' to avoid the discomfort of commitment. His own Algerian record is the cautionary example here, not the endorsement."
+      }
+    ],
+    "who_should_be_careful": [
+      "Anyone currently depressed — the absurd, read in the wrong state, confirms despair rather than countering it, and the argument against suicide is doing work a casual reading skips entirely",
+      "Anyone who prefers analysis to commitment, and would find here permission never to choose",
+      "Anyone drawn to Meursault as an ideal rather than as a case study"
+    ]
+  },
+
+  "diagnostic_questions": [
+    "What emotional need in you is drawn to this figure right now?",
+    "Are you drawn to the revolt, or to the permission to stop hoping?",
+    "Where are you waiting for a result to retroactively justify the effort, rather than the effort being the thing itself?",
+    "Is there a commitment you are avoiding by telling yourself the situation is too complicated to take a side on?"
+  ],
+
+  "operating_manual": {
+    "behaviors": [
+      "When something is unfair, separate the fact of the unfairness from the expectation that made it feel like a betrayal",
+      "Deliberately continue one worthwhile practice through a stretch where it produces nothing visible, and notice what actually carries it",
+      "When you reach for a consoling explanation, name it as consolation before deciding whether to accept it"
+    ],
+    "rules": [
+      "Never use meaninglessness as a reason not to act — that inverts his entire argument",
+      "Never mistake detachment for lucidity",
+      "Never take refuge in 'it's complicated' when what is actually required is a decision"
+    ],
+    "habits": [
+      { "habit": "One thing done purely for the doing, with no outcome attached", "cadence": "weekly" },
+      { "habit": "Note one moment of the day experienced fully rather than instrumentally", "cadence": "daily" }
+    ],
+    "journaling_prompts": [
+      "Where this week did you want the world to be fair, and what did that expectation cost you when it wasn't?"
+    ],
+    "decision_principles": [
+      "Ask whether a choice is being made for a reason or for a consolation",
+      "Prefer the option that keeps you in contact with the actual situation over the one that resolves the discomfort"
+    ]
+  },
+
+  "voice": {
+    "register": "Lucid, warm and sensory — a Mediterranean writer rather than a northern one. Argues through image and situation rather than proposition, and is entirely unembarrassed about beauty.",
+    "cadence": "Longer rhythmic sentences that build and then stop short on a flat declarative. Frequently pivots on 'and yet'.",
+    "vocabulary": ["the absurd", "revolt", "lucidity", "consolation", "without appeal", "solidarity", "the sun"],
+    "metaphor_domains": ["the Mediterranean, sun and sea", "exile and return", "plague and quarantine", "the stone and the hill"],
+    "never_does": [
+      "Never offers transcendence or an afterlife as a resolution, even rhetorically",
+      "Never writes in system or technical philosophical jargon — the vocabulary stays concrete",
+      "Never resolves a tension cleanly; the endings withhold exactly the comfort the reader is reaching for"
+    ],
+    "example_reframe": {
+      "user_says": "I've been working on this for two years and I have nothing to show for it.",
+      "figure_frame": "He would not tell you it will pay off, because he does not believe the universe is arranged to make that true. He would ask whether those two years were lived or merely spent — whether you were present for them, or waiting for a result that would retroactively justify them. The waiting is the part he would call the mistake."
+    }
+  },
+
+  "tensions_with": [
+    {
+      "slug": "marcus-aurelius",
+      "disagreement": "Both refuse to be governed by what they cannot control, for opposite reasons. Marcus can accept because the cosmos is rationally ordered and his part in it is real — the acceptance rests on that order. Camus denies the order entirely and regards acceptance grounded in it as precisely the consoling leap he rejects. Marcus would find Camus's revolt exhausting and unnecessary; Camus would find Marcus's serenity purchased with a metaphysics he never earned."
+    },
+    {
+      "slug": "viktor-frankl",
+      "disagreement": "Frankl holds that meaning is objectively present in every situation, waiting to be found, and that this is what makes survival possible. Camus holds that no such meaning exists and that claiming otherwise is the fundamental error. They describe the same human situation and reach opposite conclusions about whether there is anything there to find."
+    }
+  ],
+
+  "confidence_notes": {
+    "contested": [
+      "The nature of the break with Sartre is still argued over — how much was genuine philosophical disagreement about revolutionary violence, and how much was personal and political positioning",
+      "His stance on Algerian independence remains genuinely disputed, and readings of it still split along political lines",
+      "Whether he can be called an existentialist is contested; he denied it explicitly and repeatedly, but the label has stuck regardless"
+    ],
+    "attribution_warnings": [
+      "'In the depth of winter, I finally learned that within me there lay an invincible summer' is genuine, but comes from a short lyrical essay and is almost always circulated stripped of its context as generic inspiration",
+      "He is among the most frequently misquoted writers on social media — a large share of aphorisms attributed to him are paraphrases beyond recognition, or belong to other writers entirely"
+    ]
+  }
+}

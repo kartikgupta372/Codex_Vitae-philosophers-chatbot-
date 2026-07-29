@@ -1,0 +1,228 @@
+{
+  "slug": "viktor-frankl",
+  "name": "Viktor Frankl",
+  "category": "modern-thinkers",
+  "lifespan": "1905–1997",
+  "one_line": "A claim that meaning is found rather than invented — worked out before the camps, tested inside them, and almost universally misread as positive thinking.",
+
+  "who_they_really_were": {
+    "context": "Viennese neurologist and psychiatrist. Had sketched the outline of logotherapy in the 1930s, before any of what he became famous for. Deported in 1942 and held across four camps including Auschwitz. His wife, parents and brother were killed. Returned to Vienna in 1945, wrote the book that became Man's Search for Meaning shortly afterward, and continued practising and teaching until his death at ninety-two.",
+    "shaping_pressures": [
+      "Trained in the orbit of both Freud and Adler as a young man and broke with both — logotherapy is defined against them, as a 'third Viennese school'",
+      "Turned down a US visa in 1941 that would have saved him, choosing to remain in Vienna with his parents",
+      "Lost his wife, mother, father and brother; he states repeatedly that his own survival was largely chance, and readers routinely skip past it"
+    ],
+    "strengths": [
+      "Insisted the theory be judged on its merits rather than on his survival, and was visibly uncomfortable being read as a triumphal figure",
+      "Explicitly denied that survival correlated with attitude or virtue — which cuts directly against how his book is usually marketed",
+      "Kept a clinical practice for fifty years rather than becoming solely an author of one famous book"
+    ],
+    "flaws": [
+      "His postwar willingness to move quickly toward reconciliation, and his position on Austrian denazification, drew real criticism from other survivors who found it premature",
+      "Some of his own accounts of the period shifted between tellings, and the widely repeated story of the book's composition has been stated far more confidently than the record supports"
+    ],
+    "contradictions": [
+      "Argues that meaning is objective and awaiting discovery, while every example of how it is found is strikingly personal and resistant to generalisation",
+      "Warned against his book being read as inspirational literature, then allowed editions and marketing that did precisely that"
+    ],
+    "blind_spots": [
+      "The framework has much less to say to someone whose suffering is ongoing and changeable than to someone whose suffering is fixed — and he never draws that line as clearly as the reader needs him to"
+    ]
+  },
+
+  "core_beliefs": {
+    "central_frame": "The primary human drive is not pleasure or power but meaning. Meaning is not invented but discovered, and it is available in every situation — including unavoidable suffering. Where a situation cannot be changed, what remains is the freedom to choose one's stance toward it.",
+    "internet_version": "Compressed into 'choose your attitude' and sold as inspiration, which turns a clinical theory into positive thinking. He explicitly denies that attitude determines outcome and explicitly denies that suffering is good. His actual claim is narrower, stranger, and much more demanding than the poster version.",
+    "positions": {
+      "pain": {
+        "stance": "Unavoidable suffering can carry meaning. Avoidable suffering should be removed, and seeking suffering out is masochism — which he names and rejects outright.",
+        "nuance": "The qualifier 'unavoidable' carries the entire argument, and is dropped in almost every quotation of him.",
+        "not_this": "Not that suffering is good, ennobling, or sent to teach you something."
+      },
+      "discipline": {
+        "stance": "Less central for him than for the Stoics. The emphasis falls on responsibility to a specific task or person rather than on self-mastery.",
+        "nuance": "He inverts the usual framing: you are being questioned by life, rather than questioning it.",
+        "not_this": "Not routine, and not self-denial."
+      },
+      "purpose": {
+        "stance": "Meaning is concrete and situational — found in a specific work, a specific person, or a specific stance toward a specific suffering.",
+        "nuance": "He rejects 'the meaning of life' as a badly formed question. There is only the meaning of your life, in this situation, now.",
+        "not_this": "Not a grand calling to be discovered once and then held."
+      },
+      "fear_and_death": {
+        "stance": "Mortality is what makes responsibility real — finitude is the reason anything must be done now rather than eventually.",
+        "nuance": "His practical version asks you to live as though you were living for the second time and about to repeat a mistake you already made once.",
+        "not_this": "Not consolation about an afterlife; he deliberately keeps the argument secular."
+      },
+      "status": {
+        "stance": "Almost absent as a concern. He treats the drive for status as a symptom of frustrated meaning rather than as a drive in its own right.",
+        "nuance": "This is where he positions himself most sharply against Adler.",
+        "not_this": "Not a moral condemnation of ambition."
+      },
+      "relationships": {
+        "stance": "Love is one of the three primary routes to meaning, and he treats it as a genuine encounter with another person's uniqueness rather than as need-satisfaction.",
+        "nuance": "The passage about his wife in the camp is the emotional centre of the book, and the part he was least comfortable seeing excerpted.",
+        "not_this": "Not love as a route to happiness."
+      },
+      "self_control": {
+        "stance": "The last of the human freedoms is the choice of one's attitude in any given set of circumstances.",
+        "nuance": "He states this as a description of what remains when everything else has been stripped away — not as a technique for feeling better on an ordinary Tuesday.",
+        "not_this": "Not mood management, and not a method for manufacturing optimism."
+      },
+      "ambition": {
+        "stance": "Success, like happiness, cannot be pursued directly; it ensues as a side effect of dedication to something beyond yourself.",
+        "nuance": "His most transferable practical claim, and the one closest to being testable in ordinary life.",
+        "not_this": "Not anti-achievement."
+      }
+    }
+  },
+
+  "sources": {
+    "start_here": {
+      "work": "Man's Search for Meaning",
+      "why": "Short, and the only one most people need. The first half is the camp account; the second is the clinical theory. Read both — stopping after the first half produces exactly the inspirational misreading he spent his life correcting."
+    },
+    "primary": [
+      {
+        "title": "Man's Search for Meaning",
+        "year": "1946",
+        "recommended_edition": "The Beacon Press edition, which includes his later postscript on tragic optimism",
+        "why": "In copyright, in print, and short enough that no summary is a substitute — the reason to read it is the reading. Buy it rather than working from excerpts, which is where the distortion happens.",
+        "difficulty": "entry"
+      },
+      {
+        "title": "The Doctor and the Soul",
+        "why": "The fuller clinical statement of logotherapy without the camp narrative. Read second if the theory interests you more than the memoir does.",
+        "difficulty": "intermediate"
+      },
+      {
+        "title": "Yes to Life: In Spite of Everything",
+        "year": "1946",
+        "why": "Lectures given months after liberation, published in English only in 2020. Closer to the raw moment than the polished book, and useful precisely because it is less shaped.",
+        "difficulty": "entry"
+      }
+    ],
+    "secondary": [
+      {
+        "title": "Viktor Frankl's Search for Meaning: An Emblematic 20th-Century Life",
+        "author": "Timothy Pytell",
+        "why": "A critical scholarly biography that examines the gaps between Frankl's various accounts and the documentary record. Uncomfortable, and necessary if you want the historical figure rather than the icon.",
+        "difficulty": "advanced"
+      }
+    ],
+    "translation_warnings": [
+      "The English title is an invention. The original German translates closer to 'nevertheless, say yes to life' — which signals the actual argument far better than the English does, and its loss is part of why the book gets read as a search for personal fulfilment."
+    ]
+  },
+
+  "what_makes_them_powerful": {
+    "core_strengths": [
+      "Distinguishes sharply between changeable and unchangeable suffering, which most philosophies of adversity blur into one",
+      "Grounds meaning in the specific and concrete rather than the abstract, which is what makes it findable at all",
+      "The claim that happiness and success can only ensue rather than be pursued is practically testable, and usually turns out to be right"
+    ],
+    "applied_examples": [
+      {
+        "situation": "A long stretch of difficult work whose value is not visible to anyone else.",
+        "how_it_lands": "His question is not whether it is worth it, but what specifically is being asked of you by this situation. The shift is from evaluating the task to being responsible to it."
+      },
+      {
+        "situation": "You are chasing a feeling — confidence, calm, happiness — and it keeps receding as you approach.",
+        "how_it_lands": "His claim here is structural rather than motivational: these states cannot be pursued directly and appear only as by-products of commitment to something outside yourself. The pursuit is the mechanism that prevents the arrival."
+      },
+      {
+        "situation": "Something has happened that genuinely cannot be undone.",
+        "how_it_lands": "This is the narrow case the framework is actually built for. The question shifts from how to fix it to what stance remains available — and he would insist this only applies once change is genuinely off the table, not merely difficult."
+      }
+    ]
+  },
+
+  "limits_and_dangers": {
+    "failure_modes": [
+      {
+        "distortion": "'Choose your attitude' becomes victim-blaming.",
+        "looks_like": "Telling someone in a bad situation that their suffering is a matter of perspective. Frankl denied that attitude determined survival and said his own was largely chance — the inspirational reading inverts him completely."
+      },
+      {
+        "distortion": "Meaning-in-suffering becomes a reason to remain in avoidable suffering.",
+        "looks_like": "Finding meaning in a bad job, a bad relationship, or an untreated illness instead of changing it. He names avoidable suffering as something to remove, not to interpret."
+      },
+      {
+        "distortion": "The book becomes an inspirational object rather than a clinical argument.",
+        "looks_like": "Reading only the camp narrative, quoting the attitude line, and never reaching the logotherapy section that the memoir exists to introduce."
+      }
+    ],
+    "who_should_be_careful": [
+      "Anyone currently in avoidable suffering who would rather reframe it than change it",
+      "Anyone inclined to apply this to other people's suffering rather than their own — it is close to unusable as advice given to someone else, and cruel when it is",
+      "Anyone who wants the memoir without the theory; the two halves cannot be separated without distorting him"
+    ]
+  },
+
+  "diagnostic_questions": [
+    "What emotional need in you is drawn to this figure right now?",
+    "Is the suffering you are trying to find meaning in actually unavoidable, or is it just difficult to change?",
+    "What is being asked of you by your current situation, as opposed to what you want from it?",
+    "Are you pursuing a feeling directly that can only ever arrive as a by-product?"
+  ],
+
+  "operating_manual": {
+    "behaviors": [
+      "When facing something difficult, ask what the situation is asking of you rather than what you want out of it",
+      "Decide explicitly, in writing, whether a given suffering is avoidable before deciding how to relate to it",
+      "Direct effort at a specific task or a specific person rather than at a desired internal state"
+    ],
+    "rules": [
+      "Never apply meaning-in-suffering to suffering you could remove",
+      "Never hand this framework to someone else in acute pain; it is a first-person tool only",
+      "Never pursue happiness or success directly — treat both as by-products, or you will prevent them"
+    ],
+    "habits": [
+      { "habit": "Identify the one concrete thing today's situation is asking of you", "cadence": "daily" },
+      { "habit": "Review whether any current difficulty is actually changeable and being tolerated instead", "cadence": "weekly" }
+    ],
+    "journaling_prompts": [
+      "What is life asking of you this week, as opposed to what you are asking of it?"
+    ],
+    "decision_principles": [
+      "Establish whether the suffering in question is avoidable before deciding whether to endure it",
+      "Commit outward to something specific; the internal states you want will follow or they will not, and either way they cannot be aimed at"
+    ]
+  },
+
+  "voice": {
+    "register": "A clinician presenting a case — warm but precise. Moves between personal recollection and diagnostic categorisation without changing register, which is disconcerting and entirely characteristic.",
+    "cadence": "Measured mid-century academic prose. Typically establishes a concrete case, then names the general principle it illustrates explicitly.",
+    "vocabulary": ["logotherapy", "the will to meaning", "existential vacuum", "the last of the human freedoms", "tragic optimism"],
+    "metaphor_domains": ["clinical case histories", "the physician and the patient", "the camp", "the vacuum"],
+    "never_does": [
+      "Never claims that attitude determined survival — he corrects this misreading directly and repeatedly, and any voice implying it is not him",
+      "Never romanticises the camps or suggests the suffering was in any way worthwhile",
+      "Never gives a general answer to 'what is the meaning of life'; he rejects the form of the question every time it is put to him"
+    ],
+    "example_reframe": {
+      "user_says": "I've been in a difficult situation for a year and I can't see the point of any of it.",
+      "figure_frame": "His first question would be diagnostic rather than consoling: can this situation be changed? If it can, meaning is the wrong tool entirely — action is, and reframing would be an evasion. Only if it genuinely cannot does the question change shape: not what this suffering is for, but what stance toward it is still yours to take."
+    }
+  },
+
+  "tensions_with": [
+    {
+      "slug": "camus",
+      "disagreement": "They describe the same human situation and reach opposite conclusions. Frankl holds that meaning is objectively present in every situation, waiting to be discovered, and that this is what makes survival bearable. Camus holds that no such meaning exists and that claiming otherwise is exactly the consoling leap that must be refused. Frankl would find Camus's revolt needlessly bleak; Camus would find Frankl's discovered meaning to be a leap of faith performing as a clinical finding."
+    }
+  ],
+
+  "confidence_notes": {
+    "contested": [
+      "The widely repeated account of how quickly the book was written comes from Frankl himself and has been stated far more confidently than the evidence supports",
+      "Historians including Timothy Pytell have documented discrepancies between Frankl's various accounts of his camp experience and the documentary record — the substance is not in doubt, but details shifted between tellings",
+      "His postwar position on Austrian reconciliation and denazification was criticised by other survivors and remains genuinely contested"
+    ],
+    "attribution_warnings": [
+      "'When we are no longer able to change a situation, we are challenged to change ourselves' is genuine but is almost always quoted without its crucial condition — that the situation genuinely cannot be changed",
+      "'He who has a why to live can bear almost any how' is Nietzsche, quoted by Frankl, and is constantly attributed to Frankl himself",
+      "Because the book is in copyright, many circulating 'quotes' are paraphrases rather than his text, and should not be treated as his words"
+    ]
+  }
+}

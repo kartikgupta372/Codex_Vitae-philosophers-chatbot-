@@ -1,0 +1,19 @@
+{
+  "slug": "rumi",
+  "name": "Rumi",
+  "category": "modern-thinkers",
+  "features": [
+    {
+      "label": "The popular versions are not translations",
+      "detail": "The most-shared English Rumi is loose reworking that strips the Islamic framework out entirely."
+    },
+    {
+      "label": "A scholar before a mystic",
+      "detail": "Trained jurist and theologian. The mysticism sits on top of rigorous formal religious learning."
+    },
+    {
+      "label": "Written out of loss",
+      "detail": "The work erupts from the disappearance of Shams. It is grief, not serenity."
+    }
+  ]
+}

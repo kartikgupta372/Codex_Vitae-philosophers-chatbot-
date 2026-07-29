@@ -1,0 +1,19 @@
+{
+  "slug": "muhammad-ali",
+  "name": "Muhammad Ali",
+  "category": "warrior",
+  "features": [
+    {
+      "label": "Gave up his prime",
+      "detail": "Refused the draft and lost three and a half years plus the title. The conviction cost more than the career."
+    },
+    {
+      "label": "Talk as strategy",
+      "detail": "The bragging was calculated psychological work, not personality overflow."
+    },
+    {
+      "label": "Paid in the body",
+      "detail": "Parkinson's from the ring. The price of the courage is not abstract."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "plato",
+  "name": "Plato",
+  "category": "ancient-philosophy",
+  "features": [
+    {
+      "label": "Wrote himself out of it",
+      "detail": "Never speaks in his own voice. Every idea is in someone else's mouth, which makes pinning him down deliberately hard."
+    },
+    {
+      "label": "Distrusted democracy",
+      "detail": "Watched Athens execute his teacher by vote. His politics never recovered and should not be read as neutral."
+    },
+    {
+      "label": "The argument is the point",
+      "detail": "Dialogues that end unresolved on purpose. Reading for conclusions misses the entire method."
+    }
+  ]
+}

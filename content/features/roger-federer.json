@@ -1,0 +1,19 @@
+{
+  "slug": "roger-federer",
+  "name": "Roger Federer",
+  "category": "warrior",
+  "features": [
+    {
+      "label": "Rage rebuilt into composure",
+      "detail": "Was a racket-smashing teenager. The calm was constructed deliberately, not innate temperament."
+    },
+    {
+      "label": "Efficiency over power",
+      "detail": "Built a game around economy of motion, which is why it survived into his forties."
+    },
+    {
+      "label": "Longevity is the lesson",
+      "detail": "Twenty-four years professional. The question worth asking is about maintenance, not talent."
+    }
+  ]
+}

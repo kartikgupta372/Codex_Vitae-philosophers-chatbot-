@@ -1,0 +1,19 @@
+{
+  "slug": "aristotle",
+  "name": "Aristotle",
+  "category": "ancient-philosophy",
+  "features": [
+    {
+      "label": "Measured everything",
+      "detail": "Dissected animals, catalogued constitutions, timed rhetoric. Philosophy as fieldwork rather than contemplation."
+    },
+    {
+      "label": "Virtue as a trained skill",
+      "detail": "Not a rule you follow but a habit you are bad at first. Excellence is built, not chosen."
+    },
+    {
+      "label": "Tutored Alexander, and it failed",
+      "detail": "The most famous student in history ignored the ethics entirely. Worth asking why."
+    }
+  ]
+}

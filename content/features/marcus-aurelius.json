@@ -1,0 +1,19 @@
+{
+  "slug": "marcus-aurelius",
+  "name": "Marcus Aurelius",
+  "category": "ancient-philosophy",
+  "features": [
+    {
+      "label": "Written for no one",
+      "detail": "A private notebook, never meant to be published. You are reading a man argue with himself, not perform wisdom for an audience."
+    },
+    {
+      "label": "Power as the test",
+      "detail": "He held absolute authority and spent the whole book distrusting it. The philosophy is harder because of the job, not easier."
+    },
+    {
+      "label": "Repetition as evidence",
+      "detail": "He says the same things over and over because he kept failing at them. The practice has a poor success rate by design."
+    }
+  ]
+}

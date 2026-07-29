@@ -1,0 +1,19 @@
+{
+  "slug": "heraclitus",
+  "name": "Heraclitus",
+  "category": "ancient-philosophy",
+  "features": [
+    {
+      "label": "Survives in fragments",
+      "detail": "About a hundred sentences, no complete work. Everything beyond that is reconstruction and educated guessing."
+    },
+    {
+      "label": "Called obscure in antiquity",
+      "detail": "He was deliberately difficult 2,500 years ago. Modern confusion is not a translation problem."
+    },
+    {
+      "label": "Change as the only constant",
+      "detail": "Not a slogan. A claim that stability itself is the illusion, which is far stranger than the poster version."
+    }
+  ]
+}

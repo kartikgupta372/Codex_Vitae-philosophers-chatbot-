@@ -1,0 +1,19 @@
+{
+  "slug": "confucius",
+  "name": "Confucius",
+  "category": "ancient-philosophy",
+  "features": [
+    {
+      "label": "Ritual as substance",
+      "detail": "Argued that outward form shapes inner feeling, not the reverse. Deeply unfashionable and worth taking seriously."
+    },
+    {
+      "label": "A failed politician",
+      "detail": "Spent years seeking a ruler who would employ him. The influence came after his life, not during it."
+    },
+    {
+      "label": "Relationships over principles",
+      "detail": "Ethics rooted in specific obligations to specific people rather than universal rules."
+    }
+  ]
+}

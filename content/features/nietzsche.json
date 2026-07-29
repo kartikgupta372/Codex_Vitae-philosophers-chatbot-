@@ -1,0 +1,19 @@
+{
+  "slug": "nietzsche",
+  "name": "Nietzsche",
+  "category": "literature",
+  "features": [
+    {
+      "label": "The most misread",
+      "detail": "Appropriated by people he would have despised and quoted against his own arguments. Reading him cold is genuinely risky."
+    },
+    {
+      "label": "Aphorism as weapon",
+      "detail": "Writes in fragments that resist summary. Any tidy version of Nietzsche is a wrong one."
+    },
+    {
+      "label": "Collapsed at forty-four",
+      "detail": "Went irreversibly insane and never wrote again. The late work is written against a closing window."
+    }
+  ]
+}

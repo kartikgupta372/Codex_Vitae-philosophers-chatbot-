@@ -1,0 +1,19 @@
+{
+  "slug": "steve-jobs",
+  "name": "Steve Jobs",
+  "category": "modern-thinkers",
+  "features": [
+    {
+      "label": "Taste as a discipline",
+      "detail": "The contribution is judgment about what to remove, not invention. That is a trainable skill."
+    },
+    {
+      "label": "Cruel by many accounts",
+      "detail": "Public humiliation of staff, denied paternity for years. The mythology sands all of this off."
+    },
+    {
+      "label": "Refused treatment first",
+      "detail": "Delayed surgery for alternative medicine. The reality-distortion field had a final, literal cost."
+    }
+  ]
+}

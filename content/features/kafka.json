@@ -1,0 +1,19 @@
+{
+  "slug": "kafka",
+  "name": "Kafka",
+  "category": "literature",
+  "features": [
+    {
+      "label": "Asked for it to be burned",
+      "detail": "Nearly everything you can read, he instructed be destroyed. Your access is a betrayal of his wishes."
+    },
+    {
+      "label": "An insurance clerk",
+      "detail": "Wrote at night after full days processing workplace-injury claims. The bureaucracy in the fiction is documentary."
+    },
+    {
+      "label": "Almost nothing is finished",
+      "detail": "The major novels are incomplete. The endings you have heard about are editorial decisions."
+    }
+  ]
+}

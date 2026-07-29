@@ -1,0 +1,230 @@
+{
+  "slug": "marcus-aurelius",
+  "name": "Marcus Aurelius",
+  "category": "ancient-philosophy",
+  "lifespan": "121-180 CE",
+  "one_line": "A working method for staying clear-headed under real power and real frustration -- not a philosophy of not caring.",
+
+  "who_they_really_were": {
+    "context": "Roman emperor for nearly two decades, most of it spent on military campaigns on the Danube frontier rather than in Rome. Meditations was a private notebook he kept for himself during those campaigns, never intended for anyone else to read.",
+    "shaping_pressures": [
+      "Adopted and groomed for the throne from adolescence, under enormous, constant expectation",
+      "Studied Stoicism formally under Junius Rusticus and others, but had to practice it inside the most status-saturated, temptation-heavy job that existed in his world",
+      "Spent the majority of his reign at war, managing plague and frontier conflict rather than the philosopher-king leisure the role suggests"
+    ],
+    "strengths": [
+      "Turned constant frustration and interruption into the actual material of his practice rather than something blocking it",
+      "Genuinely distrusted his own power and status rather than being flattered by it",
+      "Kept returning to self-correction privately rather than performing virtue publicly"
+    ],
+    "flaws": [
+      "Named his son Commodus as sole successor, breaking with the adoptive-succession-by-merit pattern that had produced a run of competent emperors before him -- and Commodus turned out to be a genuinely destructive ruler",
+      "Continued and did not meaningfully question Rome's persecution of Christians during his reign, in real tension with his own professed cosmopolitanism about humanity"
+    ],
+    "contradictions": [
+      "Preached indifference to external things while personally directing years of military campaigning and administrative control over an empire",
+      "Wrote constantly about universal human kinship while never appearing to extend that logic to slavery or the violence Roman rule was built on"
+    ],
+    "blind_spots": [
+      "Treated his own social and political position as a natural given to work within, rather than subjecting it to the same scrutiny he applied to his internal reactions"
+    ]
+  },
+
+  "core_beliefs": {
+    "central_frame": "Almost everything that disturbs you is not the event itself but your judgment about it -- so the actual work of living well is examining and correcting your own judgments, moment by moment, not controlling what happens to you.",
+    "internet_version": "The flattened version is 'don't let things bother you' or 'focus only on what you control,' delivered as if this were easy or already achieved. The real texture in Meditations is someone failing at this constantly and re-arguing himself back to it -- it's a practice with a poor success rate, not a personality trait he had.",
+    "positions": {
+      "pain": {
+        "stance": "Physical pain is real and not denied. What's optional is the additional suffering added by resisting or dramatizing it.",
+        "nuance": "He distinguishes the sensation from the story told about the sensation -- the story is where the extra suffering lives.",
+        "not_this": "Not a claim that pain doesn't hurt, or that you should perform indifference to it."
+      },
+      "discipline": {
+        "stance": "Discipline is the repeated, moment-to-moment act of redirecting attention back to what's actually yours to control.",
+        "nuance": "It's not a single feat of willpower -- it's closer to a habit you keep re-establishing after losing it, many times a day.",
+        "not_this": "Not rigid rule-following or a harsh regimen for its own sake."
+      },
+      "purpose": {
+        "stance": "Purpose is doing your part well as a social, rational being -- like an organ serving a body it belongs to, not a personally chosen passion project.",
+        "nuance": "This makes purpose available in any role, including a boring or difficult one, since it's about the quality of participation, not the glamour of the role.",
+        "not_this": "Not 'find your passion' -- closer to 'do the actual job in front of you honestly.'"
+      },
+      "fear_and_death": {
+        "stance": "Death is a natural transformation, not a catastrophe -- the fear of it comes from an unexamined attachment to the story of oneself continuing forever.",
+        "nuance": "He returns to this constantly, which suggests it was a genuine, recurring struggle for him, not a settled conclusion.",
+        "not_this": "Not morbid fixation, and not performed numbness about it either."
+      },
+      "status": {
+        "stance": "Status and reputation are 'indifferents' -- not good or bad in themselves, and not worth organizing your life around.",
+        "nuance": "This is much harder and more interesting given he held the highest status available in his world -- the position makes the philosophy a real fight, not an easy detachment.",
+        "not_this": "Not false modesty, and not an excuse to stop caring how your actions actually affect people."
+      },
+      "relationships": {
+        "stance": "Humans exist for one another -- duty to others and to the community is central, not an afterthought bolted onto an individualist philosophy.",
+        "nuance": "This directly contradicts the popular caricature of Stoicism as cold self-sufficiency.",
+        "not_this": "Not detachment from people -- detachment from needing them to behave a certain way."
+      },
+      "self_control": {
+        "stance": "Self-control means mastering your judgments and reactions accurately, not suppressing emotion wholesale.",
+        "nuance": "The goal is seeing clearly, not feeling nothing.",
+        "not_this": "Not emotional flatness or repression presented as strength."
+      },
+      "ambition": {
+        "stance": "Ambition organized around external recognition is a trap -- the only thing worth wanting is acting well, whether or not anyone notices.",
+        "nuance": "He wrote versions of 'imagine no one will ever know' as a genuine test for whether an action was actually right.",
+        "not_this": "Not anti-achievement -- anti-achievement-for-the-audience."
+      }
+    }
+  },
+
+  "sources": {
+    "start_here": {
+      "work": "Meditations",
+      "why": "The whole corpus is short and this is the only real primary text -- there's no easier on-ramp because there's no other main work."
+    },
+    "primary": [
+      {
+        "title": "Meditations",
+        "recommended_edition": "Gregory Hays translation",
+        "why": "Modern, plain English that doesn't dress the private-notebook tone up into false grandeur -- closer to how it actually reads in the original.",
+        "difficulty": "entry"
+      }
+    ],
+    "biographies": [
+      {
+        "title": "Marcus Aurelius: A Life",
+        "author": "Frank McLynn",
+        "why": "Places Meditations against the actual political and military pressures he was writing under, which changes how several passages land.",
+        "difficulty": "intermediate"
+      }
+    ],
+    "secondary": [
+      {
+        "title": "A Guide to the Good Life: The Ancient Art of Stoic Joy",
+        "author": "William B. Irvine",
+        "why": "A modern, practice-oriented walkthrough of Stoic technique broader than just Marcus -- useful once Meditations itself has been read, not before.",
+        "difficulty": "entry"
+      }
+    ],
+    "translation_warnings": [
+      "Older, more archaic-sounding translations (e.g. the 19th-century Long translation, widely available for free online) make the tone sound like grand pronouncement rather than private self-argument -- this materially changes how the book reads and is worth avoiding for a first read."
+    ]
+  },
+
+  "what_makes_them_powerful": {
+    "core_strengths": [
+      "Converts frustration and interruption directly into the material of the practice, rather than treating them as obstacles to it",
+      "Draws a clean, repeatable line between what is and isn't actually yours to control",
+      "Treats philosophy as a daily rehearsed practice rather than a position to win arguments with"
+    ],
+    "applied_examples": [
+      {
+        "situation": "A bureaucratic process is moving slowly and you have no way to speed it up.",
+        "how_it_lands": "The frame shifts from the timeline (not yours) to your own conduct while waiting (yours) -- irritation is allowed, but it's flagged as your judgment about the delay, not a fact the delay is imposing on you."
+      },
+      {
+        "situation": "Someone criticizes you publicly and unfairly.",
+        "how_it_lands": "Separates the real sting (allowed, human) from the added story that their opinion determines your worth (not required) -- the criticism doesn't have to be denied to be defused."
+      },
+      {
+        "situation": "You wake up already dreading a specific difficult conversation later that day.",
+        "how_it_lands": "Premeditatio malorum -- briefly rehearsing the friction in advance so it arrives as expected material rather than an ambush, which is the actual daily habit, not a one-time mindset shift."
+      }
+    ]
+  },
+
+  "limits_and_dangers": {
+    "failure_modes": [
+      {
+        "distortion": "Acceptance becomes passive resignation.",
+        "looks_like": "Someone stops trying to change a genuinely changeable bad situation, relabeling avoidance as wisdom about 'what's in your control.'"
+      },
+      {
+        "distortion": "Indifference to externals becomes emotional numbness or relationship avoidance.",
+        "looks_like": "Using 'it's not in my control' to justify not caring how you affect people, rather than genuine equanimity -- going cold instead of staying present."
+      },
+      {
+        "distortion": "Self-discipline curdles into self-punishment.",
+        "looks_like": "A harsh internal monologue gets relabeled as 'Stoic self-correction' -- Marcus's actual self-address in Meditations is stern but not cruel, and that distinction gets lost."
+      }
+    ],
+    "who_should_be_careful": [
+      "Anyone already prone to suppressing emotion or avoiding real support, who could use this as further justification",
+      "Anyone in a situation of genuine, changeable injustice, where 'acceptance' would actually mean tolerating something worth resisting",
+      "Anyone using 'externals don't matter' to justify isolating from people who care about them"
+    ]
+  },
+
+  "diagnostic_questions": [
+    "What emotional need in you is drawn to this figure right now?",
+    "Is there a specific situation lately where you felt out of control, that you're hoping this gives you a way to handle?",
+    "When you imagine 'accepting what you can't control,' is there a real difference between genuinely letting go and just not letting yourself feel something?",
+    "Whose voice does your internal critic sound like when you fall short of your own standards -- and is it actually this tone, or harsher?"
+  ],
+
+  "operating_manual": {
+    "behaviors": [
+      "Briefly rehearse the day's likely frictions before they happen, so they land as expected material rather than an ambush",
+      "Review the day's reactions afterward and separate which were driven by fact versus by judgment about the fact",
+      "Treat interruptions and difficult people as the actual practice, not obstacles standing in the way of it"
+    ],
+    "rules": [
+      "Never mistake venting for processing -- naming a judgment is not the same as re-examining it",
+      "Never use 'it's outside my control' to avoid a conversation you're actually just avoiding",
+      "Never treat calm as the same thing as correct -- check the reasoning underneath the feeling, not just its temperature"
+    ],
+    "habits": [
+      { "habit": "Premeditatio malorum -- briefly rehearsing the day's likely frictions before they happen", "cadence": "daily" },
+      { "habit": "Evening review of which reactions were judgment-driven versus fact-driven", "cadence": "daily" }
+    ],
+    "journaling_prompts": [
+      "Write about today as if explaining it to yourself plainly: which parts were actually up to you, and which weren't. No self-judgment, just the split."
+    ],
+    "decision_principles": [
+      "Ask whether this decision is about controlling an outcome or about acting well regardless of outcome -- choose the second",
+      "When status or reputation is at stake, ask what you'd do if no one would ever find out"
+    ]
+  },
+
+  "voice": {
+    "register": "Private, self-correcting, addressed to himself rather than to an audience -- Meditations was never meant to be read by anyone else.",
+    "cadence": "Short, declarative sentences that circle back and re-examine themselves; frequent direct self-address ('you').",
+    "vocabulary": ["the ruling faculty", "nature", "the whole", "duty", "the citadel within"],
+    "metaphor_domains": ["the body as a social organism", "a ship and its helmsman", "a soldier at his post"],
+    "never_does": [
+      "Never postures with grand, quotable certainty -- the real texture is repeated self-doubt and re-argument, not settled wisdom",
+      "Never claims emotional detachment as an achievement already won -- always mid-practice, never finished",
+      "Never moralizes at length toward someone else -- the address is inward, not preachy outward"
+    ],
+    "example_reframe": {
+      "user_says": "My coworker keeps taking credit for my work and it's driving me crazy.",
+      "figure_frame": "The frustration itself isn't denied. But what's actually yours to control is the quality and honesty of your own work, not their behavior or who ends up recognized for it -- chasing control over the second is where the real suffering compounds on top of the first, smaller injustice."
+    }
+  },
+
+  "tensions_with": [
+    {
+      "slug": "musashi",
+      "disagreement": "Musashi organises everything around winning the external encounter and treats internal composure as instrumental to it. Marcus holds that external outcomes are indifferents and that the only real work is correcting internal judgment. Marcus would regard a life spent perfecting victory in contests as a life spent on things that were never up to us; Musashi would regard Marcus's position as one available only to a man whose power meant he never had to settle anything by contest."
+    },
+    {
+      "slug": "epictetus",
+      "disagreement": "Marcus read Epictetus closely and softened him considerably. Epictetus draws the line between what is and is not up to us absolutely and refuses to negotiate it; Marcus repeatedly accommodates duty, affection, and the ordinary mess of governing. Epictetus, who began as property, would likely regard the accommodations as a compromise made comfortable by power — and would ask why a man who genuinely believed reputation was nothing kept a private notebook worrying about it."
+    },
+    {
+      "slug": "nietzsche",
+      "disagreement": "Nietzsche read Stoicism as resignation dressed as strength — an accommodation with weakness that renames its own limits as virtue. Marcus's acceptance of what cannot be changed is close to a textbook case of what Nietzsche calls life-denial. Marcus would find Nietzsche's demand for perpetual self-overcoming exhausting and unstable, and would diagnose it as agitation mistaking itself for freedom."
+    }
+  ],
+
+  "confidence_notes": {
+    "contested": [
+      "Meditations was a private notebook, not written for publication -- the exact dates and order of composition are reconstructed by historians, not certain",
+      "How much of his conduct as emperor reflects genuine Stoic conviction versus the ordinary compromises of Roman imperial politics is a real, unresolved debate among historians"
+    ],
+    "attribution_warnings": [
+      "'You have power over your mind, not outside events' circulates as if it were a precise direct quote -- it's a paraphrase/summary, and the actual passage is more provisional and self-directed than the popular version",
+      "Several gym-motivational-poster lines attributed to him are genuine but routinely stripped of the surrounding self-argument that gives them their actual meaning"
+    ]
+  }
+}

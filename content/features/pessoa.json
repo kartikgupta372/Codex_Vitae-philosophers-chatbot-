@@ -1,0 +1,19 @@
+{
+  "slug": "pessoa",
+  "name": "Pessoa",
+  "category": "literature",
+  "features": [
+    {
+      "label": "Was more than one person",
+      "detail": "Wrote as dozens of invented authors with their own biographies and mutually contradicting philosophies."
+    },
+    {
+      "label": "Published almost nothing",
+      "detail": "Left a trunk of 25,000 unsorted pages. What you read is an editor's arrangement, not his."
+    },
+    {
+      "label": "There is no real one",
+      "detail": "Asking which heteronym is the true Pessoa has no answer. That absence is the project."
+    }
+  ]
+}

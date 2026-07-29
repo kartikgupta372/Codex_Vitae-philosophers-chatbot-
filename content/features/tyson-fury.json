@@ -1,0 +1,19 @@
+{
+  "slug": "tyson-fury",
+  "name": "Tyson Fury",
+  "category": "warrior",
+  "features": [
+    {
+      "label": "Came back from the floor",
+      "detail": "Cocaine, obesity, and suicidal depression, then the heavyweight title again. Documented, not mythologized."
+    },
+    {
+      "label": "Says it out loud",
+      "detail": "Rare in a sport built on projected invulnerability. That candour is the actual contribution."
+    },
+    {
+      "label": "Has said ugly things",
+      "detail": "Public comments about women and LGBT people are on record. Honest study does not skip them."
+    }
+  ]
+}

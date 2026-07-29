@@ -1,0 +1,19 @@
+{
+  "slug": "musashi",
+  "name": "Miyamoto Musashi",
+  "category": "warrior",
+  "features": [
+    {
+      "label": "Sixty duels, undefeated",
+      "detail": "Then wrote the book at the end of his life, in a cave, dying. The theory comes after the practice, never before."
+    },
+    {
+      "label": "Won by breaking etiquette",
+      "detail": "Showed up hours late, fought with a wooden oar, unsettled opponents before contact. Strategy over honour."
+    },
+    {
+      "label": "Barely about swords",
+      "detail": "The Book of Five Rings is mostly carpentry, rhythm, and how to see. The fighting is the smallest part."
+    }
+  ]
+}

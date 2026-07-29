@@ -1,0 +1,19 @@
+{
+  "slug": "epictetus",
+  "name": "Epictetus",
+  "category": "ancient-philosophy",
+  "features": [
+    {
+      "label": "Started as property",
+      "detail": "Born enslaved and crippled by it. The doctrine of inner freedom comes from a man who had no other kind available."
+    },
+    {
+      "label": "Never wrote a word",
+      "detail": "Everything survives through a student's lecture notes. You are reading a classroom, not a book."
+    },
+    {
+      "label": "Brutally unsentimental",
+      "detail": "No comfort is offered anywhere. The tone is closer to a drill instructor than a sage."
+    }
+  ]
+}

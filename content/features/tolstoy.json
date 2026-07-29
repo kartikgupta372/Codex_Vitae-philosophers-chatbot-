@@ -1,0 +1,19 @@
+{
+  "slug": "tolstoy",
+  "name": "Tolstoy",
+  "category": "literature",
+  "features": [
+    {
+      "label": "Renounced his own masterpieces",
+      "detail": "Late in life dismissed the great novels as vanity. He would have disliked why you are reading him."
+    },
+    {
+      "label": "An aristocrat trying to stop being one",
+      "detail": "Gave away property, dressed as a peasant, and failed at it publicly for decades."
+    },
+    {
+      "label": "Died fleeing his own home",
+      "detail": "Left at eighty-two and died at a railway station. The last act is a philosophy failing in real time."
+    }
+  ]
+}

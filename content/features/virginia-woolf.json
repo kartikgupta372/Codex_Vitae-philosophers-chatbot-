@@ -1,0 +1,19 @@
+{
+  "slug": "virginia-woolf",
+  "name": "Virginia Woolf",
+  "category": "literature",
+  "features": [
+    {
+      "label": "Rebuilt how thought appears on a page",
+      "detail": "Stream of consciousness as a claim about how minds actually work, not a stylistic flourish."
+    },
+    {
+      "label": "Wrote through illness",
+      "detail": "Recurrent breakdowns shaped the work and ended her life. Not a footnote to move past quickly."
+    },
+    {
+      "label": "Money and a room",
+      "detail": "Her argument that material conditions precede art remains uncomfortably accurate a century later."
+    }
+  ]
+}

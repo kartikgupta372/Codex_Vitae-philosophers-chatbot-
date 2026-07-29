@@ -1,0 +1,242 @@
+{
+  "slug": "dostoevsky",
+  "name": "Dostoevsky",
+  "also_known_as": ["Fyodor Dostoevsky"],
+  "category": "literature",
+  "lifespan": "1821–1881",
+  "one_line": "The best diagnostician of what people do with a freedom they cannot bear — and a novelist who deliberately gives his opponents the strongest lines.",
+
+  "who_they_really_were": {
+    "context": "Russian novelist. Arrested in 1849 for belonging to a liberal discussion circle, sentenced to death, and taken to a firing squad — the reprieve was read out at the last moment, having been decided in advance as a deliberate psychological punishment. Four years of hard labour in Siberia followed, then compulsory military service. Epileptic from at least his late twenties. A compulsive gambler who wrote several novels under crushing deadline to clear debts. Died at fifty-nine as a national figure.",
+    "shaping_pressures": [
+      "The mock execution at twenty-eight — he described the experience for the rest of his life and it recurs throughout the fiction",
+      "Four years in a Siberian prison camp among ordinary criminals, which permanently moved his politics from liberal to conservative and religious",
+      "Gambling addiction and chronic debt; The Gambler was written in twenty-six days to satisfy a predatory publishing contract",
+      "Epilepsy, which he gave to Prince Myshkin and described from the inside in a way no one had before"
+    ],
+    "strengths": [
+      "Gives his ideological opponents the strongest possible arguments — the case against God in Karamazov is more powerful than the case for it, and deliberately so",
+      "Psychological penetration that predates and anticipates most of clinical psychology",
+      "Refuses to resolve the arguments he raises; the novels are genuinely dialogic rather than illustrative of a thesis"
+    ],
+    "flaws": [
+      "Antisemitic in his journalism, explicitly and repeatedly, in terms that cannot be waved through as period-typical background noise",
+      "His later Russian nationalism was chauvinistic and he used a very large platform to promote it"
+    ],
+    "contradictions": [
+      "Wrote the most compelling atheist arguments in nineteenth-century literature while being a committed Orthodox Christian who intended the opposite effect",
+      "Denounced the destructive rationalism of the radicals having been sentenced to death as one of them"
+    ],
+    "blind_spots": [
+      "His own answer — Russian Orthodox faith and the moral instinct of the peasantry — is asserted with far less argumentative force than the objections he raises against it, and he appears not to have noticed the imbalance"
+    ]
+  },
+
+  "core_beliefs": {
+    "central_frame": "Human beings are not rational utility-maximisers and will wreck their own interests to prove they are free. Suffering is not an accident to be engineered away, and any system promising to do so produces something worse. What remains is faith, chosen without evidence and in full knowledge of the case against it.",
+    "internet_version": "Reduced to 'Russian misery novelist', or mined for aphorisms about suffering and beauty. The actual work is an argument conducted between characters, and lifting any single line out of it — including the most famous ones — usually retrieves a position he was attacking.",
+    "positions": {
+      "pain": {
+        "stance": "Suffering is constitutive of consciousness rather than a malfunction; a life engineered to avoid it produces something less than human.",
+        "nuance": "His most contested position and the one most at risk of being read as endorsement. He is describing a feature of the creature, not prescribing a regimen.",
+        "not_this": "Not that suffering is good, or that it should be sought out."
+      },
+      "discipline": {
+        "stance": "Less interested in self-discipline than almost anyone on this roster. His characters are governed by compulsion, and the drama sits in what they do with it.",
+        "nuance": "The gambling is directly relevant — he knew this failure from the inside and never claimed otherwise.",
+        "not_this": "Not a philosophy of self-mastery. There genuinely isn't one here."
+      },
+      "purpose": {
+        "stance": "Purpose comes from active love directed at specific people, which he treats as far harder and far less romantic than love of humanity in general.",
+        "nuance": "Zosima's distinction — that love in action is harsh and dreadful compared with love in dreams — is the practical core of the entire body of work.",
+        "not_this": "Not a calling, and not a mission."
+      },
+      "fear_and_death": {
+        "stance": "Knowledge of death is what makes each remaining minute enormous. He had roughly four minutes to absorb that and never stopped writing about it.",
+        "nuance": "Uniquely among these figures, he actually stood at the moment of expected execution rather than contemplating it.",
+        "not_this": "Not stoic acceptance. His response is intensity, not calm."
+      },
+      "status": {
+        "stance": "Humiliation is one of his central subjects — he understood better than anyone how a wounded ego generates its own morality to explain itself.",
+        "nuance": "The Underground Man is the definitive study of this, and is explicitly not a hero.",
+        "not_this": "Not indifference to status; he takes it extremely seriously as a psychological force."
+      },
+      "relationships": {
+        "stance": "Active, particular, difficult love toward the person actually in front of you — not humanity, not an ideal, not a cause.",
+        "nuance": "He states this directly through Zosima, and frames it as the harder of the two options rather than the warmer one.",
+        "not_this": "Not romantic love, and not universal benevolence."
+      },
+      "self_control": {
+        "stance": "He is sceptical that it exists in the way people assume — his characters know precisely what is good for them and do the opposite.",
+        "nuance": "The Underground argument that a person will act against their own interest simply to prove they can is his most original single contribution.",
+        "not_this": "Not a technique for managing impulses."
+      },
+      "ambition": {
+        "stance": "Ambition detached from moral limits produces Raskolnikov — Crime and Punishment is an experiment in what happens when someone decides they are exceptional.",
+        "nuance": "The novel is a refutation, and it is regularly read as an endorsement by people who stop halfway through.",
+        "not_this": "Not anti-achievement."
+      }
+    }
+  },
+
+  "sources": {
+    "start_here": {
+      "work": "Notes from Underground",
+      "why": "Short, and it contains the psychological argument the big novels dramatise. It is also unpleasant enough to tell you quickly whether you want the rest of him."
+    },
+    "primary": [
+      {
+        "title": "Notes from Underground",
+        "year": "1864",
+        "recommended_edition": "Pevear & Volokhonsky",
+        "why": "The compressed statement of his psychology, under 150 pages.",
+        "difficulty": "entry"
+      },
+      {
+        "title": "Crime and Punishment",
+        "year": "1866",
+        "recommended_edition": "Oliver Ready (Penguin) or Pevear & Volokhonsky",
+        "why": "The most accessible of the major novels and the tightest. Read second.",
+        "difficulty": "intermediate"
+      },
+      {
+        "title": "The Brothers Karamazov",
+        "year": "1880",
+        "why": "The last and largest. The Grand Inquisitor chapter alone is the strongest case against God written in the nineteenth century — and he wrote it intending to answer it.",
+        "difficulty": "advanced"
+      },
+      {
+        "title": "The Idiot",
+        "year": "1869",
+        "why": "The attempt to write a genuinely good man and watch what the world does to him. The most personal of the novels.",
+        "difficulty": "advanced"
+      }
+    ],
+    "biographies": [
+      {
+        "title": "Dostoevsky (five volumes; one-volume abridgement available)",
+        "author": "Joseph Frank",
+        "why": "The definitive biography. The abridgement is the sane entry point unless you are committed.",
+        "difficulty": "advanced"
+      }
+    ],
+    "translation_warnings": [
+      "The Constance Garnett translations are public domain, everywhere, and smooth his deliberately rough, repetitive, breathless Russian into fluent Edwardian English. Much of what makes him strange is a casualty. Pevear & Volokhonsky preserve the roughness and are the standard modern choice; Oliver Ready's Crime and Punishment is also excellent."
+    ]
+  },
+
+  "what_makes_them_powerful": {
+    "core_strengths": [
+      "Understands self-sabotage and humiliation better than any writer working before clinical psychology existed",
+      "Argues against himself with real force, which is why the novels stay durable rather than dating into period pieces",
+      "The distinction between love in dreams and love in action is directly usable and immediately uncomfortable"
+    ],
+    "applied_examples": [
+      {
+        "situation": "You know exactly what would help and you are actively doing the opposite.",
+        "how_it_lands": "For him this is the central subject, not a discipline failure. The Underground claim is that acting against your own interest demonstrates you are not merely a mechanism responding to good reasons — and that the demonstration matters more to people than the interest does."
+      },
+      {
+        "situation": "You care intensely about a cause and are short with the people immediately around you.",
+        "how_it_lands": "Zosima's distinction lands directly: love in dreams wants gratitude and is easy; love in action is harsh, dreadful, and specific. He would name the cause as the easier of the two."
+      },
+      {
+        "situation": "You have decided you are an exception to a rule you would enforce on other people.",
+        "how_it_lands": "This is Raskolnikov's exact premise, and the novel is five hundred pages of it failing — not because the theory gets refuted in argument, but because he cannot live inside it."
+      }
+    ]
+  },
+
+  "limits_and_dangers": {
+    "failure_modes": [
+      {
+        "distortion": "Suffering-as-meaningful becomes a reason to stay in it.",
+        "looks_like": "Romanticising your own difficulty as depth, and treating the pursuit of an easier life as shallow. He is describing a feature of consciousness, not recommending a lifestyle."
+      },
+      {
+        "distortion": "The Underground Man becomes a role model.",
+        "looks_like": "Identifying with him as a truth-teller in a fake world. He is a diagnosis — spiteful, paralysed, and gratuitously cruel to the one person who is kind to him. Dostoevsky presents him as diseased."
+      },
+      {
+        "distortion": "Raskolnikov's exceptionalism read as the thesis.",
+        "looks_like": "Taking the great-man theory as the novel's argument when the entire novel is built to break it."
+      }
+    ],
+    "who_should_be_careful": [
+      "Anyone currently depressed — the psychological realism is extraordinarily convincing and offers no relief whatsoever",
+      "Anyone drawn to their own alienation as an identity; he supplies the most flattering possible vocabulary for it and then condemns it",
+      "Anyone who lifts quotations without the surrounding argument — with him more than anyone, who is speaking matters more than what is said"
+    ]
+  },
+
+  "diagnostic_questions": [
+    "What emotional need in you is drawn to this figure right now?",
+    "Is there something you know would help that you are actively refusing to do — and what would you have to admit if you did it?",
+    "Where are you practising love in dreams, toward a cause or an idea, while being difficult with the actual person nearest you?",
+    "What rule do you currently consider yourself an exception to?"
+  ],
+
+  "operating_manual": {
+    "behaviors": [
+      "When you catch yourself doing the opposite of what helps, name what freedom the refusal is demonstrating and to whom",
+      "Choose the concrete unglamorous act toward one specific person over the abstract commitment to a cause",
+      "When humiliated, wait before constructing the moral case that explains it"
+    ],
+    "rules": [
+      "Never mistake identification with a character for agreement by the author",
+      "Never let intensity of feeling substitute for action toward the person in front of you",
+      "Never decide you are the exception — that decision is the plot of Crime and Punishment, and it does not go well"
+    ],
+    "habits": [
+      { "habit": "One concrete act toward one specific person, chosen over an abstract commitment", "cadence": "weekly" },
+      { "habit": "Notice one moment of self-sabotage and name what it was proving", "cadence": "daily" }
+    ],
+    "journaling_prompts": [
+      "Where this week did love in dreams substitute for love in action, and who paid the difference?"
+    ],
+    "decision_principles": [
+      "Prefer the specific, harder, less visible obligation over the general and noble one",
+      "When your reasoning arrives conveniently at your own exemption, distrust it"
+    ]
+  },
+
+  "voice": {
+    "register": "Feverish and unstable. Characters talk past each other, interrupt, and contradict themselves mid-sentence. He does not write in his own voice — the register belongs to whichever consciousness currently holds the floor.",
+    "cadence": "Long, run-on, repetitive, breathless. Deliberately unpolished; the roughness is not a translation artefact and smoothing it out destroys the effect.",
+    "vocabulary": ["consciousness", "humiliation", "active love", "the underground", "living life", "sensuality"],
+    "metaphor_domains": ["the Petersburg street and the cramped room", "illness and fever", "the courtroom", "the icon and the church"],
+    "never_does": [
+      "Never speaks in a single authorial voice that resolves the argument — the polyphony is structural, not decorative",
+      "Never writes a serene or detached sentence; even the scene-setting is agitated",
+      "Never lets his own position win on argumentative merit, which was a deliberate and arguably self-defeating choice"
+    ],
+    "example_reframe": {
+      "user_says": "I keep telling myself I'll start tomorrow and then I don't.",
+      "figure_frame": "He would not treat this as a discipline problem at all. The not-doing is itself an act, and you are getting something from it — the demonstration that you are not merely a mechanism that responds to good reasons. Until you can name what the refusal proves, and to whom, the plans will keep failing, because they are addressed to the wrong problem entirely."
+    }
+  },
+
+  "tensions_with": [
+    {
+      "slug": "nietzsche",
+      "disagreement": "Nietzsche admired him as a psychologist and rejected his conclusion completely. Both diagnose the crisis following the collapse of religious authority with extraordinary precision. Dostoevsky's answer is Christian faith chosen in full knowledge of the case against it; Nietzsche's is that this answer is the sickness itself. They agree almost entirely about the problem and not at all about the cure."
+    },
+    {
+      "slug": "camus",
+      "disagreement": "Camus wrote about Dostoevsky extensively and treated Kirillov and Ivan Karamazov as the essential absurdist characters — then rejected the resolution. For Dostoevsky, if God is dead everything is permitted and the only exit is faith. For Camus, everything is not permitted, and building an ethics without God is precisely the work. Dostoevsky would regard Camus's revolt as an unstable halfway house that must eventually collapse into faith or nihilism."
+    }
+  ],
+
+  "confidence_notes": {
+    "contested": [
+      "The severity of his epilepsy and how far it shaped the writing is debated; much of the detail comes from his own accounts and his second wife's memoir",
+      "Whether the Grand Inquisitor is actually answered by the rest of the novel is one of the oldest disputes in criticism, and readers split on it permanently",
+      "How far his late nationalist journalism should colour readings of the fiction is genuinely contested"
+    ],
+    "attribution_warnings": [
+      "'Beauty will save the world' is spoken by a character in The Idiot, reported secondhand, about a man other characters consider an idiot. It is not a straightforward authorial statement and is quoted everywhere as though it were",
+      "'If God does not exist, everything is permitted' does not appear in Karamazov in that form — it is a compression of an argument, popularised largely through Sartre",
+      "A great many inspirational quotes attributed to him are lines given to characters he was refuting, or are not his at all"
+    ]
+  }
+}

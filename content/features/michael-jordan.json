@@ -1,0 +1,19 @@
+{
+  "slug": "michael-jordan",
+  "name": "Michael Jordan",
+  "category": "warrior",
+  "features": [
+    {
+      "label": "Manufactured grudges",
+      "detail": "Invented slights to fuel himself. Effective, and corrosive to nearly everyone around him."
+    },
+    {
+      "label": "Cut, then obsessed",
+      "detail": "The origin story is real, but his reaction to it is the actual subject worth studying."
+    },
+    {
+      "label": "Competitive past function",
+      "detail": "Applied identical intensity to card games and golf. Worth asking whether that is admirable or a warning."
+    }
+  ]
+}

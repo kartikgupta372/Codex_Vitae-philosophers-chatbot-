@@ -1,0 +1,19 @@
+{
+  "slug": "borges",
+  "name": "Borges",
+  "category": "literature",
+  "features": [
+    {
+      "label": "Went blind running a library",
+      "detail": "Became director of the national library as his sight failed. The irony was not lost on him."
+    },
+    {
+      "label": "Reviewed books that do not exist",
+      "detail": "Invented entire literatures and then footnoted them. Fiction disguised as scholarship."
+    },
+    {
+      "label": "Never wrote a novel",
+      "detail": "Argued it was wasteful padding. Everything essential is under twenty pages."
+    }
+  ]
+}

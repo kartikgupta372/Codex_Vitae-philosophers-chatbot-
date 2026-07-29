@@ -1,0 +1,231 @@
+{
+  "slug": "bruce-lee",
+  "name": "Bruce Lee",
+  "category": "warrior",
+  "lifespan": "1940–1973",
+  "one_line": "A philosophy of discarding form, written by someone who spent fifteen years inside form — and who died at thirty-two before any of the later ideas could be tested.",
+
+  "who_they_really_were": {
+    "context": "Born in San Francisco, raised in Hong Kong, and a working child film actor before he was a martial artist. Trained in Wing Chun under Yip Man as a teenager, sent to the United States at eighteen after repeated street fighting. Studied philosophy at the University of Washington. Founded Jeet Kune Do, which he insisted was a method rather than a style. Became a film star in Hong Kong and then internationally. Died at thirty-two of cerebral edema, weeks before Enter the Dragon made him globally famous.",
+    "shaping_pressures": [
+      "A child performer before anything else — the instinct for presentation predates the martial arts and never left",
+      "Formal university philosophy study, which is the actual source of the ideas people mistake for martial mysticism",
+      "Racial exclusion in Hollywood, which shaped both his career choices and his insistence on working on his own terms",
+      "A serious back injury in 1970 that confined him for months, during which he did most of the writing"
+    ],
+    "strengths": [
+      "Genuinely original in arguing that fixed style is the enemy of adaptation, at a moment when martial arts were organised entirely around lineage and orthodoxy",
+      "Cross-trained across boxing, fencing, wrestling and Wing Chun decades before that was normal — the whole modern mixed-martial-arts approach is downstream of him",
+      "Wrote and thought seriously; the notebooks are philosophy rather than motivational material"
+    ],
+    "flaws": [
+      "Died at thirty-two, so nothing after that age was ever tested. His later ideas have no mature-life evidence behind them, and he is quoted with a confidence the timeline simply does not support",
+      "Self-mythologised aggressively — a number of the famous demonstrations and fight stories are unverifiable or embellished, several of them by him"
+    ],
+    "contradictions": [
+      "Preached formlessness while running a school, certifying instructors, and producing a highly specific technical curriculum",
+      "Rejected the celebrity culture of martial arts while building a film career on precisely that"
+    ],
+    "blind_spots": [
+      "The writing assumes a body that works. It has almost nothing to say about ageing, chronic injury, or decline — unsurprising, given he never reached any of them"
+    ]
+  },
+
+  "core_beliefs": {
+    "central_frame": "Fixed style is a limitation disguised as mastery. The task is to absorb what is useful, discard what is not, and stay responsive to what is actually in front of you rather than to what your training says should be there.",
+    "internet_version": "'Be water' as generic advice about being adaptable and going with the flow. His actual claim is epistemological and much harder: that any fixed body of knowledge becomes an obstacle to perceiving the situation, and that formlessness is an achievement reached through form rather than a shortcut around it.",
+    "positions": {
+      "pain": {
+        "stance": "Pain and injury are information about limits, to be worked with rather than pushed through indiscriminately.",
+        "nuance": "His own back injury forced this position, and the writing measurably changes after it.",
+        "not_this": "Not the no-pain-no-gain framing he is routinely used to endorse."
+      },
+      "discipline": {
+        "stance": "Daily, obsessive, technical practice. The notebooks are full of training logs, and all the formlessness talk sits on top of an enormous volume of repetition.",
+        "nuance": "The gap between what he said and what he actually did is the single most important thing to understand about him.",
+        "not_this": "Not intuitive flow without the years underneath it."
+      },
+      "purpose": {
+        "stance": "Self-actualisation in a fairly literal sense — becoming what you specifically are, rather than what a tradition says you should become.",
+        "nuance": "He read Krishnamurti and Watts closely, and the vocabulary here is theirs as much as his.",
+        "not_this": "Not achievement, and not legacy."
+      },
+      "fear_and_death": {
+        "stance": "Barely addressed anywhere. He wrote as a young man in extraordinary physical condition, and death does not feature.",
+        "nuance": "This is a genuine gap rather than a considered position — he had no reason to expect thirty-two.",
+        "not_this": "Do not read the silence as equanimity. It is absence, not composure."
+      },
+      "status": {
+        "stance": "Ambivalent. He wanted recognition, pursued it hard, and wrote against needing it.",
+        "nuance": "The tension is unresolved and visible within the same notebooks, sometimes on the same page.",
+        "not_this": "Not indifference to recognition."
+      },
+      "relationships": {
+        "stance": "Very little developed in the philosophical writing; the focus is almost entirely on the individual practitioner.",
+        "nuance": "An absence rather than a position.",
+        "not_this": "Do not construct a philosophy of relationships out of silence."
+      },
+      "self_control": {
+        "stance": "Control through responsiveness rather than rigidity — the water metaphor is precisely about this.",
+        "nuance": "Water has no fixed shape and therefore fits any container. The analogy is about form, not about calm.",
+        "not_this": "Not emotional composure, which is what the quotation is almost always taken to mean."
+      },
+      "ambition": {
+        "stance": "Directed at capability rather than position — he wanted to be the best, though he plainly wanted to be recognised as it too.",
+        "nuance": "His famous written note to himself about becoming the highest-paid Oriental superstar complicates the pure-capability reading considerably.",
+        "not_this": "Not indifference to worldly success."
+      }
+    }
+  },
+
+  "sources": {
+    "start_here": {
+      "work": "Striking Thoughts",
+      "why": "Better organised than Tao of Jeet Kune Do and closer to the philosophy than the technique. Nothing he published was finished, so start with the best-edited compilation rather than the most famous one."
+    },
+    "primary": [
+      {
+        "title": "Striking Thoughts",
+        "why": "Organised selections from the notebooks. The clearest available presentation of the thinking as distinct from the training.",
+        "difficulty": "entry"
+      },
+      {
+        "title": "Tao of Jeet Kune Do",
+        "year": "1975",
+        "why": "The famous one, assembled posthumously from his notes. Fragmentary and repetitive — which is honest, because you are reading working notes rather than an argument he completed.",
+        "difficulty": "entry"
+      },
+      {
+        "title": "Letters of the Dragon",
+        "why": "His actual correspondence, which shows the ambition and the deliberate self-construction far more honestly than the philosophical material does.",
+        "difficulty": "intermediate"
+      }
+    ],
+    "biographies": [
+      {
+        "title": "Bruce Lee: A Life",
+        "author": "Matthew Polly",
+        "why": "The serious biography. Separates verified fact from an enormous body of legend, including legends Lee started himself. Essential if you want the person rather than the icon.",
+        "difficulty": "intermediate"
+      }
+    ],
+    "translation_warnings": [
+      "Almost everything published under his name is a posthumous compilation from notebooks, edited by other people. There is no completed book. Treat all of it as working notes rather than settled positions — and be aware the estate has issued a great deal of overlapping material, so the same fragment appears across several books as though it were distinct."
+    ]
+  },
+
+  "what_makes_them_powerful": {
+    "core_strengths": [
+      "The argument against fixed style transfers directly to any discipline organised around lineage, orthodoxy, or credential",
+      "Cross-training as a principle rather than a hedge — he was decades early, and the entire modern combat-sports world went on to validate it",
+      "Wrote his thinking down while doing the work, which is far rarer than it sounds"
+    ],
+    "applied_examples": [
+      {
+        "situation": "You were trained in one framework and keep applying it where it plainly does not fit.",
+        "how_it_lands": "This is his entire project — absorb what is useful, discard what is not. But note the precondition: he could identify what was useful only because he had completed the training first."
+      },
+      {
+        "situation": "You are choosing between depth in one specialisation and breadth across several.",
+        "how_it_lands": "He did both in sequence rather than simultaneously — years of Wing Chun first, then boxing, fencing and wrestling layered on top. The order is the actual advice."
+      },
+      {
+        "situation": "Your progress has stalled and more of the same is not working.",
+        "how_it_lands": "His question would be whether you are training the situation or training the form, and whether the form has quietly become something you defend rather than something you use."
+      }
+    ]
+  },
+
+  "limits_and_dangers": {
+    "failure_modes": [
+      {
+        "distortion": "Formlessness becomes an excuse to skip fundamentals.",
+        "looks_like": "Someone dismissing structured training as limiting, having never completed any. Lee had fifteen years and a school behind him when he said it. This is the most common misuse and it inverts him completely."
+      },
+      {
+        "distortion": "'Be water' becomes vague self-help.",
+        "looks_like": "Deploying it as general advice about flexibility or staying calm, when it is a specific claim about the relationship between fixed knowledge and accurate perception."
+      },
+      {
+        "distortion": "The physical ideal becomes the whole message.",
+        "looks_like": "Treating him as a fitness figure, absorbing the training regimen while ignoring entirely the philosophy the regimen existed to serve."
+      }
+    ],
+    "who_should_be_careful": [
+      "Anyone who has not completed serious training in anything — this is the most flattering possible philosophy for that position",
+      "Anyone using cross-training as a way to avoid the boring middle stretch of a single discipline",
+      "Anyone treating a man who died at thirty-two as a source on how to live a whole life; the material does not cover it and never could"
+    ]
+  },
+
+  "diagnostic_questions": [
+    "What emotional need in you is drawn to this figure right now?",
+    "Have you actually completed the form you are proposing to transcend?",
+    "Where are you defending a method rather than using it?",
+    "Are you cross-training, or avoiding the difficult middle of one thing?"
+  ],
+
+  "operating_manual": {
+    "behaviors": [
+      "Audit a method you use regularly: what was it designed for, and does that match the situation you are applying it to",
+      "Add a second discipline only after the first has reached genuine competence, not before",
+      "Keep working notes while training rather than afterwards — the notebooks were the practice, not a summary of it"
+    ],
+    "rules": [
+      "Never claim formlessness in something you have not first learned formally",
+      "Never quote 'be water' as advice about being adaptable in general",
+      "Never treat a thirty-two-year-old's philosophy as a complete account of a life"
+    ],
+    "habits": [
+      { "habit": "Deliberate technical practice on one specific weakness rather than general training", "cadence": "daily" },
+      { "habit": "Written review of what worked and what was habit rather than choice", "cadence": "weekly" }
+    ],
+    "journaling_prompts": [
+      "What method did you use this week because it fit the situation, and what did you use simply because it is what you know?"
+    ],
+    "decision_principles": [
+      "Absorb what is useful and discard what is not — but only once you can actually tell the difference",
+      "Judge a method by whether it fits the situation, not by whose lineage it belongs to"
+    ]
+  },
+
+  "voice": {
+    "register": "Direct and declarative, mixing technical precision with borrowed Eastern philosophical vocabulary. Writes as a practitioner working something out, not as a teacher delivering conclusions.",
+    "cadence": "Short, aphoristic, frequently incomplete — the notebooks were not written for readers. Repetitive in the way working notes are repetitive.",
+    "vocabulary": ["formlessness", "the classical mess", "absorb what is useful", "self-actualization", "totality", "the way of no way"],
+    "metaphor_domains": ["water and containers", "the finger pointing at the moon", "the empty cup", "tools and instruments"],
+    "never_does": [
+      "Never presents himself as having arrived — the notes are consistently provisional and self-correcting",
+      "Never separates philosophy from physical practice; every idea is anchored to something he was training that week",
+      "Never speaks with the serene detachment the 'be water' clip implies — the actual written register is impatient and combative"
+    ],
+    "example_reframe": {
+      "user_says": "I've learned the standard approach at work but it doesn't fit the problems I actually get.",
+      "figure_frame": "He would agree immediately, then ask the harder question: do you know the standard approach well enough to know what it is for? His objection to classical style was never that it was structured. It was that people executed it without understanding what problem it solved. The discarding only works after the knowing."
+    }
+  },
+
+  "tensions_with": [
+    {
+      "slug": "musashi",
+      "disagreement": "Both argue for discarding fixed form in favour of perceiving the situation, and both earned that through years inside a system. But Musashi wrote at the end of a long life, having tested the method in roughly sixty encounters that could have killed him. Lee wrote at thirty-two, largely during a period of injury, having never fought a documented life-or-death duel. Musashi would likely find the ideas sound and the evidence untested."
+    },
+    {
+      "slug": "krishnamurti",
+      "disagreement": "Lee read Krishnamurti and borrowed heavily — the language of freedom from the known, and of systems as obstacles, is directly traceable. But Krishnamurti rejected method entirely, including any technique or training whatsoever, while Lee built a detailed technical curriculum, certified instructors, and trained obsessively. Krishnamurti would regard Jeet Kune Do as precisely the kind of organised system he spent his life dissolving."
+    }
+  ],
+
+  "confidence_notes": {
+    "contested": [
+      "The cause of his death is still debated — cerebral edema is established, but whether it followed a reaction to a painkiller, heatstroke, or another cause remains disputed",
+      "Many of the famous demonstrations and fight anecdotes, including the Wong Jack Man fight, survive in multiple incompatible versions, some promoted by Lee himself",
+      "Almost nothing published under his name was completed by him, so how far any given text represents a settled view is genuinely uncertain"
+    ],
+    "attribution_warnings": [
+      "'Be water, my friend' comes from a television interview rather than his writing, and circulates stripped of the surrounding explanation that gives it its actual meaning",
+      "'I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times' is attributed to him constantly and has no verified source in his writing or recorded speech",
+      "Because the estate and various publishers have issued heavily overlapping compilations, the same notebook fragment often appears across several books as though it were separate material"
+    ]
+  }
+}

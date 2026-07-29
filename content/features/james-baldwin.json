@@ -1,0 +1,19 @@
+{
+  "slug": "james-baldwin",
+  "name": "James Baldwin",
+  "category": "literature",
+  "features": [
+    {
+      "label": "Wrote America from exile",
+      "detail": "Left for France to see it clearly. Most of the great essays on America were written outside it."
+    },
+    {
+      "label": "A preacher's cadence",
+      "detail": "Started in the pulpit at fourteen. The rhythm never left, and it is why the essays land physically."
+    },
+    {
+      "label": "Refused the comfortable position",
+      "detail": "Attacked allies as sharply as opponents. Endlessly quotable and never safe."
+    }
+  ]
+}

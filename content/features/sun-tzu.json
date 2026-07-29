@@ -1,0 +1,19 @@
+{
+  "slug": "sun-tzu",
+  "name": "Sun Tzu",
+  "category": "warrior",
+  "features": [
+    {
+      "label": "Authorship is contested",
+      "detail": "May be one general, a compilation, or neither. Read the text rather than the legend around it."
+    },
+    {
+      "label": "Winning without fighting",
+      "detail": "The actual thesis. Battle is the failure state, not the objective."
+    },
+    {
+      "label": "Most quoted, least read",
+      "detail": "Business appropriation flattened it into slogans. The original is stranger and more specific."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "cormac-mccarthy",
+  "name": "Cormac McCarthy",
+  "category": "literature",
+  "features": [
+    {
+      "label": "No quotation marks",
+      "detail": "Punctuation stripped deliberately. The friction is the point and it changes how the violence reads."
+    },
+    {
+      "label": "Refused to explain",
+      "detail": "Gave almost no interviews across decades. No authorial guidance exists to lean on."
+    },
+    {
+      "label": "Violence without commentary",
+      "detail": "Presents atrocity flatly. A reader wanting a moral frame supplied will not be given one."
+    }
+  ]
+}

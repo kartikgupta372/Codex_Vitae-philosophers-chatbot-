@@ -1,0 +1,19 @@
+{
+  "slug": "seneca",
+  "name": "Seneca",
+  "category": "ancient-philosophy",
+  "features": [
+    {
+      "label": "Wealth he never renounced",
+      "detail": "Wrote on the vanity of riches while being one of the richest men in Rome. The gap is the interesting part, not a disqualification."
+    },
+    {
+      "label": "Letters, not treatises",
+      "detail": "Philosophy addressed to one friend, which is why it reads like advice rather than doctrine."
+    },
+    {
+      "label": "Rehearsed his own death",
+      "detail": "Spent decades writing about dying well, then was ordered to do it. The account of how he did is unsettling."
+    }
+  ]
+}

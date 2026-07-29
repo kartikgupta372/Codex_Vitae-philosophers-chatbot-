@@ -1,0 +1,19 @@
+{
+  "slug": "carl-jung",
+  "name": "Carl Jung",
+  "category": "modern-thinkers",
+  "features": [
+    {
+      "label": "Broke with Freud and nearly broke",
+      "detail": "The split triggered years of confronting his own mind, recorded in the Red Book."
+    },
+    {
+      "label": "Archetypes are testable claims",
+      "detail": "Not mysticism. Whether they hold up is an argument worth actually having."
+    },
+    {
+      "label": "His 1930s record is disputed",
+      "detail": "Conduct and writings from that period remain genuinely contested. Do not accept either side uncritically."
+    }
+  ]
+}

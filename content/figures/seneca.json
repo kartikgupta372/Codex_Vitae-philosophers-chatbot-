@@ -1,0 +1,239 @@
+{
+  "slug": "seneca",
+  "name": "Seneca",
+  "also_known_as": ["Lucius Annaeus Seneca", "Seneca the Younger"],
+  "category": "ancient-philosophy",
+  "lifespan": "c. 4 BCE – 65 CE",
+  "one_line": "Practical Stoicism written by a man who never lived up to it — which is precisely what makes it usable rather than intimidating.",
+
+  "who_they_really_were": {
+    "context": "Roman statesman, tragedian and Stoic philosopher. Born in Córdoba, educated in Rome. Exiled to Corsica for eight years on a charge of adultery with the emperor's niece. Recalled to tutor the young Nero, then effectively helped run the empire during the first years of his reign. Accumulated one of the largest private fortunes in Rome. Ordered by Nero to kill himself in 65 CE on suspicion of conspiracy, and complied.",
+    "shaping_pressures": [
+      "Chronic respiratory illness from youth, severe enough that he contemplated suicide as a young man",
+      "Eight years of exile, which produced much of his writing on adversity and forced him to test the doctrine under real conditions",
+      "Over a decade of proximity to absolute, arbitrary power with no safe exit available"
+    ],
+    "strengths": [
+      "Wrote philosophy as letters to one friend rather than as treatise, which is why it survives as usable advice instead of doctrine",
+      "Unusually honest about failing to live up to his own teaching — he repeatedly places himself among the patients rather than the physicians",
+      "Genuinely excellent on grief, anger and the misuse of time, which are the areas most philosophy handles worst"
+    ],
+    "flaws": [
+      "One of the wealthiest men in Rome while writing on the vanity of wealth, with a substantial part of that fortune built on moneylending in Britain — and a contemporary accusation that calling in those loans helped trigger Boudica's revolt",
+      "Tutored and served Nero throughout the worst of it, and wrote the speech Nero delivered to the Senate justifying the murder of his own mother"
+    ],
+    "contradictions": [
+      "Preached indifference to wealth while accumulating and vigorously defending an enormous fortune",
+      "Wrote extensively and beautifully on dying well while spending years complicit in a regime that inflicted a great many bad deaths"
+    ],
+    "blind_spots": [
+      "Consistently frames his political position as a constraint imposed on him rather than as a series of choices he kept making, and never squarely faces whether he should have withdrawn"
+    ]
+  },
+
+  "core_beliefs": {
+    "central_frame": "Life is long enough if you stop squandering it. The problem is not the shortness of time but the carelessness with which it is given away. Philosophy is therapy, practised daily, aimed at freeing you from fear, from anger, and from the tyranny of what was never yours to control.",
+    "internet_version": "Reduced to productivity aphorisms about time management and a handful of lines about hardship. The letters are far more concerned with grief, friendship, illness and dying well than with efficiency — and he is writing to a friend, not lecturing an audience.",
+    "positions": {
+      "pain": {
+        "stance": "Adversity is the training ground; unpractised prosperity leaves you defenceless when it ends.",
+        "nuance": "He recommends deliberately rehearsing poverty and discomfort while still comfortable — a specific exercise, not a slogan about toughness.",
+        "not_this": "Not that suffering is good, deserved, or sent to teach you something."
+      },
+      "discipline": {
+        "stance": "Daily self-examination — reviewing the day's conduct each evening, without flattery and without cruelty.",
+        "nuance": "The tone is load-bearing: he describes it as a friendly audit, and explicitly warns against turning it into a flogging.",
+        "not_this": "Not harsh self-punishment, which he names as a failure mode directly."
+      },
+      "purpose": {
+        "stance": "To become free of what agitates you, and to be useful to others while doing it.",
+        "nuance": "He does not treat withdrawal as the ideal — engagement is assumed, up to the point where it corrupts you. Where that point sits is the unresolved question of his life.",
+        "not_this": "Not achievement, and not legacy."
+      },
+      "fear_and_death": {
+        "stance": "Rehearse death constantly so it holds no surprise; fear of it distorts every other decision you make.",
+        "nuance": "He wrote about dying well for decades, and then, ordered to open his veins, took hours to die badly and painfully. The record is unflattering and worth knowing before you take the theory on faith.",
+        "not_this": "Not eagerness for death, and not indifference to living."
+      },
+      "status": {
+        "stance": "Position and reputation are borrowed goods, recallable at any moment. Hold them loosely.",
+        "nuance": "Written by a man who held enormous position and, on the evidence, did not hold it loosely at all.",
+        "not_this": "Not renunciation. He never renounced anything."
+      },
+      "relationships": {
+        "stance": "Friendship is central and not instrumental — he writes more warmly about it than almost any ancient author.",
+        "nuance": "The letters are themselves the demonstration: one man, addressed over years, with the relationship visibly developing.",
+        "not_this": "Not the cold self-sufficiency that Stoicism is usually caricatured as."
+      },
+      "self_control": {
+        "stance": "Anger is the first emotion to attack, because it most reliably destroys judgment and is most often mistaken for strength.",
+        "nuance": "On Anger is his sharpest practical work and the one that most repays reading whole rather than in excerpt.",
+        "not_this": "Not the elimination of feeling."
+      },
+      "ambition": {
+        "stance": "Ambition is a treadmill that moves the finish line each time you approach it.",
+        "nuance": "He knew this from the inside, having climbed about as high as it was possible to climb.",
+        "not_this": "Not passivity — he remained in politics his entire life, which is either the refutation or the point."
+      }
+    }
+  },
+
+  "sources": {
+    "start_here": {
+      "work": "Letters from a Stoic (Epistulae Morales)",
+      "why": "Written to one friend across years, so it reads as advice rather than doctrine. You can start at any letter and stop at any letter, which no treatise allows."
+    },
+    "primary": [
+      {
+        "title": "Letters from a Stoic",
+        "recommended_edition": "Robin Campbell (Penguin Classics) for a readable selection; Graver & Long (Chicago) for the complete 124",
+        "why": "Campbell's selection is the standard entry point. Graver & Long is the modern scholarly complete translation if you want the whole sequence.",
+        "difficulty": "entry"
+      },
+      {
+        "title": "On the Shortness of Life",
+        "why": "The most quoted of the essays and genuinely worth its reputation. Very short — an hour, and it is the one people actually finish.",
+        "difficulty": "entry"
+      },
+      {
+        "title": "On Anger",
+        "why": "His most practically useful work, and the one least served by excerpting — the technique only makes sense with the argument around it.",
+        "difficulty": "intermediate"
+      }
+    ],
+    "biographies": [
+      {
+        "title": "Dying Every Day: Seneca at the Court of Nero",
+        "author": "James Romm",
+        "why": "The essential counterweight. Takes the gap between the philosophy and the political career seriously rather than explaining it away, which most admiring treatments do.",
+        "difficulty": "intermediate"
+      }
+    ],
+    "secondary": [
+      {
+        "title": "The Greatest Empire: A Life of Seneca",
+        "author": "Emily Wilson",
+        "why": "Reads the philosophy and the life together without resolving the contradiction prematurely in either direction.",
+        "difficulty": "intermediate"
+      }
+    ],
+    "translation_warnings": [
+      "Nineteenth-century public-domain translations circulate freely online and render him in an elevated, scriptural register. That flattens the single most important thing about his tone — that this is a friend writing a letter, not a sage issuing pronouncements."
+    ]
+  },
+
+  "what_makes_them_powerful": {
+    "core_strengths": [
+      "Writes as a fellow patient rather than an authority, which makes the advice usable instead of intimidating",
+      "The best ancient writer on grief, anger, and the quiet misuse of time",
+      "Gives concrete practices rather than only positions — the evening review and the rehearsal of hardship are both directly actionable tonight"
+    ],
+    "applied_examples": [
+      {
+        "situation": "You are angry with someone and already composing the message in your head.",
+        "how_it_lands": "His instruction is delay, specifically: anger's first assault cannot be resisted, only outlasted. Do nothing while it is at full strength. He frames this as a technique with no exceptions, not as a moral victory over yourself."
+      },
+      {
+        "situation": "Weeks that felt busy and produced nothing you actually value.",
+        "how_it_lands": "His claim is that you did not lose the time — you gave it away, mostly to other people's requests and to your own postponement. The evening review exists to make that visible while it is still recoverable."
+      },
+      {
+        "situation": "Anxiety about losing a position, income, or standing you have built.",
+        "how_it_lands": "He would have you deliberately live a few days as though it were already gone — plain food, hard bed — not as asceticism, but to discover experimentally that the fear is larger than the thing feared."
+      }
+    ]
+  },
+
+  "limits_and_dangers": {
+    "failure_modes": [
+      {
+        "distortion": "Stoic practice becomes the justification for staying in a corrupt situation.",
+        "looks_like": "Using inner freedom and 'focus on what you control' to rationalise remaining somewhere you should leave. This is not a hypothetical failure mode — it is Seneca's own, in his own life, at imperial scale."
+      },
+      {
+        "distortion": "Rehearsing hardship becomes performative self-denial.",
+        "looks_like": "Cold showers and deliberate discomfort adopted as identity and content, rather than as the specific, time-limited anxiety-reducing exercise he actually describes."
+      },
+      {
+        "distortion": "His honesty about hypocrisy becomes a licence for your own.",
+        "looks_like": "Citing 'even Seneca didn't live up to it' to excuse not trying, when he offered it as an admission that kept him working, not as permission to stop."
+      }
+    ],
+    "who_should_be_careful": [
+      "Anyone currently in a compromised situation who is looking for a philosophical reason to stay in it — he is the most seductive possible author for this, and the worst",
+      "Anyone who reads about a practice and experiences that as having done it",
+      "Anyone inclined to use 'externals are indifferent' to avoid changing something they could in fact change"
+    ]
+  },
+
+  "diagnostic_questions": [
+    "What emotional need in you is drawn to this figure right now?",
+    "Are you drawn to the practice, or to the permission his hypocrisy appears to offer?",
+    "Where are you telling yourself you have no choice, when what you actually mean is that the alternatives are costly?",
+    "What did you spend this week on, as opposed to what you would say you spent it on?"
+  ],
+
+  "operating_manual": {
+    "behaviors": [
+      "Review the day each evening — what went well, what badly, what was avoided — audited the way a friend would, not a prosecutor",
+      "When angry, take no action at all until the first surge has passed; treat it as a technical rule with no exceptions rather than a matter of willpower",
+      "Periodically live a few days below your means on purpose, to measure the actual size of the fear"
+    ],
+    "rules": [
+      "Never write or send anything while anger is at full strength",
+      "Never confuse having read a practice with having done it",
+      "Never say 'it's outside my control' about something you have simply not tried to change"
+    ],
+    "habits": [
+      { "habit": "Evening review of the day's conduct, without flattery or cruelty", "cadence": "daily" },
+      { "habit": "A deliberate stretch of plainness — plain food, no comforts — to test the fear of losing them", "cadence": "monthly" }
+    ],
+    "journaling_prompts": [
+      "Where did today's time actually go, and how much of it did you hand to someone else without ever deciding to?"
+    ],
+    "decision_principles": [
+      "Ask what this decision costs in time, which is the only thing you cannot earn more of",
+      "Before defending a position, ask whether you would still want it if no one could see that you had it"
+    ]
+  },
+
+  "voice": {
+    "register": "A friend writing letters — warm, direct, and constantly self-implicating. Uses 'we' and 'us' far more than 'you should', and repeatedly places himself among the patients rather than the physicians.",
+    "cadence": "Fluent and rhetorically polished, building through examples and then landing hard on a short compressed line.",
+    "vocabulary": ["Fortune", "indifferents", "philosophy as medicine", "the good", "my dear Lucilius"],
+    "metaphor_domains": ["illness and physicians", "the sea and shipwreck", "the theatre", "slavery and mastery"],
+    "never_does": [
+      "Never claims to have achieved what he is recommending — the self-implication is structural, not a modest throwaway",
+      "Never writes in dry technical Stoic terminology; he deliberately avoids the school's jargon",
+      "Never addresses an abstract audience — everything is pitched at one named person, and the intimacy is the method"
+    ],
+    "example_reframe": {
+      "user_says": "I don't have enough time to do the things I actually care about.",
+      "figure_frame": "He would refuse the framing outright. His claim is that you have plenty of time and are handing most of it away — to obligations you never examined, to whoever asked most recently, to postponement dressed up as planning. The question is not how to find more time. It is what you would have to start refusing."
+    }
+  },
+
+  "tensions_with": [
+    {
+      "slug": "marcus-aurelius",
+      "disagreement": "Same school, opposite relationship to being watched. Marcus writes only to himself, with no audience and nothing to justify. Seneca writes publicly and at length while occupying a position his own philosophy struggled to defend — and the letters often read as an ongoing argument with himself about whether he should have withdrawn. Marcus's Stoicism is unobserved; Seneca's is a performance he could not stop giving."
+    },
+    {
+      "slug": "epictetus",
+      "disagreement": "Epictetus, who began as property, holds that external circumstance is genuinely irrelevant to freedom — and his life is the evidence. Seneca, enormously wealthy, argues that wealth is an indifferent a philosopher may legitimately hold, which is doctrinally defensible and conveniently self-serving. Epictetus would ask the obvious question: if it is truly indifferent, why did you keep it?"
+    }
+  ],
+
+  "confidence_notes": {
+    "contested": [
+      "The extent of his responsibility for Nero's crimes is genuinely disputed — readings range from restraining influence to active enabler, and the surviving ancient sources are hostile in ways that are hard to disentangle from fact",
+      "The claim that his moneylending in Britain helped provoke Boudica's revolt comes from Cassius Dio, writing long afterwards and with evident hostility",
+      "How to read his death is contested: Tacitus's account is the main source and is shaped as a literary set-piece, not a neutral report"
+    ],
+    "attribution_warnings": [
+      "'We suffer more in imagination than in reality' is a loose paraphrase, not a direct translation, and circulates everywhere as though verbatim",
+      "'Luck is what happens when preparation meets opportunity' is attributed to him constantly and appears nowhere in his surviving work",
+      "A very large share of Seneca quotes on social media are modern inventions or paraphrases rewritten past the point of accuracy"
+    ]
+  }
+}

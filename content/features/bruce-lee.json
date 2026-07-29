@@ -1,0 +1,19 @@
+{
+  "slug": "bruce-lee",
+  "name": "Bruce Lee",
+  "category": "warrior",
+  "features": [
+    {
+      "label": "A philosophy major",
+      "detail": "Studied it formally at university. The martial arts are the application; the thinking is the subject."
+    },
+    {
+      "label": "Be water is misread",
+      "detail": "Not vague adaptability. A specific claim about abandoning fixed forms, including the ones he himself taught."
+    },
+    {
+      "label": "Rejected styles entirely",
+      "detail": "Founded a method that argues against founding methods. The contradiction is intentional."
+    }
+  ]
+}

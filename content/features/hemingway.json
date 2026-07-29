@@ -1,0 +1,19 @@
+{
+  "slug": "hemingway",
+  "name": "Hemingway",
+  "category": "literature",
+  "features": [
+    {
+      "label": "Omission as technique",
+      "detail": "The iceberg theory: what is left out carries the weight. Reading fast misses the entire method."
+    },
+    {
+      "label": "Journalist first",
+      "detail": "The style comes out of wire copy and deadlines, not literary theory."
+    },
+    {
+      "label": "The persona ate the writer",
+      "detail": "Built a public myth that became a cage. The late work and the ending show what it cost."
+    }
+  ]
+}

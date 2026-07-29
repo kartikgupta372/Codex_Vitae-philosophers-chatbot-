@@ -1,0 +1,19 @@
+{
+  "slug": "charlie-munger",
+  "name": "Charlie Munger",
+  "category": "modern-thinkers",
+  "features": [
+    {
+      "label": "Mental models as a system",
+      "detail": "A latticework assembled deliberately across disciplines. The method transfers well beyond investing."
+    },
+    {
+      "label": "Inversion",
+      "detail": "Solve by asking what would guarantee failure. Simple, underused, and his most portable single idea."
+    },
+    {
+      "label": "Blunt to a fault",
+      "detail": "Dismissed entire fields wholesale. A useful corrective, and occasionally just wrong."
+    }
+  ]
+}

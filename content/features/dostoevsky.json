@@ -1,0 +1,19 @@
+{
+  "slug": "dostoevsky",
+  "name": "Dostoevsky",
+  "category": "literature",
+  "features": [
+    {
+      "label": "Faced a firing squad",
+      "detail": "Reprieved at the last second as a staged mock execution, then four years in Siberia. Everything after is written by that man."
+    },
+    {
+      "label": "Argues against himself",
+      "detail": "Gives his strongest lines to characters he opposes. The Grand Inquisitor is unanswerable on purpose."
+    },
+    {
+      "label": "Wrote under compulsion",
+      "detail": "A gambling addict working against debt and deadline. The chaos in the novels is not invented."
+    }
+  ]
+}

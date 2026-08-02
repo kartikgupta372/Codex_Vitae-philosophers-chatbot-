@@ -3,7 +3,7 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.api.routes import health, ping
+from app.api.routes import chat, health, ping
 from app.core.config import get_settings
 from app.core.logging import configure_logging
 from app.db.session import dispose_engine
@@ -31,6 +31,7 @@ def create_app() -> FastAPI:
 
     app.include_router(health.router)
     app.include_router(ping.router)
+    app.include_router(chat.router)
 
     return app
 

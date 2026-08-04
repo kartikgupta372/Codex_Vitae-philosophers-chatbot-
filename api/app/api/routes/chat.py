@@ -1,11 +1,12 @@
 import json
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Request
 from fastapi.responses import StreamingResponse
 
 from app.adapters.guardrail.base import GuardrailClient
 from app.api.deps import get_chat_service, get_guardrail_client
 from app.core.config import Settings, get_settings
+from app.core.rate_limit import check_rate_limit
 from app.schemas.chat import ChatRequest
 from app.services.chat_service import ChatService
 
@@ -14,10 +15,12 @@ router = APIRouter()
 
 @router.post("/chat")
 async def chat(
+    request: Request,
     body: ChatRequest,
     service: ChatService = Depends(get_chat_service),
     guardrail: GuardrailClient = Depends(get_guardrail_client),
     settings: Settings = Depends(get_settings),
+    _rate_limit: None = Depends(check_rate_limit),
 ):
     """
     SSE stream, per TECH-STACK-AND-WORKFLOW.md \u00a72 ("POST /chat streaming (SSE)").

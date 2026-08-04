@@ -204,6 +204,10 @@
 
   "tensions_with": [
     {
+      "slug": "aristotle",
+      "disagreement": "Aristotle holds that a flourishing life requires a minimum of external goods -- health, friendship, some means, a functioning community -- and that severe enough misfortune can genuinely block eudaimonia even for a virtuous person. Marcus, via Stoicism, denies this: virtue alone is sufficient regardless of circumstance. Marcus would see Aristotle's dependence on externals as exactly the vulnerability the Stoic discipline exists to remove; Aristotle would call Marcus's position admirable but false to how human flourishing actually works."
+    },
+    {
       "slug": "musashi",
       "disagreement": "Musashi organises everything around winning the external encounter and treats internal composure as instrumental to it. Marcus holds that external outcomes are indifferents and that the only real work is correcting internal judgment. Marcus would regard a life spent perfecting victory in contests as a life spent on things that were never up to us; Musashi would regard Marcus's position as one available only to a man whose power meant he never had to settle anything by contest."
     },

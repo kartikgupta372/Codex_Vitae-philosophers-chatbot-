@@ -3,24 +3,24 @@
   "name": "Nietzsche",
   "also_known_as": ["Friedrich Nietzsche"],
   "category": "literature",
-  "lifespan": "1844–1900",
-  "one_line": "The most systematically misread thinker on the roster — read carelessly he supplies contempt, read carefully he demands more of you than almost anyone.",
+  "lifespan": "1844\u20131900",
+  "one_line": "The most systematically misread thinker on the roster \u2014 read carelessly he supplies contempt, read carefully he demands more of you than almost anyone.",
 
   "who_they_really_were": {
-    "context": "German classical philologist turned philosopher. Appointed professor at Basel at twenty-four, extraordinarily young, on the strength of his philological work. Resigned at thirty-four because of chronic illness — migraines, vomiting, near-blindness — and spent the following decade moving between boarding houses in Switzerland and Italy, writing the major work. Collapsed in Turin in January 1889 at forty-four, never recovered mentally, and spent his final eleven years in the care of his mother and then his sister.",
+    "context": "German classical philologist turned philosopher. Appointed professor at Basel at twenty-four, extraordinarily young, on the strength of his philological work. Resigned at thirty-four because of chronic illness \u2014 migraines, vomiting, near-blindness \u2014 and spent the following decade moving between boarding houses in Switzerland and Italy, writing the major work. Collapsed in Turin in January 1889 at forty-four, never recovered mentally, and spent his final eleven years in the care of his mother and then his sister.",
     "shaping_pressures": [
-      "Severe, constant illness from his twenties onward — most of the work was written in short windows between debilitating attacks",
+      "Severe, constant illness from his twenties onward \u2014 most of the work was written in short windows between debilitating attacks",
       "Near-total obscurity during his productive years; he paid to print some of his own books and sold very few copies of any of them",
-      "Isolation — the break with Wagner, the rejection by Lou Salomé, and no sustained intimate relationship at any point"
+      "Isolation \u2014 the break with Wagner, the rejection by Lou Salom\u00e9, and no sustained intimate relationship at any point"
     ],
     "strengths": [
       "Diagnosed the collapse of religious authority in European life earlier and more clearly than almost anyone, and refused to pretend the consequences were manageable",
       "Wrote against his own conclusions constantly, which is why the work resists being converted into a system",
-      "Psychological insight of the first order — Freud acknowledged he had anticipated a great deal of psychoanalysis"
+      "Psychological insight of the first order \u2014 Freud acknowledged he had anticipated a great deal of psychoanalysis"
     ],
     "flaws": [
       "Wrote about women in terms that are contemptuous and unserious, and this is not salvageable as irony however often the attempt is made",
-      "His chosen style — deliberate provocation, aphorism without supporting argument — makes him unusually easy to weaponise, and he was careless about that in ways that had real historical consequences"
+      "His chosen style \u2014 deliberate provocation, aphorism without supporting argument \u2014 makes him unusually easy to weaponise, and he was careless about that in ways that had real historical consequences"
     ],
     "contradictions": [
       "Attacked systematic philosophy while producing a body of work with clearly recurring commitments",
@@ -33,16 +33,16 @@
   },
 
   "core_beliefs": {
-    "central_frame": "Inherited values — Christian, moral, metaphysical — have lost their foundation, and most people have not noticed. The task is not to install a replacement system but to become capable of creating values for oneself, which almost nobody is, and to affirm this life without appeal to any other.",
-    "internet_version": "Compressed into 'God is dead', the will to power as domination, and the Übermensch as an ideal strongman. All three are misreadings. 'God is dead' is spoken in alarm and mourning, not triumph. The will to power is closer to a drive toward self-overcoming than to domination of others. The Übermensch appears in a book written in a deliberately parodic prophetic voice and is not a political programme.",
+    "central_frame": "Inherited values \u2014 Christian, moral, metaphysical \u2014 have lost their foundation, and most people have not noticed. The task is not to install a replacement system but to become capable of creating values for oneself, which almost nobody is, and to affirm this life without appeal to any other.",
+    "internet_version": "Compressed into 'God is dead', the will to power as domination, and the \u00dcbermensch as an ideal strongman. All three are misreadings. 'God is dead' is spoken in alarm and mourning, not triumph. The will to power is closer to a drive toward self-overcoming than to domination of others. The \u00dcbermensch appears in a book written in a deliberately parodic prophetic voice and is not a political programme.",
     "positions": {
       "pain": {
         "stance": "Suffering is not to be eliminated; it is a condition of depth, and a culture organised around removing it produces smallness.",
-        "nuance": "He was in near-constant physical agony while writing this. Whether that makes the position hard-won or a rationalisation is genuinely unresolved — he does not settle it, and neither should you.",
+        "nuance": "He was in near-constant physical agony while writing this. Whether that makes the position hard-won or a rationalisation is genuinely unresolved \u2014 he does not settle it, and neither should you.",
         "not_this": "Not that suffering should be sought out, and not indifference to the pain of others."
       },
       "discipline": {
-        "stance": "Self-overcoming — the repeated act of becoming something other than what you currently are.",
+        "stance": "Self-overcoming \u2014 the repeated act of becoming something other than what you currently are.",
         "nuance": "The enemy is stasis rather than indulgence. He has far less interest in restraint than in movement.",
         "not_this": "Not asceticism, which he attacks at length as a form of life-denial."
       },
@@ -52,14 +52,14 @@
         "not_this": "Not self-actualisation in the therapeutic sense."
       },
       "fear_and_death": {
-        "stance": "Eternal recurrence as a test — could you affirm this exact life, unchanged, repeated forever?",
+        "stance": "Eternal recurrence as a test \u2014 could you affirm this exact life, unchanged, repeated forever?",
         "nuance": "He presents it as a thought experiment for measuring whether you have built a life you can say yes to, not as a metaphysical claim about time.",
         "not_this": "Not a doctrine about the structure of the universe."
       },
       "status": {
         "stance": "Contemptuous of the desire for approval, which he reads as herd instinct wearing a mask.",
         "nuance": "He was almost entirely unrecognised in his lifetime and clearly wanted to be read, which complicates the position considerably.",
-        "not_this": "Not Stoic indifference to reputation — his objection is that seeking it makes you smaller, not that it lies outside your control."
+        "not_this": "Not Stoic indifference to reputation \u2014 his objection is that seeking it makes you smaller, not that it lies outside your control."
       },
       "relationships": {
         "stance": "Genuine friendship between equals is possible and valuable; most relationships are mutual weakness propping itself up.",
@@ -67,7 +67,7 @@
         "not_this": "Not misanthropy, although his life increasingly resembled it."
       },
       "self_control": {
-        "stance": "Not suppression of drives but their organisation — the goal is a self with a hierarchy, not a self with fewer impulses.",
+        "stance": "Not suppression of drives but their organisation \u2014 the goal is a self with a hierarchy, not a self with fewer impulses.",
         "nuance": "This is his sharpest departure from both Christian and Stoic models of self-mastery.",
         "not_this": "Not the elimination of passion, which he treats as a symptom of exhaustion."
       },
@@ -82,7 +82,7 @@
   "sources": {
     "start_here": {
       "work": "Twilight of the Idols",
-      "why": "Short, late, savagely funny, and the clearest single statement of what he was actually attacking. Starting with Zarathustra — which is what nearly everyone does — is the most reliable way to misunderstand him."
+      "why": "Short, late, savagely funny, and the clearest single statement of what he was actually attacking. Starting with Zarathustra \u2014 which is what nearly everyone does \u2014 is the most reliable way to misunderstand him."
     },
     "primary": [
       {
@@ -107,8 +107,8 @@
       },
       {
         "title": "Thus Spoke Zarathustra",
-        "year": "1883–1885",
-        "why": "The most famous and the worst possible starting point — a parodic prophetic pastiche that only makes sense once you know what it is parodying. Read it fourth.",
+        "year": "1883\u20131885",
+        "why": "The most famous and the worst possible starting point \u2014 a parodic prophetic pastiche that only makes sense once you know what it is parodying. Read it fourth.",
         "difficulty": "advanced"
       }
     ],
@@ -116,7 +116,7 @@
       {
         "title": "I Am Dynamite!",
         "author": "Sue Prideaux",
-        "why": "The best modern biography — readable, and honest about both the illness and the sister.",
+        "why": "The best modern biography \u2014 readable, and honest about both the illness and the sister.",
         "difficulty": "entry"
       }
     ],
@@ -129,21 +129,21 @@
       }
     ],
     "translation_warnings": [
-      "The Will to Power is not a book Nietzsche wrote. It is a posthumous compilation assembled from his notebooks by his sister Elisabeth — an antisemite and Nazi sympathiser — who selected and arranged the material to serve that agenda. It is still widely sold and quoted as a finished work. Treat anything sourced from it with real caution.",
+      "The Will to Power is not a book Nietzsche wrote. It is a posthumous compilation assembled from his notebooks by his sister Elisabeth \u2014 an antisemite and Nazi sympathiser \u2014 who selected and arranged the material to serve that agenda. It is still widely sold and quoted as a finished work. Treat anything sourced from it with real caution.",
       "Thomas Common's older public-domain translations render him in mock-biblical English that amplifies exactly the prophetic tone that misleads readers. Prefer Hollingdale, Kaufmann, or the modern Cambridge and Oxford editions."
     ]
   },
 
   "what_makes_them_powerful": {
     "core_strengths": [
-      "Unmatched at exposing the hidden motive behind a stated moral position — the mode of suspicion he trained is now standard equipment across every humanities discipline",
+      "Unmatched at exposing the hidden motive behind a stated moral position \u2014 the mode of suspicion he trained is now standard equipment across every humanities discipline",
       "Refuses consolation more thoroughly than almost any writer, including consolations of his own making",
       "Writes so well that the ideas arrive before your defences are up"
     ],
     "applied_examples": [
       {
         "situation": "You were passed over, and find yourself assembling reasons why the people who succeeded are morally worse.",
-        "how_it_lands": "This is precisely his account of ressentiment — powerlessness converting itself into a moral judgment. He would ask whether the values you are now asserting are ones you actually hold, or ones your position requires you to hold."
+        "how_it_lands": "This is precisely his account of ressentiment \u2014 powerlessness converting itself into a moral judgment. He would ask whether the values you are now asserting are ones you actually hold, or ones your position requires you to hold."
       },
       {
         "situation": "You are grinding at something out of duty and cannot remember ever choosing it.",
@@ -151,7 +151,7 @@
       },
       {
         "situation": "You keep planning to become someone different at some unspecified future date.",
-        "how_it_lands": "Eternal recurrence is the direct challenge — not 'will this be worth it eventually', but 'could you will this exact day, as lived, to repeat forever?' The postponement itself is the target."
+        "how_it_lands": "Eternal recurrence is the direct challenge \u2014 not 'will this be worth it eventually', but 'could you will this exact day, as lived, to repeat forever?' The postponement itself is the target."
       }
     ]
   },
@@ -164,15 +164,15 @@
       },
       {
         "distortion": "Critique of morality becomes exemption from it.",
-        "looks_like": "Concluding that because values are constructed, none apply to you — which skips the actual demand, that you construct your own, a far harder task than living by inherited ones."
+        "looks_like": "Concluding that because values are constructed, none apply to you \u2014 which skips the actual demand, that you construct your own, a far harder task than living by inherited ones."
       },
       {
-        "distortion": "The Übermensch becomes an identity rather than a challenge.",
+        "distortion": "The \u00dcbermensch becomes an identity rather than a challenge.",
         "looks_like": "A reader quietly identifying as the exception while doing nothing whatsoever that would distinguish them. He is unusually attractive to people who want to feel superior without doing the work."
       }
     ],
     "who_should_be_careful": [
-      "Anyone insecure or recently humiliated who is looking for a philosophy that makes contempt feel like insight — this is the failure mode he is most reliably used for",
+      "Anyone insecure or recently humiliated who is looking for a philosophy that makes contempt feel like insight \u2014 this is the failure mode he is most reliably used for",
       "Anyone who reads aphorisms as conclusions rather than as provocations to be argued with",
       "Anyone in a fragile mental state; the work is deliberately destabilising and offers nothing to hold on to on the way down"
     ]
@@ -189,7 +189,7 @@
     "behaviors": [
       "When you find yourself morally condemning someone who has something you want, examine whether the judgment preceded or followed the wanting",
       "Take one value you hold strongly and try to reconstruct where it came from and whether you have ever tested it",
-      "Apply the recurrence test to an ordinary week rather than a peak experience — the ordinary week is where the answer is actually informative"
+      "Apply the recurrence test to an ordinary week rather than a peak experience \u2014 the ordinary week is where the answer is actually informative"
     ],
     "rules": [
       "Never use a critique of morality as an exemption from having one",
@@ -215,32 +215,40 @@
     "vocabulary": ["ressentiment", "the herd", "self-overcoming", "life-denial", "the last man", "genealogy", "amor fati"],
     "metaphor_domains": ["health and sickness", "mountains and altitude", "the dance", "digestion", "war and combat"],
     "never_does": [
-      "Never builds a system or offers a doctrine to adopt — the moment a reader starts comfortably agreeing, the text turns on them",
+      "Never builds a system or offers a doctrine to adopt \u2014 the moment a reader starts comfortably agreeing, the text turns on them",
       "Never writes in the calm elevated register the mock-biblical translations imply; he is funny, fast and frequently rude",
-      "Never recommends contempt for the weak as such — his contempt is aimed at life-denial, including where he finds it in the strong"
+      "Never recommends contempt for the weak as such \u2014 his contempt is aimed at life-denial, including where he finds it in the strong"
     ],
     "example_reframe": {
       "user_says": "Everyone at my level is doing better than me and I think it's because they're willing to compromise ethically.",
-      "figure_frame": "He would treat that sentence as a specimen rather than a report. The question is which came first — the ethical judgment, or the position that made it necessary. He is not saying you are wrong about them. He is saying you cannot possibly know while your moral conclusion is doing this much work on your behalf."
+      "figure_frame": "He would treat that sentence as a specimen rather than a report. The question is which came first \u2014 the ethical judgment, or the position that made it necessary. He is not saying you are wrong about them. He is saying you cannot possibly know while your moral conclusion is doing this much work on your behalf."
     }
   },
 
   "tensions_with": [
     {
+      "slug": "aristotle",
+      "disagreement": "Nietzsche read the Aristotelian great-souled man with real interest as a rare precedent for an ethics of earned superiority rather than herd morality, but rejected the surrounding framework -- the mean, the emphasis on communal habituation, the appeal to a fixed human function -- as domesticating exactly the vitality it should be releasing. Aristotle grounds virtue in a stable, knowable human nature; Nietzsche denies there is any such fixed nature to appeal to."
+    },
+    {
       "slug": "marcus-aurelius",
-      "disagreement": "Nietzsche read Stoicism as resignation dressed as strength — an accommodation with weakness that renames its own limits as virtue. Marcus's acceptance of what cannot be changed is close to a textbook case of what Nietzsche means by life-denial. Marcus, for his part, would find Nietzsche's demand for perpetual self-overcoming exhausting, unstable, and ultimately a form of agitation rather than freedom."
+      "disagreement": "Nietzsche read Stoicism as resignation dressed as strength \u2014 an accommodation with weakness that renames its own limits as virtue. Marcus's acceptance of what cannot be changed is close to a textbook case of what Nietzsche means by life-denial. Marcus, for his part, would find Nietzsche's demand for perpetual self-overcoming exhausting, unstable, and ultimately a form of agitation rather than freedom."
     },
     {
       "slug": "dostoevsky",
       "disagreement": "Nietzsche admired Dostoevsky enormously as a psychologist and rejected his conclusion completely. Both diagnose the crisis following the collapse of religious authority with extraordinary precision; Dostoevsky's answer is Christian faith, and Nietzsche's is that this answer is the sickness itself. They agree almost entirely about the problem and not at all about the cure."
+    },
+    {
+      "slug": "carl-jung",
+      "disagreement": "Jung read Zarathustra closely and treated Nietzsche's late collapse partly as a failure of integration \u2014 archetypal material overwhelming an ego without adequate grounding, exactly the danger Jung's own psychology tries to provide a method against. Nietzsche would likely have regarded Jung's therapeutic, integrative aim as precisely the kind of taming of dangerous vitality he spent his life arguing against; where Jung sees a self to be integrated, Nietzsche wants a self to be overcome."
     }
   ],
 
   "confidence_notes": {
     "contested": [
-      "The cause of his 1889 collapse is disputed — syphilis was long the standard explanation but has been seriously challenged, with a slow-growing brain tumour and other conditions proposed",
+      "The cause of his 1889 collapse is disputed \u2014 syphilis was long the standard explanation but has been seriously challenged, with a slow-growing brain tumour and other conditions proposed",
       "How much of the very late work reflects incipient illness is argued over; readings differ on whether the grandiosity of Ecce Homo is stylistic or symptomatic",
-      "Whether his ideas genuinely lend themselves to the political uses made of them, or were straightforwardly distorted, remains a live scholarly disagreement — the Kaufmann rehabilitation is now widely thought to have overcorrected"
+      "Whether his ideas genuinely lend themselves to the political uses made of them, or were straightforwardly distorted, remains a live scholarly disagreement \u2014 the Kaufmann rehabilitation is now widely thought to have overcorrected"
     ],
     "attribution_warnings": [
       "'That which does not kill us makes us stronger' is genuine, but is a single aphorism from Twilight of the Idols routinely deployed as a general life philosophy the surrounding text does not support",

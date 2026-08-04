@@ -88,6 +88,23 @@
       </div>
 
       
+      <section id="sect-chat" style="margin-bottom:64px;" class="fade-in">
+        <p class="section-label">Speak With Them</p>
+
+        <div id="chatUnavailable" class="hidden" style="padding:20px 24px;border:var(--rule-thin) solid var(--outline-variant);background:var(--surface-container-lowest);">
+          <p class="t-body-md text-muted italic">No agent has been built for this figure yet — only the roster's feature summary exists so far. The study material below still applies where it's available.</p>
+        </div>
+
+        <div id="chatArea" class="chat-window">
+          <div id="chatEmptyState" style="margin-bottom:20px;"></div>
+          <div id="chatThread" class="chat-thread-scroll" style="display:flex;flex-direction:column;gap:22px;margin-bottom:8px;"></div>
+          <p id="chatError" class="hidden attribution-note" style="border-color:var(--secondary);color:var(--secondary);"></p>
+        </div>
+      </section>
+
+      <div class="section-divider"><span class="fleuron">❦</span></div>
+
+      
       <section id="sect-who" style="margin-bottom:64px;" class="fade-in">
         <p class="section-label">Who They Really Were</p>
         <p class="t-body-lg drop-cap" id="ctxParagraph"></p>
@@ -262,6 +279,18 @@
 <script type="module">
 import { loadFigure, loadFeature, getImagePath, recordVisit, FIGURE_SLUGS } from './data.js';
 
+// API_BASE: no env/build system in this plain HTML frontend, so this is a
+// hardcoded local dev default -- change it if the FastAPI backend isn't
+// running on localhost:8000. See core/config.py's CORS note if requests
+// fail with a CORS error rather than a connection error.
+const API_BASE = 'http://127.0.0.1:8000';
+// Literal IPv4, not 'localhost' -- Windows browsers frequently resolve
+// "localhost" to the IPv6 loopback (::1) first, but uvicorn's default bind
+// is IPv4-only (127.0.0.1). PowerShell's Invoke-RestMethod tends to fall
+// back to IPv4 more readily than a browser fetch does, which is why direct
+// PowerShell testing worked while the actual page couldn't connect. Being
+// explicit here sidesteps the resolution ambiguity entirely.
+
 // ── Utilities ──────────────────────────────────────────────────────────────
 function scrollToSection(id) {
   const el = document.getElementById(id);
@@ -291,6 +320,140 @@ function positionLabel(key) {
 }
 function positionIcon(key) {
   return (POSITION_ICONS[key] || {}).icon || 'radio_button_unchecked';
+}
+
+// ── Chat: state ────────────────────────────────────────────────────────────
+let currentSlug = null;
+let chatHistory = [];   // [{role:'user'|'assistant', content:string}, ...]
+let chatBusy = false;
+
+// ── Chat: rendering ────────────────────────────────────────────────────────
+function appendChatMessage(role, name, content) {
+  const thread = document.getElementById('chatThread');
+  const wrap = document.createElement('div');
+  wrap.className = 'chat-message';
+  const label = role === 'user'
+    ? `<span class="seeker-label">You</span>`
+    : role === 'system'
+      ? `<span class="system-label">Codex Vitae</span>`
+      : `<span class="speaker-label">${esc(name)}</span>`;
+  const bodyClass = role === 'user'
+    ? 't-body-md'
+    : 't-body-lg';
+  // 'system' (guardrail-tripped) messages get full-strength ink, same as the
+  // philosopher's replies -- this is a safety message, it should never read
+  // as visually de-prioritized. Only the LABEL marks it as not-the-persona.
+  const bodyStyle = role === 'user'
+    ? 'color:var(--on-surface-variant);'
+    : 'font-style:normal;';
+  wrap.innerHTML = `${label}<p class="${bodyClass}" style="${bodyStyle}white-space:pre-wrap;"></p>`;
+  wrap.querySelector('p').textContent = content;
+  thread.appendChild(wrap);
+  wrap.scrollIntoView({ behavior: 'smooth', block: 'end' });
+  return wrap.querySelector('p');
+}
+
+function renderChatEmptyState(data) {
+  const el = document.getElementById('chatEmptyState');
+  const reframe = data?.voice?.example_reframe;
+  if (!reframe) { el.innerHTML = ''; return; }
+  el.innerHTML = `
+    <p class="t-label-xs text-muted" style="margin-bottom:10px;">A worked example, not a live reply —</p>
+    <div class="chat-message" style="margin-bottom:16px;">
+      <span class="seeker-label">You</span>
+      <p class="t-body-md" style="color:var(--on-surface-variant);">${esc(reframe.user_says)}</p>
+    </div>
+    <div class="chat-message">
+      <span class="speaker-label">${esc(data.name)}</span>
+      <p class="t-body-lg" style="font-style:italic;">${esc(reframe.figure_frame)}</p>
+    </div>
+  `;
+}
+
+function setChatError(message) {
+  const el = document.getElementById('chatError');
+  if (!message) { el.classList.add('hidden'); el.textContent = ''; return; }
+  el.textContent = message;
+  el.classList.remove('hidden');
+}
+
+// ── Chat: send + stream ────────────────────────────────────────────────────
+async function sendChatMessage(figureName, text) {
+  if (chatBusy || !text.trim()) return;
+  chatBusy = true;
+  setChatError(null);
+
+  document.getElementById('chatEmptyState').innerHTML = '';
+  appendChatMessage('user', null, text);
+
+  // replyEl is NOT created yet. This was the bug: creating it here, always
+  // labeled with figureName, meant the label was decided before we'd even
+  // seen the response that determines whether that label is correct. The
+  // backend's first SSE event is always {"guardrail_tripped": bool} with no
+  // "chunk" key -- that's read below, BEFORE the message element exists, so
+  // the label (philosopher name vs. neutral "Codex Vitae") is only ever
+  // created once, correctly, the first time.
+  let replyEl = null;
+  let fullReply = '';
+
+  try {
+    const res = await fetch(`${API_BASE}/chat`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ slug: currentSlug, message: text, history: chatHistory }),
+    });
+
+    if (!res.ok) {
+      const body = await res.json().catch(() => ({}));
+      throw new Error(body.detail || `Request failed (${res.status})`);
+    }
+
+    const reader = res.body.getReader();
+    const decoder = new TextDecoder();
+    let buffer = '';
+    let firstEventSeen = false;
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      buffer += decoder.decode(value, { stream: true });
+      const parts = buffer.split('\n\n');
+      buffer = parts.pop();
+      for (const part of parts) {
+        if (!part.startsWith('data: ')) continue;
+        const payload = part.slice(6);
+        if (payload === '[DONE]') continue;
+        const event = JSON.parse(payload);
+
+        if (!firstEventSeen) {
+          firstEventSeen = true;
+          replyEl = event.guardrail_tripped
+            ? appendChatMessage('system', null, '')
+            : appendChatMessage('assistant', figureName, '');
+        }
+
+        if ('chunk' in event) {
+          fullReply += event.chunk;
+          replyEl.textContent = fullReply;
+        }
+      }
+    }
+
+    chatHistory.push({ role: 'user', content: text });
+    chatHistory.push({ role: 'assistant', content: fullReply });
+  } catch (err) {
+    setChatError(
+      err.message?.includes('fetch')
+        ? `Couldn't reach the backend at ${API_BASE} — is it running?`
+        : err.message || 'Something went wrong.'
+    );
+    // replyEl can genuinely be null now -- if the fetch itself fails (server
+    // unreachable), the loop never runs and no message element was ever
+    // created to clean up.
+    if (replyEl && !fullReply) replyEl.closest('.chat-message').remove();
+  } finally {
+    chatBusy = false;
+  }
 }
 
 // ── Accordion builder ──────────────────────────────────────────────────────
@@ -443,6 +606,21 @@ document.addEventListener('keydown', e => {
   }
 });
 
+// cmdInput doubles as the chat box: Enter sends to the active figure's agent.
+// Slash commands (/switch, /read, /manual, /limits) aren't wired yet --
+// anything starting with '/' is currently ignored rather than half-handled.
+document.getElementById('cmdInput').addEventListener('keydown', e => {
+  if (e.key !== 'Enter') return;
+  const input = e.target;
+  const text = input.value.trim();
+  if (!text || text.startsWith('/')) return;
+  if (!currentSlug || !FIGURE_SLUGS.includes(currentSlug)) return;
+
+  const figureName = document.getElementById('headerName').textContent;
+  input.value = '';
+  sendChatMessage(figureName, text);
+});
+
 // ── Scroll fade observer ───────────────────────────────────────────────────
 const fadeObserver = new IntersectionObserver(entries => {
   entries.forEach(entry => {
@@ -457,6 +635,7 @@ const fadeObserver = new IntersectionObserver(entries => {
 async function init() {
   const params = new URLSearchParams(location.search);
   const slug = params.get('slug') || 'marcus-aurelius';
+  currentSlug = slug;
 
   // Check if a full figure exists; if not load feature only
   let figure = null;
@@ -491,7 +670,17 @@ async function init() {
   // ── Update top bar header ──
   document.getElementById('headerName').textContent = name;
   document.getElementById('headerLifespan').textContent = lifespan;
-  document.getElementById('cmdInput').setAttribute('placeholder', `Ask ${name.split(' ')[0]}…  (/switch /read /manual /limits)`);
+
+  // ── Chat: gate on whether this figure actually has an agent ──
+  const hasAgent = FIGURE_SLUGS.includes(slug);
+  document.getElementById('chatUnavailable').classList.toggle('hidden', hasAgent);
+  document.getElementById('chatArea').classList.toggle('hidden', !hasAgent);
+  if (hasAgent) {
+    renderChatEmptyState(data);
+    document.getElementById('cmdInput').setAttribute('placeholder', `Ask ${name.split(' ')[0]}…  (/switch /read /manual /limits)`);
+  } else {
+    document.getElementById('cmdInput').setAttribute('placeholder', `No agent yet for ${name} — /switch to another figure`);
+  }
 
   // Portrait — falls back to the placeholder if the file is missing or fails to decode,
   // so a wrong path in IMAGE_MAP degrades to initials rather than a broken-image icon.

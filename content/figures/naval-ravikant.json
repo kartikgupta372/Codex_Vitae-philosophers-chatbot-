@@ -1,0 +1,219 @@
+{
+  "slug": "naval-ravikant",
+  "name": "Naval Ravikant",
+  "category": "modern-thinkers",
+  "lifespan": "b. 1974",
+  "is_living": true,
+  "one_line": "Wealth and happiness as separate, learnable games with different rules -- compressed into tweetable lines that are easy to quote and easy to strip of the argument underneath them.",
+
+  "who_they_really_were": {
+    "context": "Indian-American entrepreneur and investor, co-founder of AngelList and an early investor in companies including Twitter, Uber and Postmates. Became widely known less for any single company than for a body of public reflection -- podcast appearances, essays, and especially a long, dense Twitter thread ('How to Get Rich (without getting lucky)') and an unauthorized book-length compilation of his tweets and talks, The Almanack of Naval Ravikant, assembled by Eric Jorgenson with Naval's cooperation but not his own authored manuscript.",
+    "shaping_pressures": [
+      "Immigrated to the United States as a child in genuinely difficult financial circumstances -- the wealth-building material is grounded in a documented personal starting point, not abstract theorizing",
+      "Multiple startup failures before his more visible successes, which he has referenced directly when discussing risk and specific knowledge",
+      "Building a public voice primarily through short-form text (Twitter) and long-form spoken conversation (podcasts) rather than through books -- this shapes the compressed, aphoristic character of most of what circulates under his name"
+    ],
+    "strengths": [
+      "Genuinely original framing of wealth-building around specific knowledge, leverage and equity ownership, argued with real specificity rather than generic hustle-culture language",
+      "Willing to separate wealth from happiness explicitly and treat them as requiring different, sometimes conflicting approaches, rather than collapsing them into one pursuit",
+      "Draws openly and by name on older philosophical traditions (Stoicism, Buddhism) rather than presenting the ideas as invented from nothing"
+    ],
+    "flaws": [
+      "The compressed, tweet-native format that made the material widely shareable also strips it of the argument and caveats that would normally accompany claims this large -- a structural cost of the medium he is most associated with, not incidental",
+      "Speaks with considerable confidence on wealth-building from a position of substantial pre-existing access to Silicon Valley capital and networks, which the advice does not always account for explicitly"
+    ],
+    "contradictions": [
+      "Advocates seeking 'specific knowledge' that cannot be easily taught, while producing enormously teachable, widely franchised threads and frameworks that function exactly like a teachable system",
+      "Emphasizes internal peace and non-attachment to outcomes while remaining an active, highly public investor and commentator whose visibility is itself a kind of outcome"
+    ],
+    "blind_spots": [
+      "The specific-knowledge and equity-ownership framework describes a real path that also depends heavily on access to a specific, unusually well-resourced professional network (startup investing) that most people encountering the advice do not have and the material does not always foreground"
+    ]
+  },
+
+  "core_beliefs": {
+    "central_frame": "Wealth (a good you can accumulate through equity, leverage and specific knowledge, without needing anyone's permission or trading time directly for money) and happiness (a skill, closer to a default state achieved by removing want and aversion, than a goal to be pursued) are two different games with two different rulebooks -- and confusing them, pursuing wealth as though it will produce happiness, is a common and costly error.",
+    "internet_version": "Frequently flattened into either pure hustle-culture wealth advice ('get rich') or pure Stoic-lite happiness content ('desire is suffering'), stripped of the deliberate SEPARATION between the two that is his actual, more interesting claim.",
+    "positions": {
+      "pain": {
+        "stance": "Much psychological suffering comes from resisting what already is, or wanting what is not -- a direct borrowing from Buddhist and Stoic frameworks he names explicitly.",
+        "nuance": "He treats this as a trainable skill (meditation, specific practices) rather than a philosophical position to simply agree with.",
+        "not_this": "Not indifference to physical pain, and not passivity about genuinely changeable circumstances."
+      },
+      "discipline": {
+        "stance": "Favors a small number of high-leverage habits (reading, specific knowledge acquisition, health basics) sustained consistently over long periods, over effortful short bursts.",
+        "nuance": "Frequently emphasizes compounding -- in knowledge, relationships and capital -- as the actual mechanism behind results that look sudden from outside.",
+        "not_this": "Not extreme discipline or self-denial as virtues in themselves."
+      },
+      "purpose": {
+        "stance": "Recommends pursuing specific knowledge -- skills that feel like play to you and drudgery to others, and that therefore cannot be easily taught or outsourced -- rather than a single fixed 'purpose'.",
+        "nuance": "This is presented as a practical search process, discovered through following genuine curiosity, rather than a single revelation.",
+        "not_this": "Not a single grand calling to be found once."
+      },
+      "fear_and_death": {
+        "stance": "Has spoken about mortality as a reason for urgency in living according to your own values now, rather than deferring to some later, safer point.",
+        "nuance": "Less central to his public material than the wealth and happiness frameworks, and correspondingly thinner in documented detail.",
+        "not_this": "Not a developed, sustained philosophical treatment of death comparable to the ancient figures on this roster."
+      },
+      "status": {
+        "stance": "Distinguishes wealth (assets that work for you) sharply from status and money (which are often zero-sum, positional games), and argues status-seeking is a poor long-term strategy.",
+        "nuance": "This is one of his most specific and widely quoted distinctions, and among the more rigorously argued.",
+        "not_this": "Not indifference to reputation as it actually functions socially -- the claim is narrower, about which games are and aren't positive-sum."
+      },
+      "relationships": {
+        "stance": "Has spoken about choosing relationships and environments deliberately, and about the compounding value of long-term reputation and trust in a small number of key relationships.",
+        "nuance": "Less systematically developed in his public material than the wealth-building framework specifically.",
+        "not_this": "Not a fully worked-out relationship philosophy comparable to his economic thinking."
+      },
+      "self_control": {
+        "stance": "Frames self-control less as suppressing desire through willpower and more as reducing the number and intensity of desires through understanding and practice, so less suppression is needed.",
+        "nuance": "Directly parallels Buddhist and Stoic accounts of desire reduction, which he references by name.",
+        "not_this": "Not willpower as the primary mechanism -- the emphasis is on changing what you want, not white-knuckling against it."
+      },
+      "ambition": {
+        "stance": "Endorses ambitious, long-term wealth-building through ownership and leverage, while treating the compulsive need for MORE wealth once basic freedom is achieved as a trap distinct from the initial, rational pursuit.",
+        "nuance": "The line between healthy ambition and the trap he warns against is not always drawn with full precision in the compressed public material.",
+        "not_this": "Not anti-ambition, and not a case for minimalism as an end in itself."
+      }
+    }
+  },
+
+  "sources": {
+    "start_here": {
+      "work": "How to Get Rich (without getting lucky)",
+      "why": "A single, dense Twitter thread from 2019 that remains the clearest, most self-contained statement of the wealth-building framework -- free, short, and the actual primary source most derivative content is built from."
+    },
+    "primary": [
+      {
+        "title": "How to Get Rich (without getting lucky)",
+        "year": "2019",
+        "why": "The original thread. Read this before any book-length treatment.",
+        "difficulty": "entry"
+      },
+      {
+        "title": "The Almanack of Naval Ravikant",
+        "author": "compiled by Eric Jorgenson",
+        "year": "2020",
+        "why": "A free, widely circulated compilation of his tweets, essays and podcast statements, organized by theme. Naval cooperated with and endorsed it, but it is Jorgenson's editorial compilation, not a book Naval wrote himself -- worth knowing when treating any specific line in it as his exact original wording.",
+        "difficulty": "entry"
+      }
+    ],
+    "interviews_and_podcasts": [
+      {
+        "title": "The Naval Podcast / appearances on The Tim Ferriss Show and Joe Rogan Experience",
+        "why": "Most of his most substantive, extended reasoning exists in long-form spoken conversation rather than in writing -- the podcast material is often more developed than the tweet-length versions."
+      }
+    ],
+    "translation_warnings": [
+      "Because so much of his original material is short-form Twitter text, an enormous amount of paraphrase, misquotation and outright fabrication circulates under his name. Treat any short, highly shareable 'Naval quote' with real skepticism unless it can be traced to a specific thread, essay or dated interview."
+    ]
+  },
+
+  "what_makes_them_powerful": {
+    "core_strengths": [
+      "Gives a specific, arguable mechanism for wealth-building (equity, leverage, specific knowledge) rather than generic motivational language",
+      "Explicitly separates wealth from happiness rather than treating one as a proxy for the other, which is a genuinely useful distinction most advice in this space collapses",
+      "Openly credits older philosophical traditions rather than presenting repackaged Stoicism and Buddhism as original insight"
+    ],
+    "applied_examples": [
+      {
+        "situation": "You are trading time directly for money and feel stuck regardless of how hard you work.",
+        "how_it_lands": "Naval has argued the core lever missing is often ownership -- equity or a product that scales without your direct time input -- rather than simply working harder within a linear, time-for-money arrangement."
+      },
+      {
+        "situation": "You keep chasing the next income milestone and it never seems to produce the satisfaction you expected.",
+        "how_it_lands": "This maps directly onto Naval's wealth-versus-happiness distinction -- he has argued that using wealth as a proxy for a fundamentally separate problem (peace of mind, freedom from want) tends to fail, because the two operate by different mechanisms entirely."
+      },
+      {
+        "situation": "You are trying to decide between several skills to develop and none feels like the obvious 'passion'.",
+        "how_it_lands": "His specific-knowledge framing reframes the search: look for what feels like play to you and drudgery to most other people, since that gap is what makes a skill hard to copy or outsource, rather than waiting for a single revelatory calling."
+      }
+    ]
+  },
+
+  "limits_and_dangers": {
+    "failure_modes": [
+      {
+        "distortion": "The wealth framework gets applied without its actual preconditions.",
+        "looks_like": "Treating 'seek equity and leverage' as universally actionable advice, when Naval's own path involved substantial pre-existing access to Silicon Valley capital, networks and risk tolerance that the compressed advice doesn't always make explicit."
+      },
+      {
+        "distortion": "Compressed aphorisms get treated as complete arguments.",
+        "looks_like": "Quoting a single line stripped of the thread or interview it came from, and treating it as a settled, fully justified claim rather than the compressed endpoint of a longer argument."
+      },
+      {
+        "distortion": "The happiness material becomes a bypass for actually changing a bad situation.",
+        "looks_like": "Using 'happiness is a choice' or desire-reduction framing to avoid making a concrete change to genuinely difficult circumstances that are within your power to change."
+      }
+    ],
+    "who_should_be_careful": [
+      "Anyone without existing access to capital or startup networks taking the wealth-building framework as a direct, unmodified playbook rather than a set of principles requiring real adaptation to their situation",
+      "Anyone quoting a viral line without having read the actual thread, essay or interview it came from",
+      "Anyone using the happiness/non-attachment material to avoid addressing a concrete, changeable problem"
+    ]
+  },
+
+  "diagnostic_questions": [
+    "What emotional need in you is drawn to this figure right now?",
+    "Are you applying this framework with an honest accounting of your actual starting resources, or treating it as a universal formula?",
+    "Have you read the actual thread or interview behind the quote you're drawn to, or only the compressed line?",
+    "Is the wealth you're pursuing actually a proxy for a separate problem -- peace of mind, security, status -- that wealth alone may not solve?"
+  ],
+
+  "operating_manual": {
+    "behaviors": [
+      "Before adopting a piece of advice, trace it back to its original source (thread, essay, dated interview) rather than a secondhand paraphrase",
+      "When pursuing a financial goal, name explicitly what non-financial problem you actually expect it to solve",
+      "Look for the skill that feels like play to you specifically when choosing what to develop, rather than what looks impressive externally"
+    ],
+    "rules": [
+      "Never apply the wealth framework without accounting honestly for your actual starting resources and access",
+      "Never treat a compressed quote as the whole argument behind it",
+      "Never use non-attachment language to avoid a concrete, changeable problem"
+    ],
+    "habits": [
+      { "habit": "Read one full source (thread, essay, or interview transcript) rather than isolated quotes", "cadence": "weekly" },
+      { "habit": "Review one current desire and ask whether satisfying it would actually produce lasting peace or just reset the target", "cadence": "weekly" }
+    ],
+    "journaling_prompts": [
+      "What specific knowledge do you have that would be genuinely hard for someone else to copy, and are you actually building toward owning something with it?"
+    ],
+    "decision_principles": [
+      "Separate whether a decision is optimizing for wealth or for peace of mind, since the right move can differ depending on which you're actually solving for",
+      "Prefer ownership and leverage over pure time-for-money trades when genuinely available to you"
+    ]
+  },
+
+  "voice": {
+    "register": "Compressed, aphoristic and declarative in his written material (especially Twitter); more exploratory, hedged and conversational in long-form podcast interviews. The two registers read quite differently.",
+    "cadence": "Short, standalone, often numbered statements in the threads; longer discursive reasoning with more qualification in spoken conversation.",
+    "vocabulary": ["specific knowledge", "leverage", "wealth vs. money vs. status", "peace of mind", "compounding"],
+    "metaphor_domains": ["games with different rules", "compounding and exponential growth", "code and leverage without permission"],
+    "never_does": [
+      "Rarely presents the wealth-building material with the access-privilege caveats made fully explicit, which is a genuine limitation worth flagging rather than smoothing over",
+      "Does not typically claim originality for the happiness/desire material, and credits Buddhist and Stoic sources directly when discussing it"
+    ],
+    "example_reframe": {
+      "user_says": "I want to be rich so I can finally feel secure and stop worrying.",
+      "figure_frame": "Naval has argued directly against this exact link -- treating wealth as the mechanism for internal peace, when in his framing they are separate games with separate skills. The wealth-building principles (specific knowledge, leverage, ownership) are worth pursuing on their own terms; the security and peace of mind are a separate, largely internal skill that money does not automatically produce."
+    }
+  },
+
+  "tensions_with": [
+    {
+      "slug": "seneca",
+      "disagreement": "Both explicitly draw on Stoic ideas about desire and equanimity, but Seneca held enormous, controversial wealth while writing about its dangers from inside the contradiction, in classical, discursive prose. Naval separates wealth-building and happiness into two named, distinct 'games' with different rules, argued in compressed modern aphorism. Naval's framework is more explicit about the separation; Seneca's life is a much longer-documented case study in how hard that separation is to actually hold in practice."
+    }
+  ],
+
+  "confidence_notes": {
+    "contested": [
+      "How much of the wealth-building framework's real-world success depends on pre-existing access to Silicon Valley capital and networks, versus being a genuinely general-purpose method, is actively debated rather than settled",
+      "Because The Almanack is a third-party compilation, exactly how much editorial framing versus verbatim original material it contains for any given passage is not always independently verifiable"
+    ],
+    "attribution_warnings": [
+      "A very large volume of 'Naval quotes' circulating on social media are paraphrased, combined from multiple separate statements, or entirely fabricated -- as a living public figure whose primary medium is short-form text, misattribution risk here is unusually high compared to historical figures on this roster",
+      "As he is a living person, this app does not generate new first-person opinions in his voice on topics he has not documented a position on -- see the register note in how this figure responds"
+    ]
+  }
+}

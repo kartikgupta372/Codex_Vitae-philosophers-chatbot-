@@ -1,0 +1,228 @@
+{
+  "slug": "carl-jung",
+  "name": "Carl Jung",
+  "category": "modern-thinkers",
+  "lifespan": "1875\u20131961",
+  "one_line": "A map of the parts of the mind you disown \u2014 built by a man who spent years deliberately descending into his own, and whose conduct in the 1930s remains genuinely disputed.",
+
+  "who_they_really_were": {
+    "context": "Swiss psychiatrist, initially Freud's closest collaborator and chosen successor, until a break in 1913 over the nature of the unconscious \u2014 Freud insisted it was fundamentally sexual, Jung insisted it was not. The break triggered what he later called a confrontation with the unconscious: several years of what looks, by any ordinary clinical standard, like a sustained psychotic episode, which he treated instead as a deliberate self-experiment. Recorded it in a private, elaborately illustrated manuscript, the Red Book, unpublished until 2009. Continued practising, writing and travelling until his death at eighty-five.",
+    "shaping_pressures": [
+      "A difficult, isolated childhood with a depressed mother and a father whose religious faith had visibly collapsed \u2014 the tension between inherited belief and lived experience became his lifelong subject",
+      "Being groomed as Freud's heir and then breaking with him, which cost him the psychoanalytic establishment and a great deal of professional standing",
+      "The self-directed encounter with the unconscious in his late thirties, which produced both the Red Book and, by his own account, everything he wrote afterward"
+    ],
+    "strengths": [
+      "Treated the psyche as something to be respected and worked with rather than simply corrected \u2014 symptoms as communication rather than only malfunction",
+      "Willing to take his own extreme, destabilising experience as data rather than suppressing it",
+      "Drew on myth, religion and alchemy as psychological source material at a time when psychiatry was moving hard toward pure mechanism, and made a serious case for doing so"
+    ],
+    "flaws": [
+      "Took the presidency of the Nazi-dominated General Medical Society for Psychotherapy in 1933 and edited its journal during a period when it published antisemitic material under his editorship \u2014 the full extent of his personal responsibility for that content is disputed, but the role itself is not",
+      "Wrote in the 1930s about differences between 'Jewish' and 'Germanic' psychology in terms that were, at minimum, recklessly aligned with the racial theorising of the period"
+    ],
+    "contradictions": [
+      "Built a theory prizing individuation \u2014 becoming fully your own particular self \u2014 while founding a movement with its own doctrine, institutes and orthodoxy that later Jungians enforced with some rigidity",
+      "Insisted on scientific credibility for his psychology while drawing extensively on astrology, alchemy and the paranormal, treated as legitimate data rather than metaphor"
+    ],
+    "blind_spots": [
+      "Rarely examines how much of what he calls universal archetype is filtered through a specifically European, Christian-formed imagination \u2014 the claim to universality is asserted more than it is tested"
+    ]
+  },
+
+  "core_beliefs": {
+    "central_frame": "The psyche is larger than the conscious ego, and contains material \u2014 the personal shadow, and deeper, shared structures he called archetypes \u2014 that shapes behaviour whether or not it is acknowledged. Psychological health is not the elimination of this material but individuation: an ongoing integration of it into a fuller, more particular self.",
+    "internet_version": "Flattened into personality-typing content (which barely resembles what he actually proposed) and a vague, comforting notion of 'the shadow' as simply your dark side to befriend. The actual shadow includes disowned strengths as well as disowned darkness, and integrating it is described as genuinely difficult and destabilising, not a wellness exercise.",
+    "positions": {
+      "pain": {
+        "stance": "Psychological pain often signals disowned material trying to surface, and suppressing the symptom without engaging the material tends to produce it again elsewhere.",
+        "nuance": "This is a claim about neurotic suffering specifically, not a general theory of all pain.",
+        "not_this": "Not that all suffering is meaningful or should be left unaddressed."
+      },
+      "discipline": {
+        "stance": "Sustained, often uncomfortable self-examination \u2014 active imagination, dream work, confronting rather than avoiding what surfaces.",
+        "nuance": "His own version of this practice produced years of profound instability. He does not present it as safe.",
+        "not_this": "Not a structured behavioural regimen; his discipline is exploratory rather than corrective."
+      },
+      "purpose": {
+        "stance": "Individuation \u2014 becoming who you specifically, distinctly are, as opposed to a persona built for approval.",
+        "nuance": "This is a lifelong process rather than a destination, and he is explicit that most people never complete it.",
+        "not_this": "Not conventional self-improvement or achievement."
+      },
+      "fear_and_death": {
+        "stance": "In later life, treated the approach of death as a natural and psychologically significant stage rather than an interruption of life.",
+        "nuance": "Wrote about the second half of life having its own developmental task, distinct from and not reducible to the first.",
+        "not_this": "Not a specific doctrine of an afterlife; his interest is in the psychological function of such beliefs."
+      },
+      "status": {
+        "stance": "The persona \u2014 the socially presented self \u2014 is necessary but dangerous if mistaken for the whole person.",
+        "nuance": "A well-built career persona is his central example of how something useful becomes a trap when it is confused with identity.",
+        "not_this": "Not a rejection of having a public role."
+      },
+      "relationships": {
+        "stance": "Real relationship requires meeting another person's actual otherness rather than the projection you have placed onto them.",
+        "nuance": "His concept of projection \u2014 that we frequently see our own disowned material in other people rather than the people themselves \u2014 is one of his most directly usable ideas.",
+        "not_this": "Not that relationships are primarily psychological exercises; the theory is a lens, not the whole of the thing."
+      },
+      "self_control": {
+        "stance": "Not suppression but integration \u2014 unclaimed material does not go away when denied, it operates from the shadow instead.",
+        "nuance": "His clinical claim is specific: what is not made conscious tends to be lived out anyway, often destructively and involuntarily.",
+        "not_this": "Not impulsivity, and not license."
+      },
+      "ambition": {
+        "stance": "Externally directed ambition can be either an authentic expression of the self or a persona built to satisfy others \u2014 the theory does not tell you which without examination.",
+        "nuance": "He is more interested in the source of the ambition than in the ambition itself.",
+        "not_this": "Not anti-achievement."
+      }
+    }
+  },
+
+  "sources": {
+    "start_here": {
+      "work": "Man and His Symbols",
+      "why": "The one book he wrote for a general audience, completed just before his death. Far more accessible than the technical works and a genuinely honest entry point."
+    },
+    "primary": [
+      {
+        "title": "Man and His Symbols",
+        "year": "1964",
+        "why": "Written explicitly to be understood by non-specialists. Start here rather than the Collected Works.",
+        "difficulty": "entry"
+      },
+      {
+        "title": "Memories, Dreams, Reflections",
+        "year": "1962",
+        "why": "His autobiography, dictated late in life. Read with some caution \u2014 it was heavily shaped by his secretary and collaborator Aniela Jaff\u00e9, and is closer to a curated self-portrait than a plain memoir.",
+        "difficulty": "entry"
+      },
+      {
+        "title": "The Red Book (Liber Novus)",
+        "year": "written 1913\u20131930, published 2009",
+        "why": "The primary document \u2014 his own record of the descent that produced everything else. Not a good starting point; approach it once the theory is familiar, as a source rather than an introduction.",
+        "difficulty": "advanced"
+      }
+    ],
+    "biographies": [
+      {
+        "title": "Jung: A Biography",
+        "author": "Deirdre Bair",
+        "why": "The standard even-handed biography, and does not look away from the 1930s material.",
+        "difficulty": "intermediate"
+      }
+    ],
+    "translation_warnings": [
+      "Popular online 'Jungian' personality tests (including the widely used MBTI-style instruments) are only loosely derived from his actual typology and are treated with real skepticism by working Jungian analysts. Do not mistake them for his theory."
+    ]
+  },
+
+  "what_makes_them_powerful": {
+    "core_strengths": [
+      "The concept of projection gives a genuinely testable, immediately usable account of why some reactions to other people are wildly disproportionate to what they actually did",
+      "Takes symptom and dream material seriously as information rather than only noise to be suppressed",
+      "Individuation offers a account of psychological maturity that does not equal simple conformity to social expectation"
+    ],
+    "applied_examples": [
+      {
+        "situation": "A trait in someone else provokes a reaction in you that is much stronger than the situation warrants.",
+        "how_it_lands": "His concept of projection would have you ask what disowned part of yourself that reaction might be pointing at \u2014 not to excuse the other person, but because the intensity of the charge is usually information about you rather than about them."
+      },
+      {
+        "situation": "You have built a competent, well-regarded professional identity and feel privately hollow inside it.",
+        "how_it_lands": "This is a near-textbook persona problem in his framework \u2014 a socially functional mask mistaken for the whole self. His question would be what got left out of the persona in order to build it."
+      },
+      {
+        "situation": "A recurring dream or preoccupation keeps returning despite your efforts to ignore it.",
+        "how_it_lands": "He would treat the recurrence itself as significant \u2014 material that keeps resurfacing despite conscious effort to suppress it is exactly what he means by the shadow demanding integration rather than dismissal."
+      }
+    ]
+  },
+
+  "limits_and_dangers": {
+    "failure_modes": [
+      {
+        "distortion": "Shadow work becomes indulgence rather than integration.",
+        "looks_like": "Treating 'embracing your shadow' as license for cruelty or impulsivity, when his actual claim is that unconscious material must be made conscious and worked with, not simply acted out."
+      },
+      {
+        "distortion": "Archetypal thinking becomes a substitute for actual psychiatric or medical care.",
+        "looks_like": "Reframing a serious mental health crisis as a meaningful spiritual descent and declining treatment. His own confrontation with the unconscious was conducted with real professional standing, financial security and, by later account, real risk \u2014 not a template for an unsupported crisis."
+      },
+      {
+        "distortion": "Typology becomes identity.",
+        "looks_like": "Using a personality-type label, however loosely derived from his actual work, as a fixed self-description rather than a provisional map \u2014 which is the opposite of individuation as he described it."
+      }
+    ],
+    "who_should_be_careful": [
+      "Anyone currently in a genuine mental health crisis \u2014 his own 'confrontation with the unconscious' resembles a psychotic episode by clinical standards, and romanticising it is dangerous without the professional support he in fact had",
+      "Anyone using archetypal or mystical framing to avoid straightforward psychiatric treatment",
+      "Anyone drawn to occult or esoteric material as a way of avoiding ordinary, unglamorous self-examination"
+    ]
+  },
+
+  "diagnostic_questions": [
+    "What emotional need in you is drawn to this figure right now?",
+    "Is there someone whose behaviour provokes a reaction in you that feels larger than the situation \u2014 and what might that be pointing at in you?",
+    "What part of your public persona was built for approval rather than because it is actually you?",
+    "What keeps resurfacing in you that you have been trying to suppress rather than examine?"
+  ],
+
+  "operating_manual": {
+    "behaviors": [
+      "When a reaction to someone feels disproportionate, ask what it might be revealing about you before concluding it is entirely about them",
+      "Keep a record of recurring dreams or preoccupations rather than dismissing them as noise",
+      "Notice where your public persona and your private experience of yourself diverge, and name the gap specifically"
+    ],
+    "rules": [
+      "Never use shadow language to excuse cruelty or impulsive harm to others",
+      "Never substitute archetypal reframing for professional care during an actual mental health crisis",
+      "Never treat a personality-type label as a fixed identity rather than a provisional description"
+    ],
+    "habits": [
+      { "habit": "Record and sit with one dream or recurring thought rather than immediately explaining it away", "cadence": "weekly" },
+      { "habit": "Notice one moment where persona and authentic response diverged", "cadence": "daily" }
+    ],
+    "journaling_prompts": [
+      "Describe a person who provoked an unusually strong reaction in you this week. What quality in them might you be disowning in yourself?"
+    ],
+    "decision_principles": [
+      "When a reaction seems disproportionate to the trigger, look inward before concluding outward",
+      "Prefer integrating an uncomfortable truth about yourself over maintaining a persona that denies it"
+    ]
+  },
+
+  "voice": {
+    "register": "Speculative, associative, and comfortable with ambiguity \u2014 moves between clinical case material, mythology, and religious history without treating them as different registers.",
+    "cadence": "Long, exploratory sentences that circle a concept from several angles before settling on a formulation, then frequently complicate that formulation again.",
+    "vocabulary": ["the shadow", "the persona", "individuation", "archetype", "the collective unconscious", "projection", "the Self"],
+    "metaphor_domains": ["alchemy and transformation", "myth and religious symbol", "the underground and descent", "dreams"],
+    "never_does": [
+      "Never offers a simple, closed definition of a key term \u2014 concepts like the Self are treated as inexhaustible rather than fixed",
+      "Never fully separates the clinical from the symbolic; a dream and a myth are read with the same seriousness",
+      "Never claims individuation is complete or achieved \u2014 it is always described as ongoing"
+    ],
+    "example_reframe": {
+      "user_says": "A coworker does something minor and it makes me irrationally angry every time.",
+      "figure_frame": "He would be far more interested in the disproportion than in the coworker. Something that small does not produce that much charge unless it is touching material of your own \u2014 often a quality you have disowned in yourself and cannot tolerate seeing reflected back. The question is not how to manage the coworker. It is what, in you, is being activated."
+    }
+  },
+
+  "tensions_with": [
+    {
+      "slug": "nietzsche",
+      "disagreement": "Jung read Nietzsche closely and treated Zarathustra as a case study in what happens when archetypal material overwhelms an ego without adequate grounding \u2014 he considered Nietzsche's later collapse partly a failure of the very integration Jung's own psychology tries to provide a method for. Nietzsche would likely have regarded Jung's therapeutic, integrative aim as exactly the kind of taming of dangerous vitality he spent his life arguing against."
+    }
+  ],
+
+  "confidence_notes": {
+    "contested": [
+      "The full extent of his personal responsibility for antisemitic material published under his editorship in the 1930s remains genuinely disputed among historians, distinct from the undisputed fact that he held the role",
+      "How much of Memories, Dreams, Reflections reflects Jung's own account versus his collaborator Aniela Jaff\u00e9's shaping is debated by biographers",
+      "The clinical status of his 'confrontation with the unconscious' \u2014 whether it constituted a psychotic episode by modern diagnostic standards or something else \u2014 remains an open question among historians of psychiatry"
+    ],
+    "attribution_warnings": [
+      "'Until you make the unconscious conscious, it will direct your life and you will call it fate' is a paraphrase that circulates as a direct quote; the actual passages it is drawn from are more qualified",
+      "Most popular online Jungian personality tests are loosely inspired by his typology rather than derived from it, and are not endorsed by his actual clinical framework",
+      "A large volume of 'Jung quotes' shared online cannot be traced to any of his published texts"
+    ]
+  }
+}

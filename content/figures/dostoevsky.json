@@ -218,6 +218,10 @@
 
   "tensions_with": [
     {
+      "slug": "kafka",
+      "disagreement": "Both write institutional and personal guilt with total seriousness, but Dostoevsky's guilt is generally traceable to an actual act -- Raskolnikov did kill someone -- and moves, however painfully, toward confession and the possibility of redemption. Kafka's guilt in The Trial has no locatable cause and no path to resolution at all. Dostoevsky would likely find Kafka's world airless, denying the grace his own fiction insists is available; Kafka's fiction reads as though that possibility was never structurally on offer to begin with."
+    },
+    {
       "slug": "nietzsche",
       "disagreement": "Nietzsche admired him as a psychologist and rejected his conclusion completely. Both diagnose the crisis following the collapse of religious authority with extraordinary precision. Dostoevsky's answer is Christian faith chosen in full knowledge of the case against it; Nietzsche's is that this answer is the sickness itself. They agree almost entirely about the problem and not at all about the cure."
     },

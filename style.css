@@ -375,6 +375,20 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
   display: block;
 }
 
+/* Guardrail-tripped replies -- deliberately not .speaker-label. Same
+   structural treatment (mono, tracked caps) so it reads as part of the same
+   system, but the color plus "Codex Vitae" as the text is what makes it
+   unmistakable this isn't the persona talking. */
+.system-label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--secondary);
+  margin-bottom: 8px;
+  display: block;
+}
+
 
 .plate {
   display: flex; flex-direction: column; align-items: center;
@@ -969,3 +983,40 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
 .items-center { align-items: center; }
 .justify-between { justify-content: space-between; }
 .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+
+/* Chat thread — reuses .speaker-label / .seeker-label, which already existed
+   but were never wired to an actual conversation until now. */
+.chat-message {
+  padding-top: 18px;
+  border-top: var(--rule-thin) solid var(--outline-variant);
+}
+.chat-message:first-child { border-top: none; padding-top: 0; }
+
+
+/* Chat window -- given its own distinct container so the live conversation
+   reads as a separate, interactive surface from the archival reading
+   material around it, rather than blending into the scroll. Bordered in the
+   same secondary red used for .system-label, tying it to "this is the live,
+   interactive part" rather than "this is reference material". */
+.chat-window {
+  background: var(--surface-container-lowest);
+  border: 1.5px solid var(--secondary);
+  box-shadow: 4px 4px 0 var(--rule);
+  padding: 28px 28px 18px;
+}
+
+.chat-thread-scroll {
+  max-height: 460px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.chat-thread-scroll::-webkit-scrollbar { width: 6px; }
+.chat-thread-scroll::-webkit-scrollbar-thumb { background: var(--outline-variant); }
+.chat-thread-scroll::-webkit-scrollbar-track { background: transparent; }
+
+@media (max-width: 640px) {
+  .chat-window { padding: 20px 18px 14px; }
+  .chat-thread-scroll { max-height: 360px; }
+}

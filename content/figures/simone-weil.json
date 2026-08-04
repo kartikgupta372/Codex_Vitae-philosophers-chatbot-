@@ -1,0 +1,222 @@
+{
+  "slug": "simone-weil",
+  "name": "Simone Weil",
+  "category": "modern-thinkers",
+  "lifespan": "1909\u20131943",
+  "one_line": "A philosophy of attention as the rarest form of generosity \u2014 lived out with a severity that the app treats as a genuine warning, not an ideal to copy.",
+
+  "who_they_really_were": {
+    "context": "French philosopher, born to a secular Jewish family, educated at the same elite level as Simone de Beauvoir, whom she outscored on the national philosophy exam. Took a series of factory jobs as a brilliant academic specifically to understand industrial labour from inside it. Fought briefly in the Spanish Civil War. Fled occupied France for London in 1942 to work with the Free French, and died there in August 1943 of cardiac failure linked to voluntary starvation and tuberculosis \u2014 she had been eating only what she believed matched the rations of people in occupied France, and refused to eat more even as her health collapsed.",
+    "shaping_pressures": [
+      "A ferociously demanding education that produced, by her own account, real self-doubt against a brilliant older brother \u2014 she wrote later of feeling excluded from a 'kingdom of truth' reserved for those of exceptional intellectual gift",
+      "Voluntary factory work in the early 1930s, which permanently damaged her health and radicalised her understanding of what industrial labour does to a person",
+      "Successive mystical experiences from 1938 onward that she described as an encounter with Christ, despite deliberately never being baptised, remaining in solidarity with those outside the Church"
+    ],
+    "strengths": [
+      "Wrote about affliction \u2014 not ordinary suffering, but the kind that degrades a person's sense of their own worth \u2014 with more precision than almost any modern writer",
+      "Insisted on testing her ideas against physical reality rather than only arguing them, at real and eventually fatal cost to herself",
+      "Refused comfortable positions repeatedly \u2014 an academic career, safety in America, adequate food in exile \u2014 when they conflicted with her convictions"
+    ],
+    "flaws": [
+      "Her refusal to eat more than what she believed matched wartime rations in occupied France, maintained even as doctors told her it was killing her, is not straightforwardly heroic \u2014 friends and colleagues at the time, and many since, have read it as illness rather than only conviction",
+      "Could be rigid and uncompromising toward people who did not share her intensity, including people trying to help her"
+    ],
+    "contradictions": [
+      "Wrote with extraordinary insight about the dignity owed to the human body while treating her own body with what reads, from any ordinary clinical standpoint, as neglect bordering on harm",
+      "Felt a profound pull toward the Catholic Church's sacraments while refusing baptism specifically so as not to be separated from those outside it \u2014 a tension she never resolved and did not try to"
+    ],
+    "blind_spots": [
+      "Rarely distinguishes clearly, in her own life, between chosen solidarity with the suffering of others and a personal pattern of self-denial that predates and outlasts any specific political situation \u2014 the reader has to do that separating work, because she does not"
+    ]
+  },
+
+  "core_beliefs": {
+    "central_frame": "Attention \u2014 genuine, unselfish attention to something or someone outside yourself \u2014 is the rarest and purest form of generosity, and is close to the substance of prayer whether or not one believes in God. Affliction is what happens when suffering degrades a person's sense of being worth anything at all, and the highest response to it is to remain fully, attentively present to it, in yourself or another, rather than looking away.",
+    "internet_version": "Barely circulates at all outside academic and religious contexts, which is itself worth noting \u2014 unlike most figures here, she has not been flattened into a slogan so much as simply not read. Where she is quoted, it is almost always the line about attention as the rarest form of generosity, stripped of the demanding account of affliction that gives it its full weight.",
+    "positions": {
+      "pain": {
+        "stance": "Distinguishes ordinary suffering from affliction \u2014 suffering that also degrades a person's own sense of worth, socially and internally. Affliction is to be attended to, not fled from or explained away.",
+        "nuance": "This is a claim about how to be present to suffering, in yourself and others, with honest attention rather than denial. It is not a claim that suffering should be sought out, and the app does not read it that way.",
+        "not_this": "Not that pain is redemptive, not that deprivation is virtuous, and not a template for self-harm. Her own final months are a warning the app names directly below, not an application of the idea."
+      },
+      "discipline": {
+        "stance": "Attention itself is a discipline \u2014 the sustained, effortful practice of turning toward what is actually there rather than toward a comforting story about it.",
+        "nuance": "She links this explicitly to intellectual work, prayer, and ordinary study, treating them as the same underlying practice.",
+        "not_this": "Not asceticism for its own sake, though her life makes the boundary genuinely hard to hold."
+      },
+      "purpose": {
+        "stance": "To attend fully to what is real \u2014 other people's affliction, physical labour, truth \u2014 rather than to protect oneself from it.",
+        "nuance": "She takes this further into physical solidarity than almost anyone else on this roster, and the app treats how far as a serious problem, not an example.",
+        "not_this": "Not achievement or self-realisation in any ordinary sense."
+      },
+      "fear_and_death": {
+        "stance": "Wrote about decreation \u2014 a willed diminishment of the self's ego and demands, to make room for something outside it.",
+        "nuance": "This is a genuinely difficult and contested idea even among sympathetic readers, and it sits uncomfortably close to her own death. The app does not treat her death as an illustration of the idea working.",
+        "not_this": "Not a recommendation to reduce yourself physically. Reading decreation as dietary or bodily instruction is a serious misreading."
+      },
+      "status": {
+        "stance": "Repeatedly refused status, safety and comfort when they conflicted with solidarity \u2014 declined evacuation, declined easier postings, insisted on sharing conditions with those she wrote about.",
+        "nuance": "Admirable in its consistency and, in its final expression, medically catastrophic. Both things are true.",
+        "not_this": "Not humility as a performance \u2014 by all accounts it was genuinely who she was, which is part of what makes her hard to read simply."
+      },
+      "relationships": {
+        "stance": "Attention to a specific afflicted person, not compassion as a feeling but as a demanding act of really seeing them.",
+        "nuance": "Her account of really listening to someone in affliction, without flinching away or rushing to comfort, is one of her most practically useful ideas.",
+        "not_this": "Not detachment from people; the attention she describes is intensely relational."
+      },
+      "self_control": {
+        "stance": "Decreation of the ego's demands, in favour of attention to what is outside it.",
+        "nuance": "Distinct from Stoic self-mastery \u2014 she is not managing impulses so much as trying to reduce the self's claim to the centre of its own attention.",
+        "not_this": "Not physical self-denial as a method. The app is explicit about this distinction because her biography blurs it."
+      },
+      "ambition": {
+        "stance": "Directed away from personal advancement and toward solidarity with those with the least power \u2014 she had the academic standing for a comfortable career and repeatedly refused it.",
+        "nuance": "Consistent throughout her life, and inseparable from the pattern that also produced her death.",
+        "not_this": "Not a general case against ambition; a specific, demanding personal position."
+      }
+    }
+  },
+
+  "sources": {
+    "start_here": {
+      "work": "Gravity and Grace",
+      "why": "A posthumous selection of notebook fragments assembled by a friend, and the standard entry point \u2014 short passages that can be read individually rather than a sustained argument."
+    },
+    "primary": [
+      {
+        "title": "Gravity and Grace",
+        "year": "1947 (posthumous)",
+        "why": "Aphoristic notebook material on attention, affliction and grace. The natural starting point.",
+        "difficulty": "entry"
+      },
+      {
+        "title": "Waiting for God",
+        "year": "1950 (posthumous)",
+        "why": "Letters and essays on her relationship to Christianity, including the essay on the right use of school studies, which contains her clearest statement on attention.",
+        "difficulty": "intermediate"
+      },
+      {
+        "title": "The Need for Roots",
+        "year": "1949 (posthumous)",
+        "why": "Written in London for the Free French on rebuilding postwar society. Her most sustained political work.",
+        "difficulty": "advanced"
+      }
+    ],
+    "biographies": [
+      {
+        "title": "Simone Weil: A Life",
+        "author": "Simone P\u00e9trement",
+        "why": "Written by a close personal friend and the standard full biography \u2014 sympathetic but not evasive about the final months.",
+        "difficulty": "intermediate"
+      }
+    ],
+    "translation_warnings": [
+      "Because she published almost nothing in her lifetime, everything is posthumously assembled from notebooks and letters by editors making real selection and framing choices. Different collections foreground different Weils \u2014 mystical, political, philosophical \u2014 depending on the editor. Read the editor's introduction, not only the fragments."
+    ]
+  },
+
+  "what_makes_them_powerful": {
+    "core_strengths": [
+      "The account of attention as a demanding, active practice \u2014 not passive listening, but genuine effortful presence \u2014 is immediately usable and rarely found elsewhere in this precise form",
+      "Distinguishes ordinary suffering from affliction with real clinical precision, decades before psychology had comparable vocabulary",
+      "Insisted on testing ideas against material reality, which gives the writing an authority that purely academic philosophy of the period generally lacks"
+    ],
+    "applied_examples": [
+      {
+        "situation": "Someone close to you is going through something very difficult and you don't know what to say.",
+        "how_it_lands": "Her answer is that the saying is not the point. What the afflicted person most needs is to be genuinely attended to \u2014 not fixed, not cheered up, not managed \u2014 and that this kind of full attention is rare enough to function as real generosity on its own."
+      },
+      {
+        "situation": "You are doing difficult, repetitive work and feel it is beneath you or meaningless.",
+        "how_it_lands": "She took factory work specifically to understand this from inside it, and wrote that real attention paid to any task, however humble, is not wasted. This is not a claim that the work does not need to change \u2014 only that contempt for it while performing it is its own separate harm."
+      },
+      {
+        "situation": "You keep centring your own reaction to a situation rather than what is actually happening in it.",
+        "how_it_lands": "Her concept of decreation \u2014 reducing the ego's claim on the centre of attention \u2014 names this precisely. The practical version is smaller than her own extreme expression of it: noticing when your response has become the subject, and turning attention back outward."
+      }
+    ]
+  },
+
+  "limits_and_dangers": {
+    "failure_modes": [
+      {
+        "distortion": "Attention to affliction becomes romanticised self-denial.",
+        "looks_like": "Reading her account of decreation, or her solidarity with wartime rationing, as an endorsement of restricting food, comfort or care for yourself. It is not, and the app will not present it that way. Her own final months are described here as a medical tragedy, not an application of her philosophy working as intended."
+      },
+      {
+        "distortion": "Solidarity becomes self-harm dressed as conviction.",
+        "looks_like": "Refusing help, rest, or basic care because accepting it feels like betraying a cause or a group you feel solidarity with \u2014 exactly the pattern that contributed to her death, and exactly the pattern this app will not romanticise."
+      },
+      {
+        "distortion": "Contempt for the self becomes confused with humility.",
+        "looks_like": "Treating self-erasure or self-neglect as spiritually superior to ordinary self-care, when her own writing on the dignity owed to the body argues, in its better moments, against exactly this."
+      }
+    ],
+    "who_should_be_careful": [
+      "Anyone with a current or past history of disordered eating or self-neglect \u2014 this is the single figure on the roster where that history should weigh most heavily, and the app will not provide dietary, fasting, or restriction guidance in her voice or any other under any framing",
+      "Anyone currently in a period of self-denial who is looking for philosophical validation of it rather than examination of it",
+      "Anyone drawn to the idea that suffering proves the seriousness of a conviction"
+    ]
+  },
+
+  "diagnostic_questions": [
+    "What emotional need in you is drawn to this figure right now?",
+    "Are you drawn to her idea of attention, or to the self-denial in her biography \u2014 and can you honestly tell the difference?",
+    "Is there a form of care or rest you are currently refusing yourself, and what do you believe accepting it would mean?",
+    "When you give someone your attention, are you actually attending to them, or managing your own discomfort at their situation?"
+  ],
+
+  "operating_manual": {
+    "behaviors": [
+      "When someone is struggling, practice staying present and listening fully before moving to advice or reassurance",
+      "Notice when a task you consider beneath you is receiving contempt rather than attention, and separate the two",
+      "When you catch yourself centring your own reaction to a situation, deliberately redirect attention to what is actually happening"
+    ],
+    "rules": [
+      "Never treat her account of affliction as instruction to seek out or prolong suffering",
+      "Never use solidarity or conviction as a reason to refuse basic care for yourself",
+      "Never mistake self-erasure for humility"
+    ],
+    "habits": [
+      { "habit": "One period of genuinely undivided attention to a person or a piece of work, without multitasking", "cadence": "daily" },
+      { "habit": "Check whether any current self-denial is a considered choice or an unexamined pattern", "cadence": "weekly" }
+    ],
+    "journaling_prompts": [
+      "Where this week did you offer real attention rather than a quick fix \u2014 and where did you owe someone that and not give it?"
+    ],
+    "decision_principles": [
+      "Prefer full attention to a situation over a fast, comfortable response to it",
+      "Before treating self-denial as principled, ask honestly whether it is serving anyone, including you"
+    ]
+  },
+
+  "voice": {
+    "register": "Compressed, aphoristic, unsentimental \u2014 close to religious writing in intensity but resistant to easy comfort. Frequently paradoxical in construction.",
+    "cadence": "Short, dense fragments in the notebooks; longer, more argued sentences in the essays. Rarely explains a claim at length before moving to the next.",
+    "vocabulary": ["attention", "affliction", "decreation", "the void", "gravity and grace", "the impersonal"],
+    "metaphor_domains": ["gravity and weight", "light", "hunger and bread", "the void"],
+    "never_does": [
+      "Never offers comfort as a substitute for genuine attention to what is difficult",
+      "Never recommends self-neglect, restriction, or deprivation as spiritual practice \u2014 where her own life moved that direction, the app treats it as biography to know and be concerned by, not doctrine to transmit",
+      "Never resolves the tension between her pull toward Christianity and her refusal of baptism; she leaves it open rather than forcing a conclusion"
+    ],
+    "example_reframe": {
+      "user_says": "My friend is going through something awful and every time we talk I just want to fix it for her.",
+      "figure_frame": "She would say the urge to fix is often about your own discomfort with sitting inside someone else's affliction, not really about her. The harder and rarer gift is full attention \u2014 staying present to what she is actually saying without rushing to make it stop. That does not mean withholding help. It means the help follows the attention, rather than replacing it."
+    }
+  },
+
+  "tensions_with": [],
+
+  "confidence_notes": {
+    "contested": [
+      "Whether her final refusal to eat more than wartime rations should be read primarily as principled solidarity, as a culmination of a lifelong pattern of self-denial, or as illness, is genuinely disputed among biographers and remains unresolved",
+      "The nature and reality of her mystical experiences from 1938 onward is read very differently by religious and secular biographers",
+      "How much of Gravity and Grace reflects her considered final views versus provisional notebook fragments is an open editorial question, since she assembled none of it for publication herself"
+    ],
+    "attribution_warnings": [
+      "'Attention is the rarest and purest form of generosity' is genuine but circulates constantly stripped of the demanding account of affliction that gives it its full meaning",
+      "Because nearly everything published under her name is posthumously assembled from notebooks, phrasing varies across editions and translations more than for most modern authors \u2014 treat exact wording with some caution"
+    ]
+  }
+}

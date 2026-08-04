@@ -1,0 +1,216 @@
+{
+  "slug": "sun-tzu",
+  "name": "Sun Tzu",
+  "category": "warrior",
+  "lifespan": "c. 544 \u2013 c. 496 BCE (disputed; the text may be considerably later)",
+  "one_line": "A treatise arguing that battle is the failure state rather than the objective \u2014 routinely quoted by people who have read only the aggressive parts.",
+
+  "who_they_really_were": {
+    "context": "Traditionally a general and strategist serving the state of Wu during the Spring and Autumn period. Whether he existed as a single historical individual is genuinely disputed; the text may be a compilation assembled across generations. Archaeological finds at Yinqueshan in 1972 confirmed an early version of the text but did not settle authorship. Nearly all biographical detail comes from Sima Qian's Records of the Grand Historian, written roughly four centuries later.",
+    "shaping_pressures": [
+      "The Spring and Autumn period \u2014 near-constant warfare between competing states, in which a failed campaign could mean the destruction of a state entirely",
+      "A context where armies were expensive, slow, and drawn from agricultural labour, making prolonged war economically catastrophic regardless of who won"
+    ],
+    "strengths": [
+      "Frames warfare as an economic and political problem before a tactical one \u2014 the sustained emphasis on cost and duration is the most modern thing in the text",
+      "Systematic about intelligence, terrain and deception in a way that has no real contemporary parallel",
+      "Extremely compressed; short enough to be memorised, which is almost certainly deliberate"
+    ],
+    "flaws": [
+      "The famous demonstration to the King of Wu \u2014 executing two of the king's concubines to prove he could drill anyone into soldiers \u2014 is either historical, in which case it is a casual atrocity, or fabricated, in which case the biography is unreliable. Neither reading is comfortable",
+      "The text asserts far more than it argues. It offers no reasoning you can inspect, test, or productively disagree with"
+    ],
+    "contradictions": [
+      "Warns repeatedly against prolonged war while functioning as a manual for conducting it",
+      "Emphasises knowing the enemy while making deception the foundation of the entire art"
+    ],
+    "blind_spots": [
+      "Assumes a unitary commander with full authority and a clear objective. Almost nothing in the text survives contact with divided command, contested aims, or genuine ambiguity about what winning would even mean"
+    ]
+  },
+
+  "core_beliefs": {
+    "central_frame": "The supreme skill is achieving the objective without fighting. War is enormously expensive and inherently unpredictable, so victory should be arranged in advance through position, information and deception \u2014 by the time battle occurs, the outcome ought already to be settled.",
+    "internet_version": "Repackaged as a business-aggression manual and mined for lines about deception and knowing your enemy. The text's actual emphasis \u2014 that war ruins states, that speed matters more than force, and that the best outcome is not fighting at all \u2014 is routinely skipped by the people who quote it most.",
+    "positions": {
+      "pain": {
+        "stance": "Cost is the central concern, and the cost of war falls on the state and the population rather than on the commander.",
+        "nuance": "This is an economic rather than a moral position, but it produces restraint either way.",
+        "not_this": "Not indifference to suffering; the text is unusually attentive to what campaigns do to ordinary people."
+      },
+      "discipline": {
+        "stance": "Discipline is a system property \u2014 clear orders, consistent reward and punishment, and a commander whose instructions are unambiguous.",
+        "nuance": "He locates failures of discipline in the commander rather than in the troops, consistently and without exception.",
+        "not_this": "Not personal self-mastery, which the text simply does not address."
+      },
+      "purpose": {
+        "stance": "Achieving the objective at the lowest possible cost. The text is instrumental throughout and has no view on which objectives are worth having.",
+        "nuance": "This is exactly why it transfers so easily into other domains, and exactly why the transfer usually goes unexamined.",
+        "not_this": "Not meaning or higher purpose of any kind."
+      },
+      "fear_and_death": {
+        "stance": "Treated as variables to be managed \u2014 troop morale, the psychology of encirclement, the desperation of a cornered enemy.",
+        "nuance": "The advice to leave a surrounded enemy an escape route is a claim about fear as a tactical force, not an act of mercy.",
+        "not_this": "Not a philosophical position on mortality; there isn't one here."
+      },
+      "status": {
+        "stance": "A commander's reputation matters only instrumentally, and the text warns against acting to preserve it at the expense of the objective.",
+        "nuance": "It explicitly permits disobeying a ruler whose order is wrong for the situation on the ground \u2014 a remarkable position for its period.",
+        "not_this": "Not a moral objection to ambition."
+      },
+      "relationships": {
+        "stance": "Almost entirely absent. Relationships appear only as alliances between states, evaluated purely instrumentally.",
+        "nuance": "A genuine absence \u2014 this is a military treatise, not a philosophy of living.",
+        "not_this": "Do not construct a relationship philosophy from a text that contains none."
+      },
+      "self_control": {
+        "stance": "The commander's temperament is a strategic variable. Anger and impatience are named as exploitable weaknesses in an opponent and as dangers in oneself.",
+        "nuance": "The passage on the five dangerous traits of a general is among the sharpest in the text.",
+        "not_this": "Not equanimity as a virtue \u2014 it is a tactical asset."
+      },
+      "ambition": {
+        "stance": "Ambition should be constrained by cost. The text repeatedly warns that a campaign undertaken for glory rather than necessity ruins the state.",
+        "nuance": "The most consistently ignored theme in the entire book.",
+        "not_this": "Not humility."
+      }
+    }
+  },
+
+  "sources": {
+    "start_here": {
+      "work": "The Art of War",
+      "why": "There is only one text and it is very short \u2014 an hour to read, years to use. The real question is not which work but which translation, and that question matters more here than for almost any other figure."
+    },
+    "primary": [
+      {
+        "title": "The Art of War",
+        "recommended_edition": "Victor Mair (Columbia) or Roger Ames",
+        "why": "Mair is a serious sinologist and is careful about what the text does and does not say. Ames incorporates the Yinqueshan archaeological material. Both are far more reliable than any popular edition.",
+        "difficulty": "entry"
+      }
+    ],
+    "secondary": [
+      {
+        "title": "The Seven Military Classics of Ancient China",
+        "author": "Ralph Sawyer",
+        "why": "Places the text within its actual tradition alongside the other Chinese military classics, which makes clear how much of what readers think is uniquely Sun Tzu is shared context.",
+        "difficulty": "advanced"
+      }
+    ],
+    "translation_warnings": [
+      "The Lionel Giles translation (1910) is public domain and is the version reproduced in almost every free ebook, business repackaging and quote graphic. It is over a century old, and its phrasing has hardened into English idiom in ways that do not reflect the Chinese.",
+      "Be very wary of business-strategy editions. Many are not translations at all but paraphrases wrapped in management commentary, and they systematically foreground aggression over the cost-avoidance that is the text's actual thesis."
+    ]
+  },
+
+  "what_makes_them_powerful": {
+    "core_strengths": [
+      "Reframes conflict as something to be won before it begins, through preparation and position rather than performance",
+      "Treats information as the primary weapon, which transfers cleanly into almost any competitive domain",
+      "Short enough to be genuinely internalised rather than merely referenced"
+    ],
+    "applied_examples": [
+      {
+        "situation": "You are heading into a negotiation you expect to be adversarial.",
+        "how_it_lands": "His position is that if the outcome is genuinely in doubt when you walk in, the preparation already failed. The work sits in what you knew and arranged beforehand, not in how you perform at the table."
+      },
+      {
+        "situation": "A competitor or rival is provoking you publicly.",
+        "how_it_lands": "He names anger as an exploitable trait in a commander, explicitly. The provocation is the tactic; responding to it is the concession."
+      },
+      {
+        "situation": "You are considering a long, expensive effort against an entrenched incumbent.",
+        "how_it_lands": "The text is unusually blunt that protracted campaigns ruin whoever initiates them, regardless of who eventually wins. He would ask what the shortest possible version looks like, and then whether the fight is necessary at all."
+      }
+    ]
+  },
+
+  "limits_and_dangers": {
+    "failure_modes": [
+      {
+        "distortion": "Strategic thinking becomes a licence for ordinary deceit.",
+        "looks_like": "Applying deception frameworks to colleagues, friends and partners \u2014 treating a text about armed conflict between states as a guide to relationships that were never adversarial."
+      },
+      {
+        "distortion": "The text becomes a source of slogans rather than a method.",
+        "looks_like": "Quoting 'know your enemy' and 'all warfare is deception' while ignoring the sustained argument that war should be avoided entirely."
+      },
+      {
+        "distortion": "Everything becomes a conflict to be won.",
+        "looks_like": "Framing collaboration, negotiation and ordinary disagreement as combat simply because the vocabulary is available \u2014 which reliably produces adversaries who were not adversaries."
+      }
+    ],
+    "who_should_be_careful": [
+      "Anyone inclined to see competition where none exists \u2014 the frame manufactures enemies",
+      "Anyone reading it in a business edition, which has likely inverted the thesis before they started",
+      "Anyone who wants the tactics without the constraint; the cost-avoidance argument is precisely what makes the rest defensible"
+    ]
+  },
+
+  "diagnostic_questions": [
+    "What emotional need in you is drawn to this figure right now?",
+    "Is the situation you are treating as a conflict actually adversarial, or have you framed it that way?",
+    "What would winning this without a fight look like, and why did you skip past that option?",
+    "What is the cost of the protracted version, and who actually pays it?"
+  ],
+
+  "operating_manual": {
+    "behaviors": [
+      "Before any contested situation, separate what you actually know about the other party from what you are assuming",
+      "Ask what would have to be true for the outcome to be settled before the encounter, and arrange that instead",
+      "When provoked, treat the provocation as information about the provoker's strategy rather than as something requiring an answer"
+    ],
+    "rules": [
+      "Never apply adversarial frameworks to a relationship that is not adversarial",
+      "Never enter a prolonged contest without knowing what winning will cost",
+      "Never let preserving your reputation override the actual objective"
+    ],
+    "habits": [
+      { "habit": "Identify one assumption about a competitor or counterpart and actually test it", "cadence": "weekly" },
+      { "habit": "Before responding to provocation, wait and name what the provocation is designed to produce", "cadence": "situational" }
+    ],
+    "journaling_prompts": [
+      "What conflict are you currently in that you chose, and what would not fighting it actually cost you?"
+    ],
+    "decision_principles": [
+      "Prefer the outcome achieved without the contest, even where the contest would be winnable",
+      "Judge a campaign by its cost and duration before its likelihood of success"
+    ]
+  },
+
+  "voice": {
+    "register": "Terse, categorical, impersonal. States principles without argument or justification, in numbered enumerations. There is no narrator and no first person anywhere.",
+    "cadence": "Very short parallel clauses, frequently in enumerated lists \u2014 five of this, six of that. Compressed to the point of obscurity in places.",
+    "vocabulary": ["the Way", "terrain", "deception", "the five factors", "advantage", "the general", "victory without battle"],
+    "metaphor_domains": ["water and its shaping by ground", "fire", "terrain and position", "cost and the treasury"],
+    "never_does": [
+      "Never argues for a claim \u2014 it asserts, enumerates and moves on, which is why it cannot be productively disagreed with",
+      "Never uses first person or anecdote; there is no personality in the text at all",
+      "Never celebrates combat. Every reference to actual fighting treats it as expense"
+    ],
+    "example_reframe": {
+      "user_says": "There's someone at work actively undermining me and I want to confront them.",
+      "figure_frame": "The text would treat confrontation as the most expensive available option and the one with the least certain outcome. The prior questions are what they actually want, whose interests are engaged alongside theirs, and what arrangement would make the undermining pointless without any encounter occurring at all. If you must confront, the outcome should already be settled before you open your mouth."
+    }
+  },
+
+  "tensions_with": [
+    {
+      "slug": "musashi",
+      "disagreement": "Both write about winning, at opposite scales and with opposite relationships to fighting. Sun Tzu is concerned with states, logistics and cost, and treats battle as evidence that strategy already failed. Musashi writes about individual combat, where the fight is the entire event and cannot be arranged away. Sun Tzu would regard sixty duels as sixty strategic failures; Musashi would regard the text as advice from someone who never had to stand in front of anybody."
+    }
+  ],
+
+  "confidence_notes": {
+    "contested": [
+      "Whether Sun Tzu existed as a single historical person is genuinely disputed; the text may be a compilation assembled over generations",
+      "The dating is uncertain \u2014 traditionally the Spring and Autumn period, but many scholars place the text considerably later, in the Warring States period",
+      "Nearly all biographical detail comes from Sima Qian, writing roughly four centuries afterward, and the concubine demonstration is unverifiable"
+    ],
+    "attribution_warnings": [
+      "A very large share of 'Sun Tzu quotes' in business contexts are Giles-translation lines reworded, borrowings from other Chinese military texts, or outright inventions",
+      "'Keep your friends close and your enemies closer' is not from The Art of War. It is a line from The Godfather Part II, and it is misattributed to Sun Tzu constantly",
+      "'If you know the enemy and know yourself' is genuine, but is almost always quoted without the third clause about knowing neither \u2014 which is where the actual force of the passage sits"
+    ]
+  }
+}

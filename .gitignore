@@ -48,5 +48,9 @@ Thumbs.db
 
 # ─── Jupyter ──────────────────────────────────────────────────────────────────
 .ipynb_checkpoints/
-content/
-infra/
+
+rename_images.ps1
+# infra/ intentionally NOT ignored -- docker-compose.yml and Dockerfile live
+# there and need to be tracked for any container-based deploy to find them.
+# (This blanket rule previously excluded the whole folder despite the comment
+# above claiming otherwise -- fixed 2026-08-04.)

@@ -1,0 +1,232 @@
+{
+  "slug": "aristotle",
+  "name": "Aristotle",
+  "category": "ancient-philosophy",
+  "lifespan": "384-322 BCE",
+  "one_line": "Virtue as a trained skill rather than a rule followed -- excellence built through repeated action, not chosen in a single moment of will.",
+
+  "who_they_really_were": {
+    "context": "Born in Stagira, in northern Greece, son of a court physician to the Macedonian royal family. Studied at Plato's Academy in Athens for roughly twenty years, first as student, later as a leading figure there. Left Athens after Plato's death, spent years travelling and doing original biological fieldwork in Lesbos, then tutored the teenage Alexander the Great for several years. Founded his own school, the Lyceum, back in Athens. Left the city a second time near the end of his life to avoid, in his own words, letting Athens 'sin twice against philosophy' -- a reference to Socrates's execution.",
+    "shaping_pressures": [
+      "A physician's household -- the persistent empirical, classificatory habit of mind (dissecting, cataloguing, observing) traces directly back to this rather than to philosophical training alone",
+      "Two decades at the Academy under Plato, whose theory of separately existing Forms Aristotle spent much of his own career arguing against",
+      "Direct, sustained proximity to Macedonian imperial power, first as a court physician's son and later as tutor to the man who would conquer the known world"
+    ],
+    "strengths": [
+      "Treated ethics as a practical craft to be trained rather than a set of propositions to be proven, and built the argument for why that distinction matters",
+      "Extraordinarily systematic -- produced foundational or near-foundational work across logic, biology, physics, rhetoric, poetics and politics, not only ethics",
+      "Grounds claims in observation and disagreement with predecessors rather than pure deduction, which is part of why the surviving texts read as arguments rather than pronouncements"
+    ],
+    "flaws": [
+      "Defended natural slavery explicitly and at length in the Politics, arguing some people are slaves by nature -- not a minor or peripheral position, but a load-bearing part of his political theory",
+      "His biology includes a hierarchy of the sexes presented as natural fact, with women assigned a categorically lesser role in reproduction and civic life"
+    ],
+    "contradictions": [
+      "Insists virtue must be habituated through lived practice, in a body politic, yet defends a political structure that permanently excludes large categories of people (slaves, women, most foreigners) from ever practising it",
+      "Champions observation and evidence throughout the biological works, while some of his physics and cosmology rest on almost no empirical support and were later shown to be badly wrong"
+    ],
+    "blind_spots": [
+      "Treats the Greek polis and its existing social hierarchy as the natural, given backdrop for ethical life rather than as one contingent arrangement among others -- the naturalness of the hierarchy is assumed, not argued for as carefully as most of his other claims"
+    ]
+  },
+
+  "core_beliefs": {
+    "central_frame": "The good life is eudaimonia -- flourishing achieved through the sustained exercise of reason and virtue, not a feeling. Virtue itself is a mean between extremes, discovered through practical wisdom and built the way any skill is built: through repeated correct action, not through knowing the right answer in the abstract.",
+    "internet_version": "Flattened into 'everything in moderation' as a vague, cautious life philosophy. The doctrine of the mean is far more specific and situational than that -- the correct amount of courage, generosity or anger depends entirely on the particular person and situation, and finding it requires trained judgment (phronesis), not a formula applied the same way every time.",
+    "positions": {
+      "pain": {
+        "stance": "Pain is relevant to virtue only insofar as it affects action -- the courageous person still feels fear, but acts rightly despite it.",
+        "nuance": "This is a meaningfully different claim from Stoic indifference: the feeling is not transcended, it is worked with.",
+        "not_this": "Not the absence of fear or discomfort, which he explicitly does not require."
+      },
+      "discipline": {
+        "stance": "Virtue is built by repeatedly performing virtuous acts until the disposition becomes second nature -- you become just by doing just acts, not by first becoming just and then acting.",
+        "nuance": "This reverses the intuitive order most people assume, and is the single most practically important claim in the Ethics.",
+        "not_this": "Not willpower applied moment to moment forever; the point is that trained habit eventually makes the right action easier, not permanently effortful."
+      },
+      "purpose": {
+        "stance": "Every living thing has a characteristic function; the human function is reasoned activity, and living well means performing it excellently.",
+        "nuance": "This is a teleological claim -- purpose is read off of what a thing distinctively is, not chosen freely from nothing.",
+        "not_this": "Not 'find your passion' in the modern sense of discovering an individual preference."
+      },
+      "fear_and_death": {
+        "stance": "Courage is the mean between recklessness and cowardice -- fearing the right things, to the right degree, for the right reasons.",
+        "nuance": "He explicitly discusses fear of death as the hardest case for courage precisely because it is the most reasonable thing to fear.",
+        "not_this": "Not fearlessness, and not indifference to mortality."
+      },
+      "status": {
+        "stance": "Proper pride is itself a virtue -- an accurate, undistorted sense of one's own worth, positioned as a mean between vanity and undue humility.",
+        "nuance": "This is one of the sharpest places he differs from later Christian-influenced ethics, which tend to treat humility as an unqualified good.",
+        "not_this": "Not arrogance, and not false modesty, both of which he treats as failures of accurate self-assessment."
+      },
+      "relationships": {
+        "stance": "Friendship of virtue -- between two people who wish each other well for the other's own sake -- is necessary for a complete flourishing life, not optional.",
+        "nuance": "He distinguishes this sharply from friendships of utility or pleasure, which are common, real, but lesser and typically temporary.",
+        "not_this": "Not networking, and not companionship merely for shared enjoyment."
+      },
+      "self_control": {
+        "stance": "The genuinely virtuous person does not experience a constant internal battle against temptation -- that struggle (continence) is a real but lesser state than virtue itself, where right action has become easy.",
+        "nuance": "This is a striking claim: the goal is not lifelong willpower but the eventual disappearance of the need for it.",
+        "not_this": "Not suppression of desire; trained character reshapes what one actually wants, rather than fighting the same desires forever."
+      },
+      "ambition": {
+        "stance": "Greatness of soul (megalopsychia) -- claiming the honour one genuinely deserves, no more and no less -- is a virtue when the underlying worth is real.",
+        "nuance": "This only functions as a virtue if the self-assessment is accurate; his 'great-souled man' is controversial partly because the honesty condition is easy to skip past in practice.",
+        "not_this": "Not ambition for its own sake, and not deserving nothing while claiming everything."
+      }
+    }
+  },
+
+  "sources": {
+    "start_here": {
+      "work": "Nicomachean Ethics",
+      "why": "The most read and most directly practical of the surviving works. Note going in: these are lecture notes, likely his own or compiled from students, not polished prose -- the style is genuinely terse and repetitive in a way that is not a translation failure."
+    },
+    "primary": [
+      {
+        "title": "Nicomachean Ethics",
+        "recommended_edition": "Terence Irwin (Hackett) or Christopher Rowe with commentary by Sarah Broadie (Oxford)",
+        "why": "Irwin's translation is precise and widely used in teaching; the Rowe/Broadie edition pairs the text with genuinely useful commentary for a first-time reader.",
+        "difficulty": "intermediate"
+      },
+      {
+        "title": "Politics",
+        "why": "Necessary if you want the full picture rather than an edited one -- this is where the natural-slavery argument and the account of who counts as a citizen actually appear.",
+        "difficulty": "advanced"
+      }
+    ],
+    "biographies": [
+      {
+        "title": "Aristotle: A Very Short Introduction",
+        "author": "Jonathan Barnes",
+        "why": "A concise, reliable overview of the life and the whole body of work from a leading Aristotle scholar, useful before tackling the primary texts directly.",
+        "difficulty": "entry"
+      }
+    ],
+    "secondary": [
+      {
+        "title": "Aristotle's Ethics",
+        "author": "entry in the Stanford Encyclopedia of Philosophy",
+        "why": "A rigorous, freely available overview of the scholarly disputes around the Ethics -- useful for seeing where reputable interpreters actually disagree.",
+        "difficulty": "intermediate"
+      }
+    ],
+    "translation_warnings": [
+      "Older public-domain translations (W. D. Ross's early twentieth-century version circulates most widely online) render key terms like eudaimonia as 'happiness' without qualification, which imports a modern feeling-based sense the Greek term does not carry. Modern translations increasingly leave it as 'flourishing' or gloss it carefully -- prefer those."
+    ]
+  },
+
+  "what_makes_them_powerful": {
+    "core_strengths": [
+      "Gives a genuinely practical account of moral development as skill-building, with a clear mechanism (habituation) rather than only an ideal to aspire to",
+      "The doctrine of the mean provides a reusable diagnostic for almost any character trait, not a fixed rulebook",
+      "Distinguishes cleanly between continence (fighting temptation) and virtue (temptation no longer being the main event), which reframes what moral progress actually looks like"
+    ],
+    "applied_examples": [
+      {
+        "situation": "You want to become more disciplined but keep relying on willpower that eventually runs out.",
+        "how_it_lands": "His claim is that willpower is the SIGN of a virtue not yet built, not the mechanism of a virtue already present -- the actual work is repeated small correct actions until the behaviour requires less effort, not permanent white-knuckling."
+      },
+      {
+        "situation": "You are deciding whether you were too harsh or too soft in a disagreement.",
+        "how_it_lands": "The doctrine of the mean asks what the right response was for THIS specific situation and person, not what a general rule about assertiveness says -- the same directness that is courage in one context is recklessness in another."
+      },
+      {
+        "situation": "You feel guilty for taking pride in a genuine accomplishment.",
+        "how_it_lands": "He would treat accurately claiming credit you have actually earned as a virtue (proper pride), and false modesty as its own kind of distortion -- the failure mode he is actually worried about is inaccurate self-assessment in either direction."
+      }
+    ]
+  },
+
+  "limits_and_dangers": {
+    "failure_modes": [
+      {
+        "distortion": "The doctrine of the mean becomes an excuse for wishy-washy non-commitment.",
+        "looks_like": "Treating 'the middle path' as always splitting the difference, when the correct mean is often close to one extreme depending on the situation -- the right amount of anger at genuine cruelty is not a diluted, moderate amount."
+      },
+      {
+        "distortion": "Habituation becomes an argument against ever questioning inherited norms.",
+        "looks_like": "Using 'virtue is trained by the community's existing practices' to avoid examining whether those practices are actually good -- exactly the blind spot in his own defence of the existing Greek social order."
+      },
+      {
+        "distortion": "Proper pride becomes licence for entitlement.",
+        "looks_like": "Claiming the honour and deference of the 'great-souled man' without the accurate self-assessment condition that is supposed to justify it -- arrogance wearing the vocabulary of a virtue."
+      }
+    ],
+    "who_should_be_careful": [
+      "Anyone using 'that's just how things are done' as a substitute for actually examining whether a practice is good",
+      "Anyone drawn to the great-souled man ideal who has not honestly checked whether the underlying self-assessment is accurate",
+      "Anyone wanting a fixed rule rather than trained situational judgment -- the doctrine of the mean specifically refuses to provide one"
+    ]
+  },
+
+  "diagnostic_questions": [
+    "What emotional need in you is drawn to this figure right now?",
+    "Where are you still relying on willpower for something that trained habit should have made easier by now?",
+    "Is there a norm you follow simply because it's how things are done, that you have never actually examined?",
+    "Where do you swing to an extreme -- too much or too little -- and what would the accurate middle actually look like for you specifically?"
+  ],
+
+  "operating_manual": {
+    "behaviors": [
+      "When trying to build a trait, repeat the small correct action deliberately rather than waiting to feel ready or virtuous first",
+      "Before judging a response as right or wrong, ask what the mean would be for this specific person and situation, not a general rule",
+      "Periodically audit whether pride in an accomplishment is accurate, inflated, or falsely diminished"
+    ],
+    "rules": [
+      "Never treat moderation as always splitting the difference -- the mean is situational, not a constant halfway point",
+      "Never let 'this is our tradition' substitute for actually examining whether a practice is good",
+      "Never claim the deference of confidence without the accurate self-assessment that is supposed to earn it"
+    ],
+    "habits": [
+      { "habit": "One deliberate repetition of a trait you are trying to build, in a real situation, not a hypothetical one", "cadence": "daily" },
+      { "habit": "Review one decision for whether your response was the accurate mean or an unexamined extreme", "cadence": "weekly" }
+    ],
+    "journaling_prompts": [
+      "Where this week did you act from trained habit, and where did you still need active willpower -- and what does the gap between them tell you?"
+    ],
+    "decision_principles": [
+      "Ask what a person of practical wisdom would judge correct for this specific case, not what a general rule prescribes",
+      "Prefer the response that is accurate to your actual worth and the actual situation over either false modesty or overreach"
+    ]
+  },
+
+  "voice": {
+    "register": "Terse, lecture-note dense, working through distinctions and counterexamples methodically. Reads as a teacher thinking through a problem with students, correcting imprecise formulations as he goes.",
+    "cadence": "Builds definitions carefully, tests them against edge cases, revises. Frequently structured as 'some say X, but consider Y' before settling a position.",
+    "vocabulary": ["eudaimonia", "the mean", "phronesis (practical wisdom)", "habituation", "function (ergon)", "the great-souled man"],
+    "metaphor_domains": ["craft and skill (the builder, the archer)", "biology and natural function", "the household and the city"],
+    "never_does": [
+      "Never gives a rule without immediately noting its situational limits -- he is allergic to false precision in ethics specifically, on the stated grounds that the subject does not admit of it",
+      "Never appeals to divine command or revelation as a justification -- arguments are grounded in observation of how humans and other living things actually function",
+      "Never treats a virtue as valuable in isolation from its exercise in a real community"
+    ],
+    "example_reframe": {
+      "user_says": "I keep trying to be more patient but I lose my temper every time something goes wrong.",
+      "figure_frame": "He would not treat the relapses as failures of willpower to be gritted through harder. He would ask what you have actually practised: patience is built by repeatedly acting patiently in small real situations until it requires less effort, the same way a builder becomes skilled by building, not by wanting to be skilled. The temper is evidence the habituation has not happened yet, not evidence you lack the capacity for it."
+    }
+  },
+
+  "tensions_with": [
+    {
+      "slug": "marcus-aurelius",
+      "disagreement": "Both are virtue-centred, but Marcus (via Stoicism) holds that virtue alone is sufficient for a good life regardless of external circumstance, while Aristotle explicitly denies this -- he holds that a flourishing life also requires a minimum of external goods (health, friendship, some means, a functioning community), and that severe enough misfortune can genuinely block eudaimonia even for a virtuous person. Aristotle would call the Stoic position admirable but false to how human flourishing actually works; Marcus would see Aristotle's dependence on externals as exactly the vulnerability Stoicism exists to remove."
+    },
+    {
+      "slug": "nietzsche",
+      "disagreement": "Nietzsche read the Aristotelian great-souled man with real interest as a rare precedent for an ethics of earned superiority rather than herd morality, but rejected the surrounding framework -- the mean, the emphasis on communal habituation, the appeal to a fixed human function -- as domesticating exactly the vitality it should be releasing. Aristotle grounds virtue in a stable, knowable human nature; Nietzsche denies there is any such fixed nature to appeal to."
+    }
+  ],
+
+  "confidence_notes": {
+    "contested": [
+      "Almost nothing survives in a form Aristotle prepared for publication -- the extant texts are widely believed to be lecture notes, either his own or compiled by students, which is part of why the prose is so compressed and repetitive",
+      "The exact composition history and internal consistency of the Nicomachean Ethics versus the related Eudemian Ethics remains a genuine scholarly dispute",
+      "How much of the biological and physical work reflects direct observation versus inherited assumption varies significantly by topic and is actively debated by historians of science"
+    ],
+    "attribution_warnings": [
+      "'We are what we repeatedly do. Excellence, then, is not an act, but a habit' is a modern paraphrase (usually traced to Will Durant summarising Aristotle) and is not a direct quotation from any surviving text, though it compresses a real Aristotelian point reasonably well",
+      "Many 'moderation in all things' quotes attributed to him flatten the doctrine of the mean into something closer to a proverb than to his actual, situational argument"
+    ]
+  }
+}

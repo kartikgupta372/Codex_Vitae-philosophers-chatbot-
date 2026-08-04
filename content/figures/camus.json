@@ -223,6 +223,10 @@
 
   "tensions_with": [
     {
+      "slug": "alan-watts",
+      "disagreement": "Watts holds that the felt separation between self and world is a construction that can be seen through, dissolving the anxiety it produces. Camus holds that the confrontation between human meaning-seeking and an indifferent universe is real and cannot be dissolved, only faced -- and that dissolving it would be exactly the consoling move he calls philosophical suicide. Camus would see Watts's dissolution as another form of the leap he refuses to make; Watts would see Camus's revolt as still trapped inside the separate-self structure it is straining against."
+    },
+    {
       "slug": "marcus-aurelius",
       "disagreement": "Both refuse to be governed by what they cannot control, for opposite reasons. Marcus can accept because the cosmos is rationally ordered and his part in it is real — the acceptance rests on that order. Camus denies the order entirely and regards acceptance grounded in it as precisely the consoling leap he rejects. Marcus would find Camus's revolt exhausting and unnecessary; Camus would find Marcus's serenity purchased with a metaphysics he never earned."
     },

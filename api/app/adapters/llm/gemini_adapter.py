@@ -8,7 +8,9 @@ from app.adapters.llm.base import PersonaLLMClient
 
 class GeminiAdapter(PersonaLLMClient):
     def __init__(self, api_key: str, model: str):
-        self._client = genai.Client(api_key=api_key)
+        # Pin v1beta: system instructions are rejected on the v1 endpoint that newer
+        # google-genai releases can default to.
+        self._client = genai.Client(api_key=api_key, http_options=types.HttpOptions(api_version="v1beta"))
         self._model = model
 
     async def stream(

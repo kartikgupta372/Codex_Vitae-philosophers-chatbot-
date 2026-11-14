@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/index.py", "use": "@vercel/python", "config": { "maxDuration": 60, "includeFiles": "content/figures/**", "excludeFiles": "{content/images/**,infra/**,api/migrations/**}" } },
+    { "src": "*.html", "use": "@vercel/static" },
+    { "src": "*.css", "use": "@vercel/static" },
+    { "src": "data.js", "use": "@vercel/static" },
+    { "src": "content/**", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/(chat|health|ping)", "dest": "/api/index.py" },
+    { "handle": "filesystem" }
+  ]
+}

@@ -1,4 +1,5 @@
 import json
+import logging
 
 from fastapi import APIRouter, Depends, HTTPException, Request
 from fastapi.responses import StreamingResponse
@@ -11,6 +12,7 @@ from app.schemas.chat import ChatRequest
 from app.services.chat_service import ChatService
 
 router = APIRouter()
+logger = logging.getLogger(__name__)
 
 
 @router.post("/chat")
@@ -53,8 +55,12 @@ async def chat(
         if guardrail_result.tripped:
             yield f"data: {json.dumps({'chunk': settings.crisis_response_message})}\n\n"
         else:
-            async for chunk in agent.stream(body.message, history=history):
-                yield f"data: {json.dumps({'chunk': chunk})}\n\n"
+            try:
+                async for chunk in agent.stream(body.message, history=history):
+                    yield f"data: {json.dumps({'chunk': chunk})}\n\n"
+            except Exception as exc:  # the model call failed mid-stream: tell the reader instead of going silent
+                logger.error("persona stream failed: %s: %s", type(exc).__name__, str(exc)[:300])
+                yield f"data: {json.dumps({'chunk': 'I lost my train of thought just now. Please ask me again in a moment.'})}\n\n"
 
         yield "data: [DONE]\n\n"
 

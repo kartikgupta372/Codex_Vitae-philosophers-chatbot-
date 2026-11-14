@@ -283,7 +283,9 @@ import { loadFigure, loadFeature, getImagePath, recordVisit, FIGURE_SLUGS } from
 // hardcoded local dev default -- change it if the FastAPI backend isn't
 // running on localhost:8000. See core/config.py's CORS note if requests
 // fail with a CORS error rather than a connection error.
-const API_BASE = 'http://127.0.0.1:8000';
+const IS_LOCAL = ['localhost', '127.0.0.1', ''].includes(location.hostname);
+// Deployed: the API is served from the same site (see vercel.json), so the base is empty.
+const API_BASE = IS_LOCAL ? 'http://127.0.0.1:8000' : '';
 // Literal IPv4, not 'localhost' -- Windows browsers frequently resolve
 // "localhost" to the IPv6 loopback (::1) first, but uvicorn's default bind
 // is IPv4-only (127.0.0.1). PowerShell's Invoke-RestMethod tends to fall

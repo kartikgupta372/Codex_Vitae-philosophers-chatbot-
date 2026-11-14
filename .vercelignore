@@ -1,0 +1,9 @@
+.venv
+.env*
+api/.env*
+api/*.log
+api/.pytest_cache
+**/__pycache__
+infra
+rename_images.ps1
+content/images/*.pdf

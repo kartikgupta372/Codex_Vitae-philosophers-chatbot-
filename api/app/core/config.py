@@ -25,6 +25,9 @@ class Settings(BaseSettings):
     database_url: str = Field(
         default="postgresql+asyncpg://postgres:postgres@localhost:5432/codex_vitae"
     )
+    # Postgres schema holding Codex Vitae's tables. "codex" on the shared
+    # aura-suite Supabase project; "public" for a local docker database.
+    db_schema: str = Field(default="public")
 
 
     redis_url: str = Field(default="redis://localhost:6379/0")
